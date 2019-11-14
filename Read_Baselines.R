@@ -17,6 +17,7 @@ df1<-read_excel(paste0(folder,"GES 22-2019-06 D2 Baselines Appendix 1.xlsx"),she
 
 Species<- c("Amphistegina cf. papillosa",
             "Chondrus giganteus f. flabellatus",
+            "Chaetoceros cf. lorenzianus",
             "Diopatra hupferiana hupferiana",
             "Diopatra hupferiana monroi")
 
