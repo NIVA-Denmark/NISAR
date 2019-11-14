@@ -1,0 +1,162 @@
+#Use the libraries
+library(jsonlite) #https://cran.r-project.org/web/packages/jsonlite/
+library(httr)
+library(tidyverse)
+
+GetSpeciesInfo<-function(searchtext){
+  # ---------- get the AphiaID from the search text -----------------------------------------------
+  #Build the URL to get the data from
+  searchtext <- gsub(" ","%20",searchtext)
+  url<-sprintf("http://marinespecies.org/rest/AphiaIDByName/%s?marine_only=true",searchtext)
+  
+  x<-http_status(GET(url))
+  if(x$reason!="OK"){
+    return(data.frame())
+  }
+  
+  #Get the AphiaID
+  AphiaID <- fromJSON(url)
+  cat(paste0("AphiaID=",AphiaID,"\n"))
+  
+  # ---------- get the Aphia record from the AphiaID -----------------------------------------------
+  
+  
+  url<-sprintf("http://marinespecies.org/rest/AphiaRecordByAphiaID/%d",AphiaID)
+  url
+  AphiaRecord <- fromJSON(url)
+  
+  
+  validID<-AphiaRecord$valid_AphiaID
+  
+  
+  if(validID != AphiaID){
+    cat(paste0("AphiaID ",AphiaID," not valid. Using AphiaID=",validID,"\n"))
+    
+    AphiaIDorig <- AphiaID
+    AphiaID <- validID
+    AphiaRecordOrig<-AphiaRecord
+    
+    # get the correct record
+    url<-sprintf("http://marinespecies.org/rest/AphiaRecordByAphiaID/%d",AphiaID)
+    AphiaRecord <- fromJSON(url)
+  }else{
+    cat(paste0("AphiaID ",AphiaID," is valid.\n"))
+  }
+  
+  
+  # ---------- get the Aphia synonyms -----------------------------------------------
+  
+  url<-sprintf("http://marinespecies.org/rest/AphiaSynonymsByAphiaID/%d?offset=1",AphiaID)
+  url
+  x<-http_status(GET(url))
+  if(x$reason=="OK"){
+    dfSynonyms <- fromJSON(url)
+    synonyms<-paste0(dfSynonyms$scientificname,collapse="\n")
+    cat(paste0("Synonyms:\n",synonyms,"\n"))
+    bSynonyms = TRUE
+  }else{
+    cat(paste0("No synonyms found\n"))
+    bSynonyms = FALSE
+  }
+  
+  # ---------- get the structure for kingdom, family, etc. -----------------------------------------------
+  
+  
+  url <- sprintf("http://marinespecies.org/rest/AphiaClassificationByAphiaID/%d", AphiaID);
+  
+  #Get the actual data from the URL
+  classificationTree <- fromJSON(url)
+  
+  #Walk the classification tree
+  currentTreeItem = classificationTree
+  while (!is.null(currentTreeItem )) {
+    print(sprintf("ID: %d, RANK: %s, ScientificName: %s",
+                  currentTreeItem$AphiaID,
+                  currentTreeItem$rank,
+                  currentTreeItem$scientificname
+    ));
+    #You can access the variables individually
+    #print(currentTreeItem$AphiaID);
+    #print(currentTreeItem$scientificname);
+    #print(currentTreeItem$rank);
+    
+    #Get next item in the tree
+    currentTreeItem <- currentTreeItem$child;
+  }
+  
+  # /AphiaVernacularsByAphiaID/{ID}
+  # Get all vernaculars for a given AphiaID
+  
+  # ---------- Get all distributions for a given AphiaID -----------------------------------------------
+  
+  # loop through AphiaID for synonyms
+  
+  url <- sprintf("http://marinespecies.org/rest/AphiaDistributionsByAphiaID/%d", AphiaID);
+  x<-http_status(GET(url))
+  if(x$reason=="OK"){
+    bFoundDistribution=TRUE
+    distribution <- fromJSON(url)
+    distribution$AphiaID <- AphiaID
+    distribution$Synonym <- AphiaRecord$scientificname
+  }else{
+    bFoundDistribution=FALSE
+  }
+  
+  if(bSynonyms==TRUE){
+    for(id in dfSynonyms$AphiaID){
+      cat("  getting distribution for ",id,"\n")
+      url <- sprintf("http://marinespecies.org/rest/AphiaDistributionsByAphiaID/%d", id);
+      x<-http_status(GET(url))
+      if(x$reason=="OK"){
+        distributionSynonym <- fromJSON(url)
+        
+        cat("  found ",nrow(distributionSynonym)," records \n")
+        
+        distributionSynonym$AphiaID <- id
+        distributionSynonym$Synonym <- dfSynonyms$scientificname[dfSynonyms$AphiaID==id]
+        if(bFoundDistribution==TRUE){
+          distribution <- bind_rows(distribution,distributionSynonym)
+        }else{
+          distribution <- distributionSynonym
+          bFoundDistribution=TRUE
+        }
+        
+      }
+    }
+  }
+  
+  if(!exists("distribution")){
+    distribution <- data.frame()
+  }
+  
+  distribution$ScientificName <- AphiaRecord$scientificname
+  distribution$Kingdom <- AphiaRecord$kingdom
+  distribution$Phylum <- AphiaRecord$phylum
+  distribution$Class <- AphiaRecord$class
+  distribution$Order <- AphiaRecord$order
+  distribution$Family <- AphiaRecord$family
+  distribution$Genus <- AphiaRecord$genus
+  
+  nameslist <- c("ScientificName","Synonym","AphiaID","Kingdom","Phylum","Class","Order","Family","Genus")
+  
+  nameslist2 <- names(distribution)[!names(distribution) %in% nameslist ]
+  nameslist <- c(nameslist,nameslist2)
+  nameslist<-nameslist[nameslist %in% names(distribution)]
+  distribution <- distribution[,nameslist]
+  
+  return(distribution)
+  
+  
+  #distribution <- distribution %>%
+  #  filter(!is.na(establishmentMeans))
+  
+  # http://marinespecies.org/aphia.php?p=manual#topic22
+  #
+  # Images, specimens, vernaculars, notes, distributions, taxa, … carry quality indicator icons.
+  # 
+  # Checked: verified by a taxonomic editor
+  # Trusted: edited by a thematic editor
+  # Unreviewed: has not been verified by a taxonomic editor
+  # 
+  
+}

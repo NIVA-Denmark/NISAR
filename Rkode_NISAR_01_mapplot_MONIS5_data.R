@@ -359,6 +359,8 @@ library(biogeo)
 # setwd("pathToDirHere")
 #setwd("/Users/steenknudsen/R_koder")
 wd <- "/Users/steenknudsen/Documents/Documents/NIVA_Ansaettelse_2019sep/NISAR_analysis"
+wd<-"../7-Data - 190183 NISAR/eDNA/"
+
 setwd(wd)
 getwd()
 #read in the qPCR data with the eDNA reads 
