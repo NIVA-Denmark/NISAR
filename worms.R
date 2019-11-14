@@ -126,16 +126,33 @@ GetSpeciesInfo<-function(searchtext){
   }
   
   if(!exists("distribution")){
-    distribution <- data.frame()
+    if(is.null(AphiaRecord$order)){
+      order<-NA
+    }else{
+      order<-AphiaRecord$order
+    }
+    distribution <- data.frame(
+             AphiaID=AphiaID,
+             ScientificName=AphiaRecord$scientificname,
+             Synonym=AphiaRecord$scientificname,
+             Kingdom=AphiaRecord$kingdom,
+             Phylum=AphiaRecord$phylum,
+             Class=AphiaRecord$class,
+             Order=order,
+             Family=AphiaRecord$family,
+             Genus=AphiaRecord$genus,
+             stringsAsFactors=FALSE)
+    
+  }else{
+    distribution$ScientificName <- AphiaRecord$scientificname
+    distribution$Kingdom <- AphiaRecord$kingdom
+    distribution$Phylum <- AphiaRecord$phylum
+    distribution$Class <- AphiaRecord$class
+    distribution$Order <- AphiaRecord$order
+    distribution$Family <- AphiaRecord$family
+    distribution$Genus <- AphiaRecord$genus
   }
   
-  distribution$ScientificName <- AphiaRecord$scientificname
-  distribution$Kingdom <- AphiaRecord$kingdom
-  distribution$Phylum <- AphiaRecord$phylum
-  distribution$Class <- AphiaRecord$class
-  distribution$Order <- AphiaRecord$order
-  distribution$Family <- AphiaRecord$family
-  distribution$Genus <- AphiaRecord$genus
   
   nameslist <- c("ScientificName","Synonym","AphiaID","Kingdom","Phylum","Class","Order","Family","Genus")
   

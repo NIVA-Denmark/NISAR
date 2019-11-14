@@ -6,12 +6,12 @@ dflist <- read.table("output/ODA_distinct_species.csv",sep=";",header=T,stringsA
 rm("dfResults")
 rm("dfNotFound")
 
-#for(i in 2355:2358){
-for(i in 1:nrow(dflist)){
+for(i in 5:6){
+#for(i in 1:nrow(dflist)){
 
   ODAname<-dflist[i,"Species"]
   Table<-dflist[i,"Table"]
-  cat(paste0("Checking ",ODAname," [",Table,"]\n"))
+  cat(paste0(i," Checking ",ODAname," [",Table,"]\n"))
   
   
   df <- GetSpeciesInfo(gsub(" sp\\.","",ODAname))
