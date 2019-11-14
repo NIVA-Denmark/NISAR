@@ -1,17 +1,20 @@
 # http://marineregions.org/mrgid/2401
 
+source("worms.R")
 
 dflist <- read.table("output/ODA_distinct_species.csv",sep=";",header=T,stringsAsFactors=F)
 rm("dfResults")
 rm("dfNotFound")
 
-#for(i in 2339:2342){
+#for(i in 2355:2358){
 for(i in 1:nrow(dflist)){
 
   ODAname<-dflist[i,"Species"]
   Table<-dflist[i,"Table"]
   cat(paste0("Checking ",ODAname," [",Table,"]\n"))
-  df <- GetSpeciesInfo(ODAname)
+  
+  
+  df <- GetSpeciesInfo(gsub(" sp\\.","",ODAname))
   
   if(nrow(df)>0){
     df$ODAname <- ODAname

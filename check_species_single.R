@@ -15,6 +15,7 @@ searchtext <-"Acanthodoris pilosa"
 searchtext <-"Acmaea testudinalis"
 searchtext <-"Acrochaete heteroclada"
 searchtext <-"Harrimania kupfferi"
+searchtext <-"Angulus"
 
 df <- GetSpeciesInfo(searchtext)
 
