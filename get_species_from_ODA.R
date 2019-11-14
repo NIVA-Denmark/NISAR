@@ -82,6 +82,13 @@ dfZooDistinct <- dfZoo %>%
 
 # -------------- Summary -------------- 
 
+df <- bind_rows(dfVegDistinct,
+                dfFaunaDistinct,
+                dfPhytoDistinct,
+                dfZooDistinct)
+
+write.table(df,file="output/ODA_distinct_Species.csv",col.names=T,row.names=F,sep=";",na="")
+
 
 
 
