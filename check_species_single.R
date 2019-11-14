@@ -16,6 +16,6 @@ searchtext <-"Acmaea testudinalis"
 searchtext <-"Acrochaete heteroclada"
 searchtext <-"Harrimania kupfferi"
 searchtext <-"Angulus"
-
+searchtext <-"Acrochaetiaceae"
 df <- GetSpeciesInfo(searchtext)
 

@@ -126,21 +126,49 @@ GetSpeciesInfo<-function(searchtext){
   }
   
   if(!exists("distribution")){
+    
+    # check for null values in the record
+    if(is.null(AphiaRecord$kingdom)){
+      kingdom<-NA
+    }else{
+      kingdom<-AphiaRecord$kingdom
+    }
+    if(is.null(AphiaRecord$phylum)){
+      phylum<-NA
+    }else{
+      phylum<-AphiaRecord$phylum
+    }
+    if(is.null(AphiaRecord$class)){
+      class<-NA
+    }else{
+      class<-AphiaRecord$class
+    }
     if(is.null(AphiaRecord$order)){
       order<-NA
     }else{
       order<-AphiaRecord$order
     }
+    if(is.null(AphiaRecord$family)){
+      family<-NA
+    }else{
+      family<-AphiaRecord$family
+    }
+    if(is.null(AphiaRecord$genus)){
+      genus<-NA
+    }else{
+      genus<-AphiaRecord$genus
+    }
+    
     distribution <- data.frame(
              AphiaID=AphiaID,
              ScientificName=AphiaRecord$scientificname,
              Synonym=AphiaRecord$scientificname,
-             Kingdom=AphiaRecord$kingdom,
-             Phylum=AphiaRecord$phylum,
-             Class=AphiaRecord$class,
+             Kingdom=kingdom,
+             Phylum=phylum,
+             Class=class,
              Order=order,
-             Family=AphiaRecord$family,
-             Genus=AphiaRecord$genus,
+             Family=family,
+             Genus=genus,
              stringsAsFactors=FALSE)
     
   }else{
