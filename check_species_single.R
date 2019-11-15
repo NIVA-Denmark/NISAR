@@ -17,5 +17,18 @@ searchtext <-"Acrochaete heteroclada"
 searchtext <-"Harrimania kupfferi"
 searchtext <-"Angulus"
 searchtext <-"Acrochaetiaceae"
-df <- GetSpeciesInfo(searchtext)
 
+searchtext <-"Bonnemaisonia / Spermothamnion"
+
+searchtext <-"Abranchus microstomus"
+searchtext <-"Abranchus"
+
+df <- GetSpeciesInfo(searchtext)
+df <- GetSpeciesID(searchtext)
+
+
+searchtext <- "Crassostrea gigas"
+id <- GetSpeciesID(searchtext)
+AphiaID<-id$AphiaID
+
+df <- GetSpeciesInfo(id$AphiaID)

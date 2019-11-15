@@ -2,40 +2,41 @@
 
 source("worms.R")
 
-dflist <- read.table("output/ODA_distinct_species.csv",sep=";",header=T,stringsAsFactors=F)
 rm("dfResults")
-rm("dfNotFound")
 
-#for(i in 5:6){
+df <- read.table("output/ODA_Species_AphiaID.csv",sep=";",header=T,stringsAsFactors=F)
+
+dfNotFound <- df %>%
+  filter(is.na(AphiaID)) %>%
+  select(-c(AphiaID,ScientificName))
+
+
+
+dflist <- df %>%
+  filter(!is.na(AphiaID)) %>%
+  group_by(Table,AphiaID,ScientificName) %>%
+  summarise(n=n()) %>%
+  ungroup()
+
+
 for(i in 1:nrow(dflist)){
 
-  ODAname<-dflist[i,"Species"]
+  AphiaID<-dflist[i,"AphiaID"]
   Table<-dflist[i,"Table"]
-  cat(paste0(i," Checking ",ODAname," [",Table,"]\n"))
+  ScientificName<-dflist[i,"ScientificName"]
+  cat(paste0(i," Checking ",ScientificName," [",Table,"]\n"))
   
+  df <- GetSpeciesInfo(AphiaID)
   
-  df <- GetSpeciesInfo(gsub(" sp\\.","",ODAname))
-  
-  if(nrow(df)>0){
-    df$ODAname <- ODAname
-    df$ODAtable <- Table 
+  df$ODAtable <- Table 
     if(exists("dfResults")){
       dfResults<-bind_rows(dfResults,df)
     }else{
       dfResults<-df
     }
-    
-  }else{
-    df<-dflist[i,]
-    if(exists("dfNotFound")){
-      dfNotFound<-bind_rows(dfNotFound,df)
-    }else{
-      dfNotFound<-df
-    }
   }
-}
 
-save(dfResults,file="output/results.Rda")
-save(dfNotFound,file="output/notfound.Rda")
+write.table(dfNotFound,file="output/ODA_Species_Missing_AphiaID.csv",col.names=T,row.names=F,sep=";",na="")
+write.table(dfResults,file="output/ODA_Species_Distributions.csv",col.names=T,row.names=F,sep=";",na="")
 
 
