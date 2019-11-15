@@ -20,10 +20,10 @@ dflist <- df %>%
 
 
 for(i in 1:nrow(dflist)){
-
-  AphiaID<-dflist[i,"AphiaID"]
-  Table<-dflist[i,"Table"]
-  ScientificName<-dflist[i,"ScientificName"]
+  
+  AphiaID<-dflist$AphiaID[i]
+  Table<-dflist$Table[i]
+  ScientificName<-dflist$ScientificName[i]
   cat(paste0(i," Checking ",ScientificName," [",Table,"]\n"))
   
   df <- GetSpeciesInfo(AphiaID)
