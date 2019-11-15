@@ -82,13 +82,61 @@ dfZooDistinct <- dfZoo %>%
 
 # -------------- Summary -------------- 
 
+SplitAlternativeSpecies<-function(df){
+  # where species name in a record is given with "/" separating two possible alternatives
+  # then split to give two records
+  # 
+  dfsplit <- df %>%
+    mutate(Species=gsub(" \\/ ","\\/",Species),
+           Species=gsub("\\/ ","\\/",Species),
+           Species=gsub(" \\/","\\/",Species)) %>%
+    mutate(n1=str_locate_all(Species,"\\/"),n2=str_locate_all(Species," ")) %>%
+    mutate(n1=sapply(n1,function(x) unlist(x)[1]),
+           n3=sapply(n2,function(x) unlist(x)[2]),
+           n2=sapply(n2,function(x) unlist(x)[1])) %>%
+    mutate(n2=ifelse(is.na(n2),nchar(Species)+1,n2),
+           n3=ifelse(is.na(n3),n2,n3))
+  
+  
+  dfsplit <- dfsplit %>% 
+    filter(!is.na(n1)) 
+  
+  dfsplit <- dfsplit %>%
+    mutate(s1=ifelse(n2==n3,
+                     ifelse(n1<n2,
+                            paste0(substr(Species,1,n1-1)," ",substr(Species,n2,nchar(Species))),
+                            substr(Species,1,n1-1)),
+                     substr(Species,1,n1-1)),
+           s2=ifelse(n2==n3,
+                     ifelse(n1<n2,
+                            substr(Species,n1+1,nchar(Species)),
+                            paste0(substr(Species,1,n2-1)," ",substr(Species,n1+1,nchar(Species)))),
+                     substr(Species,n1+1,nchar(Species))))
+  
+  dfsplit <- dfsplit %>%
+    select(-c(n1,n2,n3))
+  
+  dfsplit <- dfsplit %>% 
+    gather(key="Column",value="SpeciesNew",c(s1,s2)) %>%
+    select(Species,Table,SpeciesNew)
+  
+  df <- df %>%
+    left_join(dfsplit,by=c("Species","Table")) %>%
+    mutate(Note=ifelse(is.na(SpeciesNew),NA,paste0("Split ODA entry: '",Species,"'")),
+           Species=ifelse(is.na(SpeciesNew),Species,SpeciesNew)) %>%
+    select(-SpeciesNew)
+  
+  return(df)
+}
+
+
 df <- bind_rows(dfVegDistinct,
                 dfFaunaDistinct,
                 dfPhytoDistinct,
                 dfZooDistinct)
 
+
+df <- SplitAlternativeSpecies(df)
+
+
 write.table(df,file="output/ODA_distinct_Species.csv",col.names=T,row.names=F,sep=";",na="")
-
-
-
-
