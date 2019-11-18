@@ -12,7 +12,7 @@ dfx <- data.frame(shape=c("1","2"),
                   y1=c(79,68),
                   stringsAsFactors=F)
 
-lst <- lapply(1:nrow(dfx), function(x){
+lstx <- lapply(1:nrow(dfx), function(x){
   ## create a matrix of coordinates that also 'close' the polygon
   res <- matrix(c(dfx[x, 'x0'], dfx[x, 'y0'],
                   dfx[x, 'x0'], dfx[x, 'y1'],
@@ -26,11 +26,11 @@ lst <- lapply(1:nrow(dfx), function(x){
   
 })
 
-sfdf <- st_sf(polygons = dfx[, 'shape'], st_sfc(lst))
+sfdfx <- st_sf(polygons = dfx[, 'shape'], st_sfc(lstx))
 
-sfdf
+sfdfx
 
-plot(sfdf)
+plot(sfdfx)
 
 # ------------  Polygons from regions ------------ 
 
@@ -38,10 +38,18 @@ df <- read.table("output/ODA_Species_Distributions_LatLon.csv",sep=";",header=T,
 
 
 df <- df %>%
+  mutate(minLongitude=NA) 
+
+df <- df %>%
   mutate(minLatitude=ifelse(is.na(minLatitude),latitude-0.01,minLatitude),
-         maxLatitude=ifelse(is.na(minLatitude),latitude+0.01,maxLatitude),
+         maxLatitude=ifelse(is.na(maxLatitude),latitude+0.01,maxLatitude),
          minLongitude=ifelse(is.na(minLongitude),latitude-0.01,minLongitude),
-         maxLongitude=ifelse(is.na(minLongitude),latitude+0.01,maxLongitude)) 
+         maxLongitude=ifelse(is.na(maxLongitude),latitude+0.01,maxLongitude)) 
+
+
+df <- df %>% 
+  filter(!is.na(latitude)) %>%
+  filter(!is.na(longitude))
 
 lst <- lapply(1:nrow(df), function(x){
   ## create a matrix of coordinates that also 'close' the polygon
@@ -57,14 +65,13 @@ lst <- lapply(1:nrow(df), function(x){
   
 })
 
-sfdf <- st_sf(polygons = dfx[, 'shape'], st_sfc(lst))
+sfdf <- st_sf(regions = df[, 'locality'], st_sfc(lst))
 
 sfdf
-
 plot(sfdf)
 
 
-# create shape files
+# ------------  intersect Polygons from regions with two DK area polygons ------------ 
 
 
 

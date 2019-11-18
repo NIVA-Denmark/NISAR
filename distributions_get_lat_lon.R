@@ -48,7 +48,7 @@ df <- df %>%
   mutate(placeType=sapply(MRGinfo, function(x) unlist(x)["placeType"]),
          latitude=sapply(MRGinfo, function(x) unlist(x)["latitude"]),
          longitude=sapply(MRGinfo, function(x) unlist(x)["longitude"]),
-         minLatitude=sapply(MRGinfo, function(x) unlist(x)["minLatitude"]),
+         minLongitude=sapply(MRGinfo, function(x) unlist(x)["minLongitude"]),
          maxLongitude=sapply(MRGinfo, function(x) unlist(x)["maxLongitude"]),
          minLatitude=sapply(MRGinfo, function(x) unlist(x)["minLatitude"]),
          maxLatitude=sapply(MRGinfo, function(x) unlist(x)["maxLatitude"])
