@@ -68,7 +68,7 @@ GetSpeciesInfo<-function(AphiaID){
   
   url<-sprintf("http://marinespecies.org/rest/AphiaRecordByAphiaID/%d",AphiaID)
   AphiaRecord <- fromJSON(url)
-  cat(AphiaRecord$scientificname," [",AphiaID,"]\n")
+  cat(paste0(AphiaRecord$scientificname," [",AphiaID,"]\n"))
   
   # ---------- get the Aphia synonyms -----------------------------------------------
   
@@ -88,21 +88,34 @@ GetSpeciesInfo<-function(AphiaID){
   # ---------- Get all distributions for a given AphiaID -----------------------------------------------
   
   # loop through AphiaID for synonyms
+  cat("  Get distributions:\n")
+  nc <- nchar(AphiaRecord$scientificname)
+  if(bSynonyms==TRUE){
+    ncs <- max(nchar(dfSynonyms$scientificname),na.rm=T)
+    if(ncs>nc){
+      nc<-ncs
+    }
+  }
   
   url <- sprintf("http://marinespecies.org/rest/AphiaDistributionsByAphiaID/%d", AphiaID);
   x<-http_status(GET(url))
   if(x$reason=="OK"){
+    Synonym<-AphiaRecord$scientificname
+    spaces<-paste(replicate(nc-nchar(Synonym), " "), collapse = "")
+    
     bFoundDistribution=TRUE
     distribution <- fromJSON(url)
     distribution$AphiaID <- AphiaID
-    distribution$Synonym <- AphiaRecord$scientificname
+    distribution$SynonymID <- AphiaID
+    distribution$Synonym <- Synonym
+    
+    cat(paste0("   ",Synonym," [",AphiaID,"]: ",spaces, nrow(distribution)," records \n"))
   }else{
     bFoundDistribution=FALSE
   }
   
   if(bSynonyms==TRUE){
-    nc <- max(nchar(dfSynonyms$scientificname),na.rm=T)
-    cat("  Get distributions:\n")
+    
     for(id in dfSynonyms$AphiaID){
       Synonym<-dfSynonyms$scientificname[dfSynonyms$AphiaID==id]
       spaces<-paste(replicate(nc-nchar(Synonym), " "), collapse = "")
@@ -114,7 +127,8 @@ GetSpeciesInfo<-function(AphiaID){
         
         cat(paste0(nrow(distributionSynonym)," records \n"))
         
-        distributionSynonym$AphiaID <- id
+        distributionSynonym$AphiaID <- AphiaID
+        distributionSynonym$SynonymID <- id
         distributionSynonym$Synonym <- Synonym
         if(bFoundDistribution==TRUE){
           distribution <- bind_rows(distribution,distributionSynonym)
@@ -165,6 +179,7 @@ GetSpeciesInfo<-function(AphiaID){
     
     distribution <- data.frame(
       AphiaID=AphiaID,
+      SynonymID=AphiaID,
       ScientificName=AphiaRecord$scientificname,
       Synonym=AphiaRecord$scientificname,
       Kingdom=kingdom,
@@ -186,7 +201,7 @@ GetSpeciesInfo<-function(AphiaID){
   }
   
   
-  nameslist <- c("ScientificName","Synonym","AphiaID","Kingdom","Phylum","Class","Order","Family","Genus")
+  nameslist <- c("ScientificName","AphiaID","Synonym","SynonymID","Kingdom","Phylum","Class","Order","Family","Genus")
   
   nameslist2 <- names(distribution)[!names(distribution) %in% nameslist ]
   nameslist <- c(nameslist,nameslist2)
