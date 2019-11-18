@@ -2,59 +2,71 @@ library(stats)
 library(tidyverse)
 library(jsonlite)
 library(httr)
+library(sf)
 
-# Function mrginfo(MRGID)
-# to get lat,lon extent information from marineregions.org 
+# ------------ Polygons to intersect with regions ------------ 
+dfx <- data.frame(shape=c("1","2"),
+                  x0=c(-28,0),
+                  x1=c(43,30),
+                  y0=c(26,49),
+                  y1=c(79,68),
+                  stringsAsFactors=F)
 
-mrginfo<-function(MRGID){
-  url<-sprintf("http://marineregions.org/rest/getGazetteerRecordByMRGID.json/%d/",MRGID)
-  df <- data.frame()
+lst <- lapply(1:nrow(dfx), function(x){
+  ## create a matrix of coordinates that also 'close' the polygon
+  res <- matrix(c(dfx[x, 'x0'], dfx[x, 'y0'],
+                  dfx[x, 'x0'], dfx[x, 'y1'],
+                  dfx[x, 'x1'], dfx[x, 'y1'],
+                  dfx[x, 'x1'], dfx[x, 'y0'],
+                  dfx[x, 'x0'], dfx[x, 'y0'])  ## need to close the polygon
+                , ncol =2, byrow = T
+  )
+  ## create polygon objects
+  st_polygon(list(res))
   
-  x<-http_status(GET(url))
-  if(x$reason!="OK"){
-    cat(paste0(MRGID,": ",x$reason,"\n"))
-    return(df)
-    }
-  df <- fromJSON(url)
-  return(df)
-  }
+})
 
+sfdf <- st_sf(polygons = dfx[, 'shape'], st_sfc(lst))
 
-df <- read.table("output/ODA_Species_Distributions.csv",sep=";",header=T,stringsAsFactors=F)
-df <- df %>% 
-  filter(locality!="")
+sfdf
 
-df1 <- distinct(df,locality,locationID,higherGeography)
-df1 <- df1 %>% 
-  filter(higherGeography != "")
+plot(sfdf)
 
-df <- distinct(df,locality,locationID)
+# ------------  Polygons from regions ------------ 
 
-df <- df %>% 
-  left_join(df1,by=c("locality","locationID"))
+df <- read.table("output/ODA_Species_Distributions_LatLon.csv",sep=";",header=T,stringsAsFactors=F)
 
 
 df <- df %>%
-  mutate(MRGID=as.numeric(substr(locationID,32,nchar(locationID))))
+  mutate(minLatitude=ifelse(is.na(minLatitude),latitude-0.01,minLatitude),
+         maxLatitude=ifelse(is.na(minLatitude),latitude+0.01,maxLatitude),
+         minLongitude=ifelse(is.na(minLongitude),latitude-0.01,minLongitude),
+         maxLongitude=ifelse(is.na(minLongitude),latitude+0.01,maxLongitude)) 
 
-#df <- df[1:9,]
-#df <- df[c(32,462,868,892),]
+lst <- lapply(1:nrow(df), function(x){
+  ## create a matrix of coordinates that also 'close' the polygon
+  res <- matrix(c(df[x, 'minLongitude'], df[x, 'minLatitude'],
+                  df[x, 'minLongitude'], df[x, 'maxLatitude'],
+                  df[x, 'maxLongitude'], df[x, 'maxLatitude'],
+                  df[x, 'maxLongitude'], df[x, 'minLatitude'],
+                  df[x, 'minLongitude'], df[x, 'minLatitude'])  ## need to close the polygon
+                , ncol =2, byrow = T
+  )
+  ## create polygon objects
+  st_polygon(list(res))
+  
+})
 
-df <- df %>%
-  mutate(MRGinfo=lapply(MRGID, function(x) mrginfo(x)))
+sfdf <- st_sf(polygons = dfx[, 'shape'], st_sfc(lst))
 
-df <- df %>%
-  mutate(placeType=sapply(MRGinfo, function(x) unlist(x)["placeType"]),
-         latitude=sapply(MRGinfo, function(x) unlist(x)["latitude"]),
-         longitude=sapply(MRGinfo, function(x) unlist(x)["longitude"]),
-         minLatitude=sapply(MRGinfo, function(x) unlist(x)["minLatitude"]),
-         maxLongitude=sapply(MRGinfo, function(x) unlist(x)["maxLongitude"]),
-         minLatitude=sapply(MRGinfo, function(x) unlist(x)["minLatitude"]),
-         maxLatitude=sapply(MRGinfo, function(x) unlist(x)["maxLatitude"])
-         )
+sfdf
 
-df <- df %>%
-  select(-MRGinfo)
+plot(sfdf)
 
-write.table(df,file="output/ODA_Species_Distributions_LatLon.csv",col.names=T,row.names=F,sep=";",na="")
+
+# create shape files
+
+
+
+
 
