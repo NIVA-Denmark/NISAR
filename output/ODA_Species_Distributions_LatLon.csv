@@ -1,0 +1,1364 @@
+"locality";"locationID";"higherGeography";"MRGID";"placeType";"latitude";"longitude";"minLatitude";"maxLongitude";"maxLatitude"
+"European waters (ERMS scope)";"http://marineregions.org/mrgid/7130";"North Atlantic Ocean";7130;"General Sea Area";"56";"6";"26";"70";"90"
+"Banc d'Arguin";"http://marineregions.org/mrgid/5071";"North Atlantic Ocean";5071;"Bank";"20.366667";"-17";;;
+"Europe";"http://marineregions.org/mrgid/1920";;1920;"Continent";"58.39124";"18.82117";"34.93055";"68.93137";"81.85193"
+"Belgian Exclusive Economic Zone";"http://marineregions.org/mrgid/3293";"North Sea";3293;"EEZ";"51.464826480845";"2.704457650448";"51.09111";"3.364907";"51.87"
+"Belgian Exclusive Economic Zone";"http://marineregions.org/mrgid/3293";"Belgium";3293;"EEZ";"51.464826480845";"2.704457650448";"51.09111";"3.364907";"51.87"
+"Canadian Exclusive Economic Zone [Arctic part]";"http://marineregions.org/mrgid/8776";"Canada";8776;"Marine Region";"70.435512";"-87.860588";"51.21";"-56.09";"85.09"
+"Arctic Ocean";"http://marineregions.org/mrgid/1906";"Arctic Ocean";1906;"IHO Sea Area";"84.8648860275";"-5.20258346295";"71.38751180117";"180";"90"
+"North West Atlantic";"http://marineregions.org/mrgid/7135";"North Atlantic Ocean";7135;"General Sea Area";"55";"-57";;;
+"North Sea";"http://marineregions.org/mrgid/2350";"North Sea";2350;"IHO Sea Area";"56.4239952035";"2.73786023593";"50.99536466555";"12.00594234456";"61.01702284843"
+"North East Atlantic";"http://marineregions.org/mrgid/5664";"North Atlantic Ocean";5664;"General Sea Area";"46";"-20";;;
+"Westerschelde";"http://marineregions.org/mrgid/4752";"North Sea";4752;"Estuary";"51.39613";"3.88238";"51.3299";"4.2445";"51.46237"
+"Birkenfels (shipwreck)";"http://marineregions.org/mrgid/17401";"North Sea";17401;"Wreck";"51.389";"2.32";;;
+"Birkenfels (shipwreck)";"http://marineregions.org/mrgid/17401";"Belgium";17401;"Wreck";"51.389";"2.32";;;
+"Oostende";"http://marineregions.org/mrgid/25";"Belgium";25;"Arrondissement";"51.18449";"2.931045";"51.05479";"3.11517";"51.31418"
+"Oosterschelde";"http://marineregions.org/mrgid/5332";"North Sea";5332;"Inlet";"51.56081";"3.95285";"51.43094";"4.22304";"51.69068"
+"Wadden Sea";"http://marineregions.org/mrgid/2354";"Wadden Sea";2354;"Sea";"53.911656";"7.557706";"52.89209";"9.835879";"55.59623"
+"Wimereux";"http://marineregions.org/mrgid/979";"France";979;"Commune";"50.77295";"1.615055";"50.74138";"1.63453";"50.80452"
+"Gulf of Maine";"http://marineregions.org/mrgid/8940";"North Atlantic Ocean";8940;"Gulf";"44.5722222222";"-67.31";;;
+"Portuguese Exclusive Economic Zone";"http://marineregions.org/mrgid/5688";"North Atlantic Ocean";5688;"EEZ";"38.307646124901";"-10.933947058313";"34.80864";"-7.345541";"41.95244"
+"Spanish Exclusive Economic Zone";"http://marineregions.org/mrgid/5693";"Spain";5693;"EEZ";"39.661509952737";"4.878177032515";"35.27361";"6.3";"46.25119"
+"Irish Exclusive economic Zone";"http://marineregions.org/mrgid/5681";"Ireland";5681;"EEZ";"52.654708308725";"-11.802196277329";"48.18786";"-5.241667";"56.3357"
+"Manicouagan";"http://marineregions.org/mrgid/23550";"Gulf of Saint Lawrence";23550;"Marine Protected Area (MPA)";"49.131667";"-68.304722";;;
+"St. Lawrence Estuary";"http://marineregions.org/mrgid/23554";"Gulf of Saint Lawrence";23554;"Estuary";"48.46472";"-68.797929";"46.917192";"-67.126623";"49.317518"
+"Canadian Exclusive Economic Zone [Atlantic part]";"http://marineregions.org/mrgid/8777";"North Atlantic Ocean";8777;"Marine Region";"51.20449";"-57.58442";;;
+"Swedish Exclusive Economic Zone";"http://marineregions.org/mrgid/5694";"Sweden";5694;"EEZ";"61.529225573103";"18.280515713269";"54.96244";"24.16701";"65.90222"
+"Southern Bight";"http://marineregions.org/mrgid/2399";"North Sea";2399;"Bight";"51.5611";"3.02083333333333";;;
+"East North Atlantic";"http://marineregions.org/mrgid/18039";"North Atlantic Ocean";18039;"General Sea Area";"37";"-13";;;
+"Frost Cove";"http://marineregions.org/mrgid/21378";"United States";21378;"Cove";"44.99286";"-67.06415";;;
+"Saguenay Fjord";"http://marineregions.org/mrgid/24667";"Canada";24667;"Fjord";"48.1316667";"-69.7266667";;;
+"Gulf of St. Lawrence";"http://marineregions.org/mrgid/4290";"Gulf of Saint Lawrence";4290;"IHO Sea Area";"48.380716031";"-61.5665673821";"44.95849871674";"-54.70344650725";"52.22241842777"
+"West North Atlantic";"http://marineregions.org/mrgid/18041";"North Atlantic Ocean";18041;"General Sea Area";"37";"-70";;;
+"Baltic sea";"http://marineregions.org/mrgid/2401";"Baltic Sea";2401;"IHO Sea Area";"56.66584337902";"18.07523542985";"52.65351867675";"23.51168835184";"59.93861675286"
+"Dutch Exclusive  Economic Zone";"http://marineregions.org/mrgid/5668";"Netherlands";5668;"EEZ";"53.615079272625";"4.190674748471";"51.26203";"7.208364";"55.765"
+"Dutch Exclusive  Economic Zone";"http://marineregions.org/mrgid/5668";"North Sea";5668;"EEZ";"53.615079272625";"4.190674748471";"51.26203";"7.208364";"55.765"
+"Northern North Atlantic";"http://marineregions.org/mrgid/18040";"North Atlantic Ocean";18040;"General Sea Area";"62";"-20";;;
+"South Africa";"http://marineregions.org/mrgid/18093";;18093;"General Region";"-28";"25";;;
+"Northern North Pacific";"http://marineregions.org/mrgid/18064";"North Pacific Ocean";18064;"General Sea Area";"55";"-170";;;
+"Cobscook Bay";"http://marineregions.org/mrgid/21555";"Bay of Fundy";21555;"Bay";"44.9095235";"-67.0555366";"44.858726";"-66.98827";"44.963388"
+"Spuikom";"http://marineregions.org/mrgid/5477";"Belgium";5477;"Dock";"51.228";"2.953";"51.22471";"2.96172";"51.23196"
+"Western South Atlantic";"http://marineregions.org/mrgid/18050";"South Africa";18050;"General Sea Area";"-47";"-7";;;
+"Barents Sea";"http://marineregions.org/mrgid/4247";"Barentsz Sea";4247;"IHO Sea Area";"74.7239250592";"42.11782660718";"65.88276755848";"68.57826318668";"81.85123443572"
+"Danish Exclusive Economic Zone";"http://marineregions.org/mrgid/5674";"Denmark";5674;"EEZ";"55.296138";"8.198979";"54.36483";"13.14796";"58.26144"
+"Greenlandic Exclusive Economic Zone";"http://marineregions.org/mrgid/8438";;8438;"EEZ";"64.877904";"-33.44143";"56.38317";"8.115825";"87.02394"
+"Scandinavia";"http://marineregions.org/mrgid/2184";;2184;"General Region";"63";"12";;;
+"Muuga harbour (Port of Tallinn, Gulf of Finland)";"http://marineregions.org/mrgid/14624";"Estonia";14624;"Harbour";"59.4463";"24.7708";;;
+"Polish Exclusive Economic Zone";"http://marineregions.org/mrgid/5687";"Baltic Sea";5687;"EEZ";"54.917920764599";"17.215135604992";"53.66056";"19.79701";"55.92155"
+"Beaufort Sea";"http://marineregions.org/mrgid/4256";"Beaufort Sea";4256;"IHO Sea Area";"72.13923071101";"-136.82924749189";"67.59654724626";"-122.65277135381";"76.36291547159"
+"White Sea";"http://marineregions.org/mrgid/4248";"White Sea";4248;"IHO Sea Area";"66.22301256939";"39.3148169263";"60.95104753991";"45.6715829374";"68.65684270321"
+"English Channel";"http://marineregions.org/mrgid/2389";"English Channel";2389;"IHO Sea Area";"49.8612179473";"-2.06339505792";"48.50002086187";"1.93090510399";"51.16600370667"
+"Dunkerque";"http://marineregions.org/mrgid/881";"France";881;"Commune";"51.02876";"2.37436";"50.99687";"2.44645";"51.06066"
+"Isle of Man";"http://marineregions.org/mrgid/3258";"Irish Sea and St. George's Channel";3258;"Island";"54.2399";"-4.54935";"54.0604";"-4.311";"54.4194"
+"Isle of Wight";"http://marineregions.org/mrgid/3217";"English Channel";3217;"Island";"50.671";"-1.3262";"50.5746";"-1.0683";"50.7674"
+"Spitsbergen";"http://marineregions.org/mrgid/5335";"Greenland Sea";5335;"Island";"78.31095";"16.0928";"76.5612";"21.5186";"80.0607"
+"Spitsbergen";"http://marineregions.org/mrgid/5335";"Norwegian Sea";5335;"Island";"78.31095";"16.0928";"76.5612";"21.5186";"80.0607"
+"Spitsbergen";"http://marineregions.org/mrgid/5335";"Barentsz Sea";5335;"Island";"78.31095";"16.0928";"76.5612";"21.5186";"80.0607"
+"Jail Island";"http://marineregions.org/mrgid/21386";"Canada";21386;"Island";"45.060958";"-66.828015";;;
+"Lime Kiln Bay";"http://marineregions.org/mrgid/21394";"Canada";21394;"Bay";"45.062418";"-66.83285";"45.059";"-66.83945";"45.07037"
+"Bliss Harbour";"http://marineregions.org/mrgid/21366";"Canada";21366;"Harbour";"45.0347";"-66.837985";;;
+"Canadian Exclusive Economic Zone [Pacific part]";"http://marineregions.org/mrgid/26584";"Canada";26584;"Marine Region";"55";"-135";;;
+"North Pacific";"http://marineregions.org/mrgid/1908";"North Pacific Ocean";1908;"IHO Sea Area";"23.9623940894";"-40.1574405109";"2e-11";"128.686531125";"58.211545022"
+"North East Pacific";"http://marineregions.org/mrgid/17965";;17965;"General Sea Area";"48.92";"-142";;;
+"FAO fishing area 67";"http://marineregions.org/mrgid/8744";;8744;"FAO Major Marine Fishing Areas";"50.0772";"-152.301";;;
+"Red Sea";"http://marineregions.org/mrgid/4264";"Red Sea";4264;"IHO Sea Area";"20.3157309608";"38.73504211248";"12.45626235033";"43.50552117856";"28.13954293736"
+"West Coast of Norway";"http://marineregions.org/mrgid/14297";"Norway";14297;"Coast";"66.19601";"12.62625";;;
+"South Africa (country)";"http://marineregions.org/mrgid/2176";"South Africa";2176;"Nation";"-34.55306";"27.18777";"-46.96973";"37.89222";"-22.13639"
+"Roscoff";"http://marineregions.org/mrgid/14276";"France";14276;"Commune";"48.7166666666667";"-3.9833";;;
+"Plymouth";"http://marineregions.org/mrgid/3171";"United Kingdom";3171;"Unitary Authority";"50.396389";"-4.138611";;;
+"Golfe Normanno-Breton";"http://marineregions.org/mrgid/17599";"English Channel";17599;"Gulf";"49";"-2.33";;;
+"Baie de la Seine";"http://marineregions.org/mrgid/3323";"English Channel";3323;"Bay";"49.4458333333333";"-0.506666666666667";"49.06";"-1.38";"49.9"
+"Arcachon Bay";"http://marineregions.org/mrgid/5206";"Bay of Biscay";5206;"Lagoon";"44.66666667";"-1.16666667";"44.54";"-1.31";"44.8"
+"Borssele";"http://marineregions.org/mrgid/18606";"Netherlands";18606;"Inhabited Place";"51.4167";"3.7343";;;
+"British Isles";"http://marineregions.org/mrgid/3140";"United Kingdom";3140;"Archipelago";"55.0205";"-4.450799";"49.1649";"1.7629";"60.8761"
+"Hoedekenskerke (polder)";"http://marineregions.org/mrgid/17625";"Netherlands";17625;"Polder";"51.43333";"3.9";;;
+"Voordelta";"http://marineregions.org/mrgid/14324";"Netherlands";14324;"General Sea Area";"51.74574";"3.72162";;;
+"Voordelta";"http://marineregions.org/mrgid/14324";"North Sea";14324;"General Sea Area";"51.74574";"3.72162";;;
+"Zeeland";"http://marineregions.org/mrgid/19";"Netherlands";19;"Province (administrative)";"51.4871";"3.8177";"51.201";"4.2767";"51.7732"
+"Canada";"http://marineregions.org/mrgid/2169";"Canada";2169;"Nation";"62.39471";"-96.81018";"41.67556";"-52.61736";"83.11388"
+"Atlantic Ocean";"http://marineregions.org/mrgid/1902";;1902;"General Sea Area";"4.31179809570312";"-31.5040283203125";"-60";"20";"68.6235961914062"
+"Azores Exclusive Economic Zone";"http://marineregions.org/mrgid/8361";"North Atlantic Ocean";8361;"EEZ";"38.472918873327";"-28.016773386891";"32.54454";"-20.54664";"43.09877"
+"South Korean part of the Japan Sea";"http://marineregions.org/mrgid/25490";"Japan Sea/East Sea";25490;"Marine Region";"36.803662";"129.805058";"33.047641";"132.815554";"40.268984"
+"USA";"http://marineregions.org/mrgid/2204";"United States";2204;"Nation";"39";"-100";"24";"-66";"49"
+"Scotland";"http://marineregions.org/mrgid/3252";"United Kingdom";3252;"Country";"57.75455";"-4.6903";"54.633";"-0.728";"60.8761"
+"West-Oléron";"http://marineregions.org/mrgid/17954";"Bay of Biscay";17954;"General Region";"45.947";"-1.362";;;
+"Cordouan (lighthouse)";"http://marineregions.org/mrgid/21670";"Bay of Biscay";21670;"Light(house)";"45.58641";"-1.17348";;;
+"San Sebastian";"http://marineregions.org/mrgid/5651";"Spain";5651;"City";"43.31283";"-1.97499";;;
+"Gironde Estuary";"http://marineregions.org/mrgid/17595";"Bay of Biscay";17595;"Estuary";"45.58333";"-1.05";;;
+"Courbey";"http://marineregions.org/mrgid/21309";"Bay of Biscay";21309;"Field";;;;;
+"St-Jean-de-Luz";"http://marineregions.org/mrgid/17872";"France";17872;"Commune";"43.38333";"-1.66667";;;
+"Abra de Bilbao";"http://marineregions.org/mrgid/17355";"Bay of Biscay";17355;"Bay";"43.35";"-3.05";"43.31";"-3.23";"43.43"
+"Santander";"http://marineregions.org/mrgid/14677";"Spain";14677;"Town";"43.4597";"-3.8147";;;
+"Lombardsijde";"http://marineregions.org/mrgid/5662";"Belgium";5662;"Deelgemeente";"51.15";"2.75";;;
+"England";"http://marineregions.org/mrgid/16";"United Kingdom";16;"Country";"52.4874";"-2.344";"49.1649";"1.7629";"55.8099"
+"Oostduinkerke";"http://marineregions.org/mrgid/14804";"Belgium";14804;"Deelgemeente";"51.11667";"2.68333";;;
+"Greek Exclusive Economic Zone";"http://marineregions.org/mrgid/5679";"Mediterranean Sea - Eastern Basin";5679;"EEZ";"36.494637414503";"23.961418786554";"33.26208";"30.22429";"41.01034"
+"Greek Exclusive Economic Zone";"http://marineregions.org/mrgid/5679";"Greece";5679;"EEZ";"36.494637414503";"23.961418786554";"33.26208";"30.22429";"41.01034"
+"Cap Ferret canyon";"http://marineregions.org/mrgid/4905";"Bay of Biscay";4905;"Canyon(s)";"44.67956150757";"-2.124593332067";"44.5833";"-2.0653";"44.7233"
+"Basque Coast of Spain";"http://marineregions.org/mrgid/18018";;18018;"Coast";"43.42";"-4.63";;;
+"Atlantic Coast of France";"http://marineregions.org/mrgid/14305";"France";14305;"Coast";"48";"-4.5";;;
+"Marennes-Oléron bay";"http://marineregions.org/mrgid/5374";"Bay of Biscay";5374;"Bay";"45.91666667";"-1.16666667";"45.81";"-0.99";"46.17"
+"Capbreton canyon";"http://marineregions.org/mrgid/4199";"Bay of Biscay";4199;"Canyon(s)";"43.683333";"-2.516667";;;
+"Hendaye";"http://marineregions.org/mrgid/17620";"France";17620;"Commune";"43.36667";"-1.78333";;;
+"Doggersbank";"http://marineregions.org/mrgid/2395";"North Sea";2395;"Bank";"54.833333";"2.333333";;;
+"Grevelingen";"http://marineregions.org/mrgid/17605";"Netherlands";17605;"Channel";"51.73333";"3.98333";;;
+"Haringvliet";"http://marineregions.org/mrgid/17613";"Netherlands";17613;"Harbour";"51.91667";"4.5";;;
+"Katwijk";"http://marineregions.org/mrgid/17659";"Netherlands";17659;"Commune";"52.19417";"4.42222";;;
+"Kijkduin";"http://marineregions.org/mrgid/14902";"Netherlands";14902;"Town";"52.95";"4.719";;;
+"Noordwijk";"http://marineregions.org/mrgid/17767";"Netherlands";17767;"Commune";"52.23333";"4.43333";;;
+"Oestergronden";"http://marineregions.org/mrgid/20877";"Netherlands";20877;"Basin";"54.45";"4.25";;;
+"Scheveningen";"http://marineregions.org/mrgid/14752";"Netherlands";14752;"Village";"52.1";"4.273";"52.09";"4.29";"52.11"
+"Zierikzee";"http://marineregions.org/mrgid/217";"Netherlands";217;"Town";"51.6485";"3.9185";"51.6421";"3.9276";"51.6549"
+"Tunis Gulf";"http://marineregions.org/mrgid/3883";"Mediterranean Sea - Western Basin";3883;"Gulf";"36.8755555555556";"10.4741666666667";"36.63";"10.21";"37.28"
+"Mozambique";"http://marineregions.org/mrgid/2220";"Mozambique";2220;"Nation";"-18.6657";"35.52956";"-26.86028";"40.84611";"-10.47111"
+"Black Sea";"http://marineregions.org/mrgid/3319";"Black Sea";3319;"IHO Sea Area";"43.2765240426";"34.1751334089";"40.90875351446";"42.35496044187";"47.31029641635"
+"Celtic Sea";"http://marineregions.org/mrgid/2351";"Celtic Sea";2351;"IHO Sea Area";"49.589876844";"-7.68357444004";"46.50056578772";"-4.1380765434";"52.39568984501"
+"West Coast of England";"http://marineregions.org/mrgid/14302";"United Kingdom";14302;"Coast";"50.56928";"-4.98779";;;
+"Irish Sea";"http://marineregions.org/mrgid/2357";"Irish Sea and St. George's Channel";2357;"IHO Sea Area";"53.4459472219";"-4.79817510558";"51.90413734476";"-2.63917434252";"55.00417602071"
+"East Coast of Scotland";"http://marineregions.org/mrgid/14298";"United Kingdom";14298;"Coast";;;;;
+"West Coast of Scotland";"http://marineregions.org/mrgid/14299";"United Kingdom";14299;"Coast";"55.81363";"-5.51514";;;
+"Grand Banks";"http://marineregions.org/mrgid/4554";"North Atlantic Ocean";4554;"Bank";"46.099637";"-51.290546";"42.853017";"-46.878085";"49.090884"
+"Caribbean Sea";"http://marineregions.org/mrgid/4287";"Caribbean Sea";4287;"IHO Sea Area";"15.31030445709";"-74.67801130419";"7.70979893208";"-59.42160093753";"22.70652472953"
+"Costa Rica";"http://marineregions.org/mrgid/2162";"Costa Rica";2162;"Nation";"9.619259";"-84.2364";"8.025673";"-82.5614";"11.21284"
+"Waarde";"http://marineregions.org/mrgid/14738";"Netherlands";14738;"Village";"51.419";"4.0569";"51.41414";"4.06378";"51.42097"
+"Shetlands";"http://marineregions.org/mrgid/3260";;3260;"Archipelago";"60.19175";"-1.42325";"59.5074";"-0.728";"60.8761"
+"Northumberland";"http://marineregions.org/mrgid/3233";"United Kingdom";3233;"County";"55.29685";"-2.0786";"54.7838";"-1.4641";"55.8099"
+"Portland";"http://marineregions.org/mrgid/17809";"United Kingdom";17809;"Island";"50.55";"-2.43333";"50.51";"-2.48";"50.58"
+"Ría de Foz";"http://marineregions.org/mrgid/17826";"Spain";17826;"Estuary";"43.56667";"-7.23333";;;
+"La Coruña";"http://marineregions.org/mrgid/17681";"Spain";17681;"Town";"43.37135";"-8.396";;;
+"Ría de Lage";"http://marineregions.org/mrgid/17827";"Spain";17827;"Estuary";"43.2462";"-8.98476";;;
+"Bermudian Exclusive Economic Zone";"http://marineregions.org/mrgid/8402";"North Atlantic Ocean";8402;"EEZ";"32.368986801872";"-64.806926122285";"28.91321";"-60.70547";"35.72239"
+"Guéthary";"http://marineregions.org/mrgid/14645";"France";14645;"Commune";"43.4243";"-1.6145";;;
+"Falmouth";"http://marineregions.org/mrgid/17532";"United Kingdom";17532;"Town";"50.14833";"-5.07611";;;
+"Mediterranean Sea";"http://marineregions.org/mrgid/1905";"Mediterranean Sea";1905;"IHO Sea Area";"38.0236053466797";"15.0923042297363";"30.2638816833496";"36.2172813415527";"45.7833290100098"
+"Norway";"http://marineregions.org/mrgid/2252";"Norway";2252;"Nation";"69.39135";"12.27696";"57.9603";"33.63242";"80.8224"
+"Ireland";"http://marineregions.org/mrgid/2114";"Ireland";2114;"Nation";"53.426";"-8.3311";"51.4202";"-5.9977";"55.4318"
+"Gulf of Mexico";"http://marineregions.org/mrgid/4288";"Gulf of Mexico";4288;"IHO Sea Area";"24.94231562654";"-90.37958525236";"17.40680801848";"-80.43304073784";"31.46484375034"
+"South Coast of England";"http://marineregions.org/mrgid/14301";"United Kingdom";14301;"Coast";"50.61113";"-1.18652";;;
+"Strijenham";"http://marineregions.org/mrgid/17874";"Netherlands";17874;"Inhabited Place";"51.52417";"4.15556";;;
+"Zijpe";"http://marineregions.org/mrgid/17940";"Netherlands";17940;"Channel";"51.65";"4.1";;;
+"Zoetersbout";"http://marineregions.org/mrgid/21357";"North Sea";21357;"Diving spot";"51.659999847412";"4.0799999237061";;;
+"Christiansted";"http://marineregions.org/mrgid/32425";;32425;"City";"17.75";"-64.75";;;
+"Lekeitio";"http://marineregions.org/mrgid/17704";"Spain";17704;"Town";"43.36667";"-2.5";;;
+"Ría del Eo";"http://marineregions.org/mrgid/17830";"Spain";17830;"Estuary";"43.46667";"-7.05";;;
+"Naples Bay";"http://marineregions.org/mrgid/22457";;22457;"Bay";"26.109094";"-81.78245";"26.11606";"-81.7975";"26.13641"
+"The Wash";"http://marineregions.org/mrgid/3244";"North Sea";3244;"Bay";"52.9380555555556";"0.288055555555556";"52.73910897";"0.558267992";"53.17064513"
+"Shetland Islands";"http://marineregions.org/mrgid/3260";;3260;"Archipelago";"60.19175";"-1.42325";"59.5074";"-0.728";"60.8761"
+"Azores";"http://marineregions.org/mrgid/2454";"North Atlantic Ocean";2454;"Archipelago";"38.32455";"-28.1377";"36.9256";"-25.0113";"39.7235"
+"Bay of Biscay";"http://marineregions.org/mrgid/2359";"Bay of Biscay";2359;"IHO Sea Area";"45.2244285966";"-3.93513546256";"43.27442812915";"-0.14624464477";"47.98778772322"
+"Greenland";"http://marineregions.org/mrgid/2260";;2260;"Dependent State";"71.70693";"-42.60563";"59.79027";"-12.15764";"83.6236"
+"Iceland";"http://marineregions.org/mrgid/2129";"Iceland";2129;"Nation";"64.929";"-19.01045";"63.2834";"-13.4912";"66.5746"
+"India";"http://marineregions.org/mrgid/2128";"India";2128;"Nation";"21.12572";"82.76238";"6.745827";"97.38054";"35.50562"
+"Sea of Japan";"http://marineregions.org/mrgid/4307";"Japan Sea/East Sea";4307;"IHO Sea Area";"40.5084302428";"135.13274500727";"32.57501368363";"142.2638347153";"51.74733316939"
+"Madagascar";"http://marineregions.org/mrgid/7963";"Madagascar";7963;"Nation";"-18.76694";"46.86911";"-25.58834";"50.50139";"-11.94555"
+"Sri Lanka";"http://marineregions.org/mrgid/2195";"Sri Lanka";2195;"Nation";"7.873123";"80.79388";"5.918055";"81.89166";"9.828191"
+"West Africa";"http://marineregions.org/mrgid/14311";;14311;"General Region";"-2.81137";"8.4375";;;
+"Mexico";"http://marineregions.org/mrgid/2224";"Mexico";2224;"Nation";"23.6345";"-102.5714";"14.55054";"-86.73862";"32.71846"
+"Hossegor Lake";"http://marineregions.org/mrgid/14670";"Bay of Biscay";14670;"Inlet";"43.6538";"-1.4379";;;
+"Zeebrugge";"http://marineregions.org/mrgid/2551";"Belgium";2551;"Deelgemeente";"51.33185";"3.20845";"51.3282";"3.216";"51.3355"
+"Veerse Meer";"http://marineregions.org/mrgid/14640";"Netherlands";14640;"Lake";"51.548149";"3.7455";"51.508499";"3.8635";"51.587799"
+"Bidasoa";"http://marineregions.org/mrgid/21274";"Bay of Biscay";21274;"River";"43.372778";"-1.791944";;;
+"Wales";"http://marineregions.org/mrgid/3281";"United Kingdom";3281;"Country";"52.407";"-4.03185";"51.374";"-2.6522";"53.44"
+"Contis-plage";"http://marineregions.org/mrgid/17468";"France";17468;"Town";"44.1";"-1.31667";"44.09";"-1.33";"44.1"
+"Blankenberge";"http://marineregions.org/mrgid/31";"Belgium";31;"Town";"51.29988";"3.140602";"51.27636";"3.176941";"51.32341"
+"Geul van Baarland";"http://marineregions.org/mrgid/4810";"North Sea";4810;"Swale";"51.3833333";"3.9166667";;;
+"Bath";"http://marineregions.org/mrgid/14660";"Netherlands";14660;"Village";"51.40167";"4.20972";"51.39704";"4.2048";"51.40641"
+"Mond van de Dollard";"http://marineregions.org/mrgid/17492";"Wadden Sea";17492;"Channel";"53.31667";"7.08333";;;
+"Eendracht";"http://marineregions.org/mrgid/17518";"Netherlands";17518;"Canal";"51.38333";"4.26667";;;
+"Krammer";"http://marineregions.org/mrgid/17675";"Netherlands";17675;"Channel";"51.66667";"4.16667";;;
+"Walsoorden";"http://marineregions.org/mrgid/9104";"Netherlands";9104;"Village";"51.3838";"4.0321";"51.38";"4.04";"51.39"
+"Guetaria";"http://marineregions.org/mrgid/17606";"Spain";17606;"Town";"43.30326";"-2.20444";;;
+"Ría de Betanzos";"http://marineregions.org/mrgid/17824";"Spain";17824;"Estuary";"43.38333";"-8.25";;;
+"Gorishoek";"http://marineregions.org/mrgid/17601";"Netherlands";17601;"Town";"51.53333";"4.08333";;;
+"Noord-Beveland";"http://marineregions.org/mrgid/198";"Netherlands";198;"Island";"51.56666666";"3.8";;;
+"Bray-Dunes";"http://marineregions.org/mrgid/877";"France";877;"Commune";"51.07456";"2.526585";"51.06006";"2.55941";"51.08906"
+"Burghsluis";"http://marineregions.org/mrgid/14720";"Netherlands";14720;"Village";"51.68";"3.75";"51.67";"3.74";"51.68"
+"Kattendijke";"http://marineregions.org/mrgid/14739";"Netherlands";14739;"Village";"51.52";"3.95";"51.52";"3.94";"51.53"
+"Neeltje Jans, Binnenhaven";"http://marineregions.org/mrgid/17758";"Netherlands";17758;"Harbour";"51.6185";"3.689";;;
+"Neeltje Jans, Buitenhaven";"http://marineregions.org/mrgid/17759";"Netherlands";17759;"Harbour";"51.61919";"3.6793";;;
+"Roompot";"http://marineregions.org/mrgid/4751";"North Sea";4751;"Swale";"51.61666667";"3.76666667";;;
+"Roompot";"http://marineregions.org/mrgid/4751";"Netherlands";4751;"Swale";"51.61666667";"3.76666667";;;
+"Schelphoek";"http://marineregions.org/mrgid/17849";"Netherlands";17849;"Harbour";"51.68333";"3.8";;;
+"Stavenisse";"http://marineregions.org/mrgid/14698";"Netherlands";14698;"Village";"51.58";"4.02";"51.58";"4.02";"51.59"
+"Anna Frisopolder";"http://marineregions.org/mrgid/17367";"Netherlands";17367;"Polder";"51.6";"3.7";;;
+"Breezand";"http://marineregions.org/mrgid/17412";"Netherlands";17412;"Town";"51.58583";"3.62222";"51.58";"3.61";"51.59"
+"Fort Rammekens";"http://marineregions.org/mrgid/17540";"Netherlands";17540;"Fort";"51.45";"3.65";;;
+"Kanaal door Zuid-Beveland";"http://marineregions.org/mrgid/17655";"Netherlands";17655;"Channel";"51.45";"4";;;
+"Walcheren";"http://marineregions.org/mrgid/204";"Netherlands";204;"Island";"51.5";"3.5833333";;;
+"Westbout";"http://marineregions.org/mrgid/21354";"Netherlands";21354;"Dike";"51.6701331951";"3.73857021332";;;
+"Hudson Bay";"http://marineregions.org/mrgid/4252";"Hudson Bay";4252;"IHO Sea Area";"59.0358757132";"-84.88911959576";"51.14358794663";"-75.88437807569";"66.02642986893"
+"Royan";"http://marineregions.org/mrgid/14635";"France";14635;"Town";"45.6333";"-1.0333";;;
+"Ribadesella";"http://marineregions.org/mrgid/14733";"Spain";14733;"Town";"43.4614";"-5.0592";;;
+"Navia";"http://marineregions.org/mrgid/17756";"Spain";17756;"Town";"43.53333";"-6.71667";;;
+"Viveiro";"http://marineregions.org/mrgid/14729";"Spain";14729;"Commune";"43.6614";"-7.5945";;;
+"Ria de Santa Marta de Ortigueira";"http://marineregions.org/mrgid/5438";"Bay of Biscay";5438;"Inlet";"43.7344444444444";"-7.83472222222222";;;
+"Ría de Villaviciosa";"http://marineregions.org/mrgid/17829";"Spain";17829;"Estuary";"43.51667";"-5.38333";;;
+"Castropol";"http://marineregions.org/mrgid/17437";"Spain";17437;"Town";"43.533333";"-7.033333";"43.53";"-7.05";"43.54"
+"Schouwen";"http://marineregions.org/mrgid/17850";"Netherlands";17850;"Inhabited Place";"53.33";"6.43889";;;
+"Vlissingen";"http://marineregions.org/mrgid/232";"Netherlands";232;"Commune";"51.43744";"3.634215";"51.39159";"3.73804";"51.48329"
+"Vistula lagoon";"http://marineregions.org/mrgid/2412";"Baltic Sea";2412;"Bay";"54.7";"19.16666667";"54.18";"18.03";"55.221"
+"Covas Beach";"http://marineregions.org/mrgid/21352";"Bay of Biscay";21352;"Beach";"43.672745";"-7.608633";;;
+"Ría do Barqueiro";"http://marineregions.org/mrgid/17825";"Spain";17825;"Estuary";"43.75919";"-7.6658";;;
+"North East Coast of England";"http://marineregions.org/mrgid/14303";"United Kingdom";14303;"Coast";;;;;
+"La Franca";"http://marineregions.org/mrgid/17682";"Spain";17682;"Beach";"43.38333";"-4.56667";;;
+"Rozenburg";"http://marineregions.org/mrgid/17836";"Netherlands";17836;"Village";"51.90417";"4.24861";"51.9";"4.23";"51.91"
+"'s Gravenpolder";"http://marineregions.org/mrgid/14650";"Netherlands";14650;"Town";"51.4518";"3.9234";;;
+"North Coast of Ireland";"http://marineregions.org/mrgid/8030";"North Atlantic Ocean";8030;"General Sea Area";"55.5259";"-8.1879";;;
+"Gulf of Gdansk";"http://marineregions.org/mrgid/2413";"Baltic Sea";2413;"Gulf";"54.56666667";"19.18333333";"54.3";"19.88";"54.95"
+"Koiguste Bay";"http://marineregions.org/mrgid/14622";"Gulf of Riga";14622;"Bay";"58.3613";"22.9772";"58.35";"22.94";"58.38"
+"Elbe";"http://marineregions.org/mrgid/4660";"North Sea";4660;"Stream";"52.3828983306885";"11.6128001213074";"50.8597984313965";"14.2369003295898";"53.9059982299805"
+"Belt Sea";"http://marineregions.org/mrgid/3294";"Baelt Sea";3294;"Sea";"55.825";"10.8889";;;
+"German Bight";"http://marineregions.org/mrgid/3427";"North Sea";3427;"Bight";"54.2155555555556";"8.06805555555555";;;
+"French part of the Celtic Sea";"http://marineregions.org/mrgid/25220";"Celtic Sea";25220;"Marine Region";"47.923777";"-6.173144";"46.479806";"-4.192155";"49.258415"
+"United Kingdom part of the Celtic Sea";"http://marineregions.org/mrgid/25222";"Celtic Sea";25222;"Marine Region";"49.78521";"-7.226242";"47.88402";"-4.521318";"52.054058"
+"United Kingdom part of the Inner Seas off the West Coast of Scotland";"http://marineregions.org/mrgid/25178";"Inner Seas off the West Coast of Scotland";25178;"Marine Region";"56.523941";"-6.285807";"54.385554";"-4.485418";"58.624164"
+"United Kingdom";"http://marineregions.org/mrgid/2208";"United Kingdom";2208;"Nation";"55.0205";"-3.44485";"49.1649";"1.7629";"60.8761"
+"French part of the Bay of Biscay";"http://marineregions.org/mrgid/25218";"Bay of Biscay";25218;"Marine Region";"45.915983";"-3.295519";"43.359927";"-0.539927";"47.889718"
+"Finland";"http://marineregions.org/mrgid/2106";"Finland";2106;"Nation";"64.9083";"25.36205";"59.7242";"31.5886";"70.0924"
+"Latvian part of the Gulf of Riga";"http://marineregions.org/mrgid/25597";"Gulf of Riga";25597;"Marine Region";"57.490532";"23.503293";"56.965891";"24.413191";"57.940833"
+"Belgian part of the North Sea";"http://marineregions.org/mrgid/26567";"Belgium";26567;"Marine Region";"51.465715";"2.703969";;;
+"Swedish part of the Baltic Sea";"http://marineregions.org/mrgid/25678";"Baltic Sea";25678;"Marine Region";"57.392746";"17.856584";"54.962442";"20.48156";"59.889718"
+"Coastal Polders";"http://marineregions.org/mrgid/2536";"Belgium";2536;"Polder";"51.13591";"2.994438";"50.91428";"3.433226";"51.35754"
+"Socoa";"http://marineregions.org/mrgid/17862";"France";17862;"Inhabited Place";"43.38333";"-1.68333";;;
+"Landes Coast";"http://marineregions.org/mrgid/17696";"Bay of Biscay";17696;"Coast";"44.25";"-1";"43.66737";"-1.13571";"45.51405"
+"Veerse Gat";"http://marineregions.org/mrgid/14640";"Netherlands";14640;"Lake";"51.548149";"3.7455";"51.508499";"3.8635";"51.587799"
+"Volkerak";"http://marineregions.org/mrgid/17916";"Netherlands";17916;"Channel";"51.65";"4.28333";;;
+"Pontaillac";"http://marineregions.org/mrgid/17794";"France";17794;"Town";"45.62861";"-1.05083";;;
+"Brouwersdam";"http://marineregions.org/mrgid/17417";"Netherlands";17417;"Dike";"51.76667";"3.86667";;;
+"Colijnsplaat";"http://marineregions.org/mrgid/17448";"Netherlands";17448;"Town";"51.6";"3.85";"51.59";"3.84";"51.61"
+"Den Osse";"http://marineregions.org/mrgid/17485";"Netherlands";17485;"Village";"51.73333";"3.9";"51.73";"3.88";"51.75"
+"Dreischor";"http://marineregions.org/mrgid/17494";"Netherlands";17494;"Town";"51.69";"3.98333";;;
+"Goudplaat";"http://marineregions.org/mrgid/14641";"Netherlands";14641;"Bar";"51.5322";"3.7056";;;
+"Kortgene";"http://marineregions.org/mrgid/206";"Netherlands";206;"Town";"51.55666666";"3.8";"51.55";"3.79";"51.57"
+"Plompetoren";"http://marineregions.org/mrgid/17792";"Netherlands";17792;"Tower";"51.68333";"3.76667";"51.68206";"3.76432";"51.68464"
+"Scharendijke";"http://marineregions.org/mrgid/17848";"Netherlands";17848;"Inhabited Place";"51.73583";"3.84306";;;
+"Sloehaven";"http://marineregions.org/mrgid/9275";;9275;"Harbour";"51.4632";"3.6884";;;
+"Terneuzen";"http://marineregions.org/mrgid/209";"Netherlands";209;"City";"51.33109";"3.80312";"51.26533";"3.96148";"51.39684"
+"Westenschouwen";"http://marineregions.org/mrgid/17955";"Netherlands";17955;"Inhabited Place";"51.67583";"3.70972";;;
+"Wissenkerke";"http://marineregions.org/mrgid/205";"Netherlands";205;"Town";"51.585";"3.74722222";"51.58";"3.74";"51.59"
+"Yerseke";"http://marineregions.org/mrgid/17935";"Netherlands";17935;"Inhabited Place";"51.4925";"4.05";;;
+"Venezuela";"http://marineregions.org/mrgid/2201";"Venezuela";2201;"Nation";"6.423332";"-66.59056";"0.649164";"-59.80305";"12.1975"
+"Lodijkse Gat";"http://marineregions.org/mrgid/14664";"North Sea";14664;"Swale";"51.51";"4.22";;;
+"Pietermanskreek";"http://marineregions.org/mrgid/17791";"Netherlands";17791;"Creek";"51.48333";"4.13333";;;
+"Zeelandbrug";"http://marineregions.org/mrgid/17939";"North Sea";17939;"Sluice";"51.61667";"3.9";;;
+"Rio De Janeiro";"http://marineregions.org/mrgid/8920";;8920;"State";"-22.06672";"-42.91257";"-23.35639";"-40.96112";"-20.77706"
+"Mexican Exclusive Economic Zone";"http://marineregions.org/mrgid/8429";"Mexico";8429;"EEZ";"21.515565863115";"-105.851261242018";"12.10307";"-84.64185";"32.62695"
+"United Kingdom Exclusive Economic Zone";"http://marineregions.org/mrgid/5696";"North Atlantic Ocean";5696;"EEZ";"50.666293";"-5.7447";"48.58704";"3.4";"63.88748"
+"Cuba";"http://marineregions.org/mrgid/8637";"Cuba";8637;"Nation";"21.50799";"-79.54209";"19.82195";"-74.13126";"23.19403"
+"Lesser Antilles";"http://marineregions.org/mrgid/19267";;19267;"Archipelago";"12";"-62";"19.06212";"-58.40332";"9.43822"
+"Colombia";"http://marineregions.org/mrgid/2175";"Colombia";2175;"Nation";"4.1767";"-74.2953";"-4.236873";"-66.87045";"12.59027"
+"Canadian Exclusive Economic Zone";"http://marineregions.org/mrgid/8493";"Canada";8493;"EEZ";"68.558153673918";"-90.00380004491";"40.0402";"-47.74343";"86.45374"
+"Gulf of Gascogne";"http://marineregions.org/mrgid/2359";"Bay of Biscay";2359;"IHO Sea Area";"45.2244285966";"-3.93513546256";"43.27442812915";"-0.14624464477";"47.98778772322"
+"Norwegian Exclusive Economic Zone";"http://marineregions.org/mrgid/5686";"Norway";5686;"EEZ";"74.649088330558";"17.233142578053";"56.08667";"42.6877";"84.16307"
+"Antarctic Ocean";"http://marineregions.org/mrgid/1907";"Southern Ocean";1907;"IHO Sea Area";"-68.03981889232";"-26.63285800737";"-85.56249999978";"180";"-60"
+"Subantarctic Waters";"http://marineregions.org/mrgid/17958";"Southern Ocean";17958;"General Sea Area";"-60";"-179";;;
+"Trondheims Fjord";"http://marineregions.org/mrgid/5344";;5344;"Fjord";"63.5436111111111";"10.6369444444444";"63.3";"11.48";"64.17"
+"Skagerrak";"http://marineregions.org/mrgid/2379";"Skagerrak";2379;"IHO Sea Area";"58.1397547443";"9.64191545629";"57.09880185142";"11.91655933884";"59.91914391516"
+"Weddell Sea";"http://marineregions.org/mrgid/4330";"Southern Ocean";4330;"Natural Reserve";"-73";"-45";;;
+"Falkland Islands";"http://marineregions.org/mrgid/8623";;8623;"Dependent State";"-51.79626";"-59.44063";"-52.34306";"-57.7332";"-51.24945"
+"Kerguelen Islands";"http://marineregions.org/mrgid/8630";"Indian Ocean";8630;"Archipelago";"-49.33";"69.25";"-50.34";"66.77";"-48.07"
+"Ross Sea";"http://marineregions.org/mrgid/4370";"Ross Sea";4370;"Sea";"-74";"179";;;
+"South Shetland Islands";"http://marineregions.org/mrgid/22117";;22117;"Archipelago";"-62";"-58";"-63.53876";"-53.37158";"-60.59776"
+"Bellingshausen Sea";"http://marineregions.org/mrgid/4368";"Bellingshausen Sea";4368;"Sea";"-71";"-85";;;
+"Adélie Coast";"http://marineregions.org/mrgid/12372";;12372;"Coast";"-67";"139";;;
+"Palmer Archipelago";"http://marineregions.org/mrgid/13212";"Southern Ocean";13212;"Archipelago";"-64.25";"-62.8333333";;;
+"South Orkney Island";"http://marineregions.org/mrgid/9354";"Southern Ocean";9354;"Archipelago";"-60.5833333";"-45.5";"-60.91975";"-47.01874";"-60.31607"
+"Atlantic sector of Southern Ocean";"http://marineregions.org/mrgid/17377";"Southern Ocean";17377;"General Sea Area";"-60";"-15";;;
+"South Sandwich Islands";"http://marineregions.org/mrgid/23553";;23553;"Archipelago";"-57.75";"-26.5";"-60.44";"-31";"-55.01"
+"Davis Sea";"http://marineregions.org/mrgid/17287";"Davis Sea";17287;"Sea";"-66";"92";;;
+"Prince Edward Islands";"http://marineregions.org/mrgid/22598";"Indian Ocean";22598;"Archipelago";"-46.773056";"37.8525";;;
+"Magellanic region";"http://marineregions.org/mrgid/20866";;20866;"General Region";;;;;
+"South Georgia";"http://marineregions.org/mrgid/21927";;21927;"Marine Ecoregion of the World (MEOW)";"-54.3434";"-37.2381";;;
+"Bransfield Strait";"http://marineregions.org/mrgid/9890";"Southern Ocean";9890;"Strait";"-63";"-59";;;
+"Wilhelm Archipelago";"http://marineregions.org/mrgid/13891";"Southern Ocean";13891;"Archipelago";"-65.1333333";"-64.3333333";;;
+"Bretagne";"http://marineregions.org/mrgid/3774";"France";3774;"Region";"48.08935";"-3.099";"47.2776";"-1.0161";"48.9011"
+"Oléron Island";"http://marineregions.org/mrgid/5375";"Bay of Biscay";5375;"Island";"45.9232";"-1.29975";"45.7988";"-1.1863";"46.0476"
+"Channel Islands";"http://marineregions.org/mrgid/2464";"United Kingdom";2464;"Archipelago";"49.44915";"-2.349499";"49.1649";"-2.019799";"49.7334"
+"East Coast of England";"http://marineregions.org/mrgid/14300";"United Kingdom";14300;"Coast";"52.42922";"1.80176";;;
+"Brouwershaven";"http://marineregions.org/mrgid/218";"Netherlands";218;"Town";"51.72666667";"3.914368519";"51.72";"3.9";"51.74"
+"Marollegat";"http://marineregions.org/mrgid/14682";"North Sea";14682;"Swale";"51.48";"4.17";;;
+"Noordergaatje";"http://marineregions.org/mrgid/14727";"North Sea";14727;"Swale";"51.5";"4.07";;;
+"Tholense Gat";"http://marineregions.org/mrgid/14725";"North Sea";14725;"Swale";"51.52";"4.17";;;
+"Oostkapelle";"http://marineregions.org/mrgid/14745";"Netherlands";14745;"Village";"51.57";"3.55";"51.56";"3.54";"51.57"
+"Vrouwenpolder";"http://marineregions.org/mrgid/17917";"Netherlands";17917;"Inhabited Place";"51.57667";"3.61528";;;
+"Zoutelande";"http://marineregions.org/mrgid/14717";"Netherlands";14717;"Town";"51.5";"3.48";;;
+"West Coast of Ireland";"http://marineregions.org/mrgid/8661";"North Atlantic Ocean";8661;"General Sea Area";"53.67";"-10.56";;;
+"Coast of Norway";"http://marineregions.org/mrgid/17461";;17461;"Coast";"64.33991";"10.2832";;;
+"Coast of Guipuzcoa";"http://marineregions.org/mrgid/17607";"Spain";17607;"Coast";"43.2872";"-2.13959";;;
+"Perlora";"http://marineregions.org/mrgid/17787";"Spain";17787;"Municipality";"43.58333";"-5.75";;;
+"Ellewoutsdijk";"http://marineregions.org/mrgid/17519";"Netherlands";17519;"Town";"51.38917";"3.81528";;;
+"Kruiningen";"http://marineregions.org/mrgid/14634";"Netherlands";14634;"Village";"51.45";"4.0333";"51.44";"4.02";"51.46"
+"Rittem";"http://marineregions.org/mrgid/17834";"Netherlands";17834;"Inhabited Place";"51.4525";"3.62639";;;
+"East Coast of Ireland";"http://marineregions.org/mrgid/17650";"North Atlantic Ocean";17650;"Coast";"52.52959";"-6.21826";;;
+"Indian Ocean";"http://marineregions.org/mrgid/1904";"Indian Ocean";1904;"IHO Sea Area";"-32.72458381046";"79.20858601429";"-60";"146.8982192222";"10.44499945636"
+"De Panne";"http://marineregions.org/mrgid/92";"Belgium";92;"Town";"51.07809";"2.58991";"51.04628";"2.634398";"51.10989"
+"Middelkerke";"http://marineregions.org/mrgid/70";"Belgium";70;"Town";"51.14714";"2.836093";"51.09479";"2.923727";"51.19949"
+"Anglesey";"http://marineregions.org/mrgid/4478";"United Kingdom";4478;"Unitary Authority";"53.28333333";"-4.33333333";;;
+"Estuary of the Canche";"http://marineregions.org/mrgid/14679";"English Channel";14679;"Estuary";"50.5275";"1.6135";;;
+"Clyde Sea";"http://marineregions.org/mrgid/14321";"Clyde Sea Area";14321;"Sea";"55.59";"-5";;;
+"The Minch";"http://marineregions.org/mrgid/5493";"Inner Seas off the West Coast of Scotland";5493;"Channel";"57.75";"-6.5";;;
+"Hompelvoet";"http://marineregions.org/mrgid/17627";"Netherlands";17627;"Island";"51.78333";"3.93333";"51.76";"3.89";"51.8"
+"Bristol Channel";"http://marineregions.org/mrgid/3141";"Bristol Channel";3141;"IHO Sea Area";"51.39222851462";"-4.01935441169";"50.98893535109";"-2.34539175033";"51.81888794922"
+"Hammen";"http://marineregions.org/mrgid/17612";"Netherlands";17612;"Channel";"51.68333";"3.8";;;
+"Atlantic Europe";"http://marineregions.org/mrgid/9230";;9230;"General Region";"50.6";"-0.259";;;
+"Balgzand";"http://marineregions.org/mrgid/3723";"Wadden Sea";3723;"Sandbank";"52.9166667";"4.8666667";;;
+"Piet Scheveplaat";"http://marineregions.org/mrgid/17790";"Netherlands";17790;"Flat";"53.4";"5.81667";;;
+"North East Baltic Sea";"http://marineregions.org/mrgid/14626";"Baltic Sea";14626;"General Sea Area";"63.5";"21";;;
+"East Gulf of Finland";"http://marineregions.org/mrgid/14623";"Gulf of Finland";14623;"General Sea Area";;;"59.6666666666667";"30.15";"60.4166666666667"
+"Hardangerfjord";"http://marineregions.org/mrgid/3377";"North Sea";3377;"Fjord";"59.95";"5.83";;;
+"Goesse Sas";"http://marineregions.org/mrgid/14732";"North Sea";14732;"Diving spot";"51.529";"3.93";;;
+"Jacobahavn";"http://marineregions.org/mrgid/8996";;8996;"Former administrative division";"69.216667";"-51.1";;;
+"Kulkenol";"http://marineregions.org/mrgid/17676";"Netherlands";17676;"Town";"51.650001525879";"3.9200000762939";;;
+"Mastgat";"http://marineregions.org/mrgid/14646";"North Sea";14646;"Swale";"51.5999";"3.97";;;
+"Neeltje Jans";"http://marineregions.org/mrgid/17757";"Netherlands";17757;"Island";"51.63333";"3.76667";"51.61";"3.67";"51.65"
+"'s Gravenshoek";"http://marineregions.org/mrgid/14652";"Netherlands";14652;"Polder";"51.6004";"3.7866";;;
+"Wemeldinge";"http://marineregions.org/mrgid/14906";"Netherlands";14906;"Town";"51.5167";"4";;;
+"Westkapelle";"http://marineregions.org/mrgid/228";"Netherlands";228;"Town";"51.52916667";"3.44027778";"51.52";"3.43";"51.54"
+"Zuidbout";"http://marineregions.org/mrgid/14724";"North Sea";14724;"Diving spot";"51.619";"3.97";;;
+"Zandkreek";"http://marineregions.org/mrgid/21356";"Netherlands";21356;"Inlet";"51.75";"4.1799998283386";;;
+"Hudson Strait";"http://marineregions.org/mrgid/4251";"Hudson Strait";4251;"IHO Sea Area";"61.87021735795";"-71.45006823165";"55.84477257729";"-64.43224079891";"64.9799778462"
+"Canada Basin";"http://marineregions.org/mrgid/7428";"Beaufort Sea";7428;"Basin";"77.353563";"-143.27153";"72.267598";"-128.59241";"82.560146"
+"Storfjords";"http://marineregions.org/mrgid/3374";"Norwegian Sea";3374;"Fjord";"62.4655555555556";"6.73388888888889";;;
+"Storfjordrenna";"http://marineregions.org/mrgid/24761";;24761;"Channel";"76.15611";"17.81028";;;
+"Arctic";"http://marineregions.org/mrgid/21780";;21780;"Marine Province";"71.9424";"-14.3234";;;
+"Saldanha Bay";"http://marineregions.org/mrgid/14279";"South Atlantic Ocean";14279;"Bay";"-33.09";"18.02";"-33.21";"17.88";"-33"
+"Joes Point";"http://marineregions.org/mrgid/21387";"Canada";21387;"Cape";"44.55424";"-76.336";;;
+"New Zealand Exclusive Economic Zone";"http://marineregions.org/mrgid/8455";"New Zealand";8455;"EEZ";"-49.937087730708";"170.418981296644";"-55.95597";"-171.25";"-25.90103"
+"Great Australian Bight";"http://marineregions.org/mrgid/4276";"Great Australian Bight";4276;"IHO Sea Area";"-36.72591576597";"132.7165581317";"-43.56601647135";"146.23115575344";"-31.46366941901"
+"North Atlantic";"http://marineregions.org/mrgid/1912";"North Atlantic Ocean";1912;"IHO Sea Area";"29.4800342448";"-37.62424445723";"-0.00256264235";"6.61996705678";"68.63871574364"
+"Adriatic Sea";"http://marineregions.org/mrgid/3314";"Adriatic Sea";3314;"IHO Sea Area";"42.7293839579";"16.03558558981";"39.74309780157";"20.02082765078";"45.8089137081"
+"Alboran Sea";"http://marineregions.org/mrgid/3324";"Alboran Sea";3324;"IHO Sea Area";"35.91213990654";"-3.32409719195";"35.07066845868";"-1.18826270086";"36.841517806"
+"Laccadive Sea";"http://marineregions.org/mrgid/4269";"Laccadive Sea";4269;"IHO Sea Area";"6.93369732161";"75.18235087717";"-0.69315814984";"80.58879327819";"14.79267025033"
+"Mediterranean Sea - Western Basin";"http://marineregions.org/mrgid/4279";"Mediterranean Sea - Western Basin";4279;"IHO Sea Area";"39.310519309";"5.17693940631";"35.57231724235";"12.42424750352";"43.92396748071"
+"Argentina";"http://marineregions.org/mrgid/2149";"Argentina";2149;"Nation";"-38.4161";"-63.61615";"-55.05167";"-53.65001";"-21.78052"
+"Australian Exclusive Economic Zone";"http://marineregions.org/mrgid/8323";"Australia";8323;"EEZ";"-16.544231699609";"151.893397552516";"-47.19363";"163.1921";"-8.881881"
+"United States part of the North Atlantic Ocean";"http://marineregions.org/mrgid/25365";"North Atlantic Ocean";25365;"Marine Region";"35.66405";"-74.024527";"23.8175";"-65.699723";"44.666864"
+"New Zealand";"http://marineregions.org/mrgid/2227";"New Zealand";2227;"Nation";"-43.49639";"172";;;
+"Australian part of the Great Australian Bight";"http://marineregions.org/mrgid/25470";"Great Australian Bight";25470;"Marine Region";"-36.430663";"133.024287";"-43.498055";"146.234545";"-31.474027"
+"United Kingdom part of the English Channel";"http://marineregions.org/mrgid/25217";"English Channel";25217;"Marine Region";"50.242438";"-2.405433";"49.258415";"1.546078";"51.136538"
+"Bay of Bengal";"http://marineregions.org/mrgid/4273";"Bay of Bengal";4273;"IHO Sea Area";"13.17322167025";"87.45442549439";"5.73397101601";"95.04884011645";"24.37766897644"
+"Australia";"http://marineregions.org/mrgid/2147";"Australia";2147;"Nation";"-25";"133";;;
+"Auckland";"http://marineregions.org/mrgid/8890";"New Zealand";8890;"Region";"-36.66957";"174.8687";"-37.27331";"175.5596";"-36.06584"
+"Table Bay";"http://marineregions.org/mrgid/15306";;15306;"Bay";"-33.88";"18.45";"-33.93";"18.37";"-33.77"
+"Knysna";"http://marineregions.org/mrgid/48920";"South Africa";48920;"Harbour";;;;;
+"Deer Island";"http://marineregions.org/mrgid/21375";"Canada";21375;"Island";;;;;
+"Sao Paulo";"http://marineregions.org/mrgid/9069";"Brazil";9069;"State";"-22.54815";"-48.65974";"-25.31492";"-44.16264";"-19.78139"
+"Kerkennah Islands";"http://marineregions.org/mrgid/26721";"Mediterranean Sea - Eastern Basin";26721;"Inhabited Place";"34.7";"11.183333";;;
+"Gulf of Guinea";"http://marineregions.org/mrgid/4286";"Gulf of Guinea";4286;"IHO Sea Area";"3.25039935196";"3.05669434711";"-1.72958207106";"10.18268692506";"6.62269365749"
+"South Pacific";"http://marineregions.org/mrgid/1910";"South Pacific Ocean";1910;"IHO Sea Area";"-30.4571931405";"-82.4547794492";"-60";"130.111292124";"3.39114419316"
+"Coastal Waters of Southeast Alaska and British Columbia";"http://marineregions.org/mrgid/4313";"The Coastal Waters of Southeast Alaska and British Columbia";4313;"IHO Sea Area";"53.35057767286";"-130.27032545934";"47.02382314232";"-122.14991795975";"59.49716317664"
+"Australian part of the Tasman Sea";"http://marineregions.org/mrgid/25472";"Tasman Sea";25472;"Marine Region";"-36.473504";"153.825638";"-45.42529";"163.108464";"-30"
+"Peruvian part of the South Pacific Ocean";"http://marineregions.org/mrgid/25642";"South Pacific Ocean";25642;"Marine Region";"-11.706562";"-79.033492";"-20.210492";"-70.402785";"-3.392767"
+"Japanese Sea";"http://marineregions.org/mrgid/4307";"Japan Sea/East Sea";4307;"IHO Sea Area";"40.5084302428";"135.13274500727";"32.57501368363";"142.2638347153";"51.74733316939"
+"Chile";"http://marineregions.org/mrgid/2165";"Chile";2165;"Nation";"-36.70375";"-72.93336";"-55.90223";"-66.42062";"-17.50528"
+"Bay of Fundy";"http://marineregions.org/mrgid/4289";"Bay of Fundy";4289;"IHO Sea Area";"44.97985204212";"-65.8060155567";"44.08801043556";"-63.30470895745";"46.20259165768"
+"Canadian part of the North Atlantic Ocean";"http://marineregions.org/mrgid/25356";"North Atlantic Ocean";25356;"Marine Region";"44.701953";"-56.760816";"40.0402";"-47.743431";"52.038873"
+"Spanish part of the Balearic Sea";"http://marineregions.org/mrgid/25607";"Mediterranean Sea - Western Basin";25607;"Marine Region";"40.087057";"1.945755";"38.643327";"4.276391";"41.946936"
+"Canadian part of the Gulf of St-Lawrence";"http://marineregions.org/mrgid/25274";"Canada";25274;"Marine Region";"48.454661";"-61.65769";"45.312145";"-54.841382";"52.085273"
+"United States part of the North Pacific Ocean";"http://marineregions.org/mrgid/25587";"North Pacific Ocean";25587;"Marine Region";"39.016365";"-124.580301";"30.542";"-117.115627";"48.506112"
+"China";"http://marineregions.org/mrgid/8603";"China";8603;"Nation";"35.86131";"104.1943";"18.16888";"134.7685";"53.55375"
+"Japan";"http://marineregions.org/mrgid/2121";"Japan";2121;"Nation";"34.86889";"134.7456";"24.25139";"145.8124";"45.48638"
+"Hawaiian part of the North Pacific Ocean";"http://marineregions.org/mrgid/25578";"North Pacific Ocean";25578;"Marine Region";"23.844773";"-165.761592";"15.563124";"-151.276799";"31.797866"
+"Brazil";"http://marineregions.org/mrgid/2143";"Brazil";2143;"Nation";"-14.23421";"-54.39876";"-33.74112";"-34.79292";"5.272709"
+"South Korea";"http://marineregions.org/mrgid/8600";"South Korea";8600;"Nation";"35.90873";"127.8429";"33.19221";"129.5869";"38.62524"
+"Saint-Pierre and Miquelon part of the North Atlantic Ocean";"http://marineregions.org/mrgid/25357";"North Atlantic Ocean";25357;"Marine Region";"45.434947";"-56.316372";"43.416111";"-55.903334";"46.897917"
+"United States";"http://marineregions.org/mrgid/2204";"United States";2204;"Nation";"39";"-100";"24";"-66";"49"
+"South African part of the Indian Ocean";"http://marineregions.org/mrgid/25551";"Indian Ocean";25551;"Marine Region";"-33.366566";"28.605879";"-38.153731";"36.532967";"-26.847146"
+"Minas Basin";"http://marineregions.org/mrgid/18789";"Bay of Fundy";18789;"Bay";"45.241616";"-64.191166";"45.09729";"-63.408";"45.40939"
+"French Exclusive Economic Zone [Atlantic part]";"http://marineregions.org/mrgid/8762";"France";8762;"Marine Region";"47.0868";"-4.579649";"43.376171";"2.546452";"51.55719"
+"North Coast of Norway";"http://marineregions.org/mrgid/14296";"Norway";14296;"Coast";;;;;
+"L'Etete";"http://marineregions.org/mrgid/21392";"Canada";21392;"Inhabited Place";"45.05";"-66.9";;;
+"Norwegian part of the North Sea";"http://marineregions.org/mrgid/25233";"North Sea";25233;"Marine Region";"58.591406";"4.058819";"56.086667";"7.941844";"61"
+"Dutch part of the North Sea";"http://marineregions.org/mrgid/25232";"North Sea";25232;"Marine Region";"53.623705";"4.188582";"51.262027";"7.208363";"55.765"
+"California";"http://marineregions.org/mrgid/8977";"United States";8977;"State";"37.26766";"-119.2464";"32.53533";"-114.117";"42"
+"French part of the English Channel";"http://marineregions.org/mrgid/25214";"English Channel";25214;"Marine Region";"49.566119";"-1.574564";"48.501664";"1.725636";"51.037694"
+"Germany";"http://marineregions.org/mrgid/2101";"Germany";2101;"Nation";"51.16355";"10.45405";"47.2698";"15.0426";"55.0573"
+"Australian part of the Coral Sea";"http://marineregions.org/mrgid/25477";"Coral Sea";25477;"Marine Region";"-19.954916";"152.49871";"-30";"161.818139";"-9.365167"
+"Italy";"http://marineregions.org/mrgid/2133";"Italy";2133;"Nation";"41.2919";"12.5727";"35.4913";"18.52";"47.0925"
+"Spain";"http://marineregions.org/mrgid/2185";"Spain";2185;"Nation";"35.71485";"-6.91625";"27.6374";"4.3286";"43.7923"
+"Canadian part of the The Coastal Waters of Southeast Alaska and British Columbia";"http://marineregions.org/mrgid/25505";"The Coastal Waters of Southeast Alaska and British Columbia";25505;"Marine Region";"52.232642";"-129.200698";"48.232922";"-122.855136";"55.926591"
+"Panama";"http://marineregions.org/mrgid/2249";"Panama";2249;"Nation";"8.413122";"-80.11431";"7.206109";"-77.19833";"9.620136"
+"Elkhorn Slough";"http://marineregions.org/mrgid/32757";"United States";32757;"Estuary";"36.80579";"-121.79023";;;
+"Spanish part of the North Atlantic Ocean";"http://marineregions.org/mrgid/25366";"North Atlantic Ocean";25366;"Marine Region";"43.893872";"-10.71121";"41.368934";"-6.421073";"46.251188"
+"Swedish part of the Kattegat";"http://marineregions.org/mrgid/25225";"Kattegat";25225;"Marine Region";"56.883585";"12.112716";"55.327726";"13.061109";"58.034876"
+"Swedish part of the Skagerrak";"http://marineregions.org/mrgid/25228";"Skagerrak";25228;"Marine Region";"58.376706";"10.881882";"57.820575";"11.880482";"59.106021"
+"Sas van Goes";"http://marineregions.org/mrgid/14732";"North Sea";14732;"Diving spot";"51.529";"3.93";;;
+"Canadian part of the Bay of Fundy";"http://marineregions.org/mrgid/25276";"Bay of Fundy";25276;"Marine Region";"44.97285";"-65.725865";"44.086654";"-63.369609";"46.086654"
+"Portugal";"http://marineregions.org/mrgid/2243";"Portugal";2243;"Nation";"37.39409";"-18.73974";"32.6375";"-6.190455";"42.15067"
+"Arafura Sea";"http://marineregions.org/mrgid/4347";"Arafura Sea";4347;"IHO Sea Area";"-10.51841719236";"136.95566140056";"-18.00675225281";"142.19929325618";"-2.90265762835"
+"Coral Sea";"http://marineregions.org/mrgid/4364";"Coral Sea";4364;"IHO Sea Area";"-18.22433054841";"156.76782488293";"-30.0000000002";"169.86540173121";"-6.79288303852"
+"Rio de la Plata";"http://marineregions.org/mrgid/4325";"Rio de La Plata";4325;"IHO Sea Area";"-35.11333788123";"-56.84247798667";"-36.35885643997";"-54.94302365272";"-31.52343749974"
+"Solomon Sea";"http://marineregions.org/mrgid/4361";"Solomon Sea";4361;"IHO Sea Area";"-8.71719340798";"154.32237104073";"-11.88246655429";"162.34838012157";"-4.83333382143"
+"China Sea";"http://marineregions.org/mrgid/4332";"South China Sea";4332;"IHO Sea Area";"11.77674997246";"112.30802222078";"-3.22872316783";"122.15129880188";"25.5672843459"
+"Mexican part of the North Pacific Ocean";"http://marineregions.org/mrgid/25569";"North Pacific Ocean";25569;"Marine Region";"20.786713";"-110.542811";"12.103074";"-92.246814";"32.626945"
+"Alaskan part of the The Coastal Waters of Southeast Alaska and British Columbia";"http://marineregions.org/mrgid/25504";"The Coastal Waters of Southeast Alaska and British Columbia";25504;"Marine Region";"56.364089";"-133.661137";"54.364167";"-129.968596";"59.464154"
+"United States part of the Gulf of Mexico";"http://marineregions.org/mrgid/25281";"Gulf of Mexico";25281;"Marine Region";"27.48611";"-88.730529";"23.822778";"-80.387555";"30.701109"
+"Bermudian part of the North Atlantic Ocean";"http://marineregions.org/mrgid/25333";"North Atlantic Ocean";25333;"Marine Region";"32.333578";"-64.767956";"28.913212";"-60.705527";"35.722388"
+"Florida";"http://marineregions.org/mrgid/8964";"United States";8964;"State";"27.97406";"-83.82718";"24.94638";"-80.02875";"31.00174"
+"Central Chile";"http://marineregions.org/mrgid/22007";;22007;"Marine Ecoregion of the World (MEOW)";"-29.1161";"-71.2077";;;
+"Durban Bay";"http://marineregions.org/mrgid/17503";"South Africa";17503;"Bay";"-29.86667";"31.01667";"-29.9";"30.99";"-29.85"
+"Alexander Bay";"http://marineregions.org/mrgid/48933";"South Africa";48933;"Bay";"-28.583333";"16.483333";;;
+"Scilly Isles";"http://marineregions.org/mrgid/3166";"Celtic Sea";3166;"Archipelago";"49.8782501220703";"-6.34820008277893";"49.7873992919922";"-6.24550008773804";"49.9691009521484"
+"Indo-Pacific";"http://marineregions.org/mrgid/14289";;14289;"General Sea Area";"9.79568";"118.82813";"-35";"28";"32"
+"Le Havre";"http://marineregions.org/mrgid/17699";"France";17699;"Town";"49.4938";"0.10767";"49.44";"0.05";"49.55"
+"Ardrossan";"http://marineregions.org/mrgid/17369";"United Kingdom";17369;"Town";"55.61667";"-4.81667";;;
+"West North Pacific";"http://marineregions.org/mrgid/18066";"North Pacific Ocean";18066;"General Sea Area";"28";"135";;;
+"Knokke-Heist";"http://marineregions.org/mrgid/37";"Belgium";37;"Town";"51.33231";"3.305354";"51.296";"3.385329";"51.36862"
+"Belgian Coast";"http://marineregions.org/mrgid/2550";"Belgium";2550;"Coast";"51.23";"2.91";"51.09";"3.37";"51.37"
+"Irish part of the Celtic Sea";"http://marineregions.org/mrgid/25221";"Celtic Sea";25221;"Marine Region";"50.589428";"-9.262192";"48.553637";"-5.826403";"52.278273"
+"Greenlandic part of the Labrador Sea";"http://marineregions.org/mrgid/25273";"Labrador Sea";25273;"Marine Region";"58.62706";"-48.982592";"56.576519";"-43.902218";"59.884495"
+"Denmark";"http://marineregions.org/mrgid/2157";"Denmark";2157;"Nation";"56.1548";"11.63365";"54.559";"15.1942";"57.7506"
+"French part of the Mediterranean Sea - Western Basin";"http://marineregions.org/mrgid/25185";"Mediterranean Sea - Western Basin";25185;"Marine Region";"42.534178";"6.417678";"41.150833";"9.421245";"43.790973"
+"France";"http://marineregions.org/mrgid/17";"France";17;"Nation";"46.21075";"2.18895";"41.3328";"9.5598";"51.0887"
+"Australian part of the Bass Strait";"http://marineregions.org/mrgid/25471";"Bass Strait";25471;"Marine Region";"-39.457467";"146.432145";"-41.186664";"149.971636";"-37.522218"
+"Spanish part of the Bay of Biscay";"http://marineregions.org/mrgid/25219";"Bay of Biscay";25219;"Marine Region";"44.239719";"-4.879407";"43.291109";"-1.758241";"45.429383"
+"Romanian part of the Black Sea";"http://marineregions.org/mrgid/25203";"Black Sea";25203;"Marine Region";"44.260412";"30.046451";"43.447003";"31.409704";"45.214364"
+"Irish part of the Irish Sea and St. George's Channel";"http://marineregions.org/mrgid/25211";"Irish Sea and St. George's Channel";25211;"Marine Region";"53.031032";"-5.812253";"52.054058";"-5.241687";"54.099827"
+"United Kingdom part of the North Sea";"http://marineregions.org/mrgid/25235";"North Sea";25235;"Marine Region";"56.67095";"0.34006";"51.037694";"3.4";"61"
+"East North Pacific";"http://marineregions.org/mrgid/18063";"North Pacific Ocean";18063;"General Sea Area";"35";"-130";;;
+"Gulf of Riga";"http://marineregions.org/mrgid/2409";"Gulf of Riga";2409;"IHO Sea Area";"57.93519159804";"23.38102817126";"56.80457985408";"24.61678564584";"59.21482083532"
+"FAO fishing area 18";"http://marineregions.org/mrgid/8747";;8747;"FAO Major Marine Fishing Areas";"80.8797";"-5.30991";;;
+"Nansen Basin";"http://marineregions.org/mrgid/7820";"Arctic Ocean";7820;"Basin";"84.336659539028";"78.661064092605";"78.3685159722";"124.309667813";"85.8137099017"
+"Amundsen Basin";"http://marineregions.org/mrgid/23534";;23534;"IOS region";"86.748453";"-114.694374";;;
+"Makarov Ridge";"http://marineregions.org/mrgid/24966";"Arctic Ocean";24966;"Basin";"85.86444087";"156.6887446";"83";"173";"87.5"
+"Bredene";"http://marineregions.org/mrgid/66";"Belgium";66;"Town";"51.2374";"2.978023";"51.21441";"3.013151";"51.2604"
+"Delta area";"http://marineregions.org/mrgid/20856";"Netherlands";20856;"General Region";"51.5";"3.8";;;
+"Mariakerke";"http://marineregions.org/mrgid/17718";"Belgium";17718;"Village";"51.21667";"2.86667";;;
+"Scheldt estuary";"http://marineregions.org/mrgid/4812";"North Sea";4812;"Estuary";;;"51.203962";"4.406562";"51.684992"
+"German Exclusive Economic Zone";"http://marineregions.org/mrgid/5669";"Germany";5669;"EEZ";"54.55969631024";"8.389230684219";"53.24281";"14.75";"55.91928"
+"Hollands Diep";"http://marineregions.org/mrgid/17626";"Netherlands";17626;"Channel";"51.7";"4.55";;;
+"Parnu Bay";"http://marineregions.org/mrgid/2447";"Gulf of Riga";2447;"Bay";"58.2";"24.31666667";"58.11";"24.19";"58.44"
+"Romanian Exclusive economic Zone";"http://marineregions.org/mrgid/5689";"Black Sea";5689;"EEZ";"44.260069313499";"30.048618469745";"43.44695";"31.34528";"45.21436"
+"Ukrainian Exclusive Economic Zone";"http://marineregions.org/mrgid/5695";"Ukraine";5695;"EEZ";"44.945485491963";"33.601804315155";"43.18806";"38.32327";"47.25235"
+"East Africa";"http://marineregions.org/mrgid/9232";;9232;"General Region";"6.8";"44.7";;;
+"Bulgarian Exclusive Economic Zone";"http://marineregions.org/mrgid/5672";"Black Sea";5672;"EEZ";"42.942717585044";"29.219062134329";"41.9782";"31.34528";"43.74779"
+"Georgian Exclusive Economic Zone";"http://marineregions.org/mrgid/5678";"Black Sea";5678;"EEZ";"42.445261169138";"40.558283835016";"41.52592";"41.77609";"43.37926"
+"Russian part of the Black Sea";"http://marineregions.org/mrgid/25207";"Black Sea";25207;"Marine Region";"43.628007";"38.001254";"42.343123";"40.00297";"45.127345"
+"Turkish Exclusive Economic Zone";"http://marineregions.org/mrgid/5697";"Turkey";5697;"EEZ";"41.642651554582";"38.645014689207";"34.42548";"41.53312";"43.44695"
+"Pacific Ocean";"http://marineregions.org/mrgid/1903";;1903;"Ocean";"-0.891740798950195";"-149.625";"-60";"-67.25";"58.2165184020996"
+"Koksijde";"http://marineregions.org/mrgid/91";"Belgium";91;"Town";"51.11299";"2.680961";"51.08135";"2.757141";"51.14463"
+"Wenduine";"http://marineregions.org/mrgid/14274";"Belgium";14274;"Village";"51.2983";"3.08213";"51.29";"3.07";"51.31"
+"De Haan";"http://marineregions.org/mrgid/69";"Belgium";69;"Town";"51.26602";"3.051005";"51.21967";"3.115244";"51.31237"
+"Chukchi Sea";"http://marineregions.org/mrgid/21829";;21829;"Marine Ecoregion of the World (MEOW)";"70.2223";"-150.492";;;
+"Somalia";"http://marineregions.org/mrgid/2187";"Federal Republic of Somalia";2187;"Nation";"5.152145";"46.19997";"-1.674873";"51.41132";"11.97916"
+"Seychelles";"http://marineregions.org/mrgid/2192";"Seychelles";2192;"Nation";"-7.00736";"50.87312";"-9.463055";"55.54055";"-4.551664"
+"Suez canal";"http://marineregions.org/mrgid/4277";"Indian Ocean";4277;"Canal";"30.5727777777778";"32.4919444444444";"29.91";"32.59";"31.28"
+"South West Indian Ocean";"http://marineregions.org/mrgid/7125";"Indian Ocean";7125;"General Sea Area";"-30";"50";;;
+"Zanzibar";"http://marineregions.org/mrgid/14718";"Indian Ocean";14718;"Island";"-6.097359";"39.380695";"-6.470555";"39.575001";"-5.724164"
+"Africa";"http://marineregions.org/mrgid/1923";;1923;"Continent";"1.259205";"19.0676";"-34.822";"63.49575";"37.34041"
+"Haifa Bay";"http://marineregions.org/mrgid/3866";"Mediterranean Sea - Eastern Basin";3866;"Bay";"32.86";"35";"32.81671";"35.09068";"32.92686"
+"Tel Aviv";"http://marineregions.org/mrgid/17886";"Israel";17886;"City";"32.066665649414";"34.766666412354";;;
+"East Atlantic";"http://marineregions.org/mrgid/9237";;9237;"General Sea Area";"0";"-30";;;
+"East Mediterranean";"http://marineregions.org/mrgid/15119";"Mediterranean Sea";15119;"General Sea Area";"34.35";"27.65";;;
+"Israel";"http://marineregions.org/mrgid/2123";"Israel";2123;"Nation";"31.37849";"34.97435";"29.48671";"35.68111";"33.27027"
+"Kattegat";"http://marineregions.org/mrgid/2374";"Kattegat";2374;"IHO Sea Area";"56.3431976427";"11.30411886559";"54.63373190945";"13.06291067639";"58.07746934863"
+"Canary Islands Exclusive Economic Zone";"http://marineregions.org/mrgid/8364";"North Atlantic Ocean";8364;"EEZ";"28.390722914516";"-17.542621280545";"24.60363";"-11.75317";"32.58609"
+"Norwegian Sea";"http://marineregions.org/mrgid/2353";"Norwegian Sea";2353;"IHO Sea Area";"68.2156500845";"4.56651077422";"60.86081802843";"25.78865038513";"76.56454739268"
+"Balear Sea";"http://marineregions.org/mrgid/3322";"Balearic Sea";3322;"IHO Sea Area";"40.0832079791";"1.94994122114";"38.64731110912";"4.29021512693";"41.87484551501"
+"Moroccan part of the North Atlantic Ocean";"http://marineregions.org/mrgid/25322";"North Atlantic Ocean";25322;"Marine Region";"32.585584";"-10.270701";"27.666579";"-5.918746";"35.958889"
+"Inner Seas off the West Coast of Scotland";"http://marineregions.org/mrgid/4283";"Inner Seas off the West Coast of Scotland";4283;"IHO Sea Area";"56.40539933626";"-6.43991071135";"54.33640234359";"-4.45862984669";"58.62454384285"
+"Ionian sea";"http://marineregions.org/mrgid/3351";"Ionian Sea";3351;"IHO Sea Area";"38.01785115746";"18.62902944017";"36.40896639521";"23.22467541714";"40.52065920816"
+"West Mediterranean";"http://marineregions.org/mrgid/14310";"Mediterranean Sea";14310;"General Sea Area";"40";"4.2";;;
+"Marmara Sea";"http://marineregions.org/mrgid/3369";"Sea of Marmara";3369;"IHO Sea Area";"40.67040224405";"28.15292137482";"39.99890852001";"29.94218587848";"41.23293495342"
+"Aegean Sea";"http://marineregions.org/mrgid/3315";"Aegean Sea";3315;"IHO Sea Area";"37.85235867512";"25.17461340306";"35.10948944128";"28.33056116127";"41.09132552156"
+"Strait of Sicily";"http://marineregions.org/mrgid/3382";"Ionian Sea";3382;"Strait";"37";"12.1";;;
+"Levantine Sea";"http://marineregions.org/mrgid/4954";"Levantine Sea";4954;"Sea";"34";"34";;;
+"FAO fishing area 34";"http://marineregions.org/mrgid/8752";;8752;"FAO Major Marine Fishing Areas";"14.3219";"-20.4556";;;
+"FAO fishing area 47";"http://marineregions.org/mrgid/8751";;8751;"FAO Major Marine Fishing Areas";"-30.2194";"0.79549";;;
+"Israeli part of the Mediterranean Sea - Eastern Basin";"http://marineregions.org/mrgid/25194";"Mediterranean Sea - Eastern Basin";25194;"Marine Region";"32.540996";"34.093194";"31.323967";"35.102427";"33.524921"
+"Canaries";"http://marineregions.org/mrgid/3743";"North Atlantic Ocean";3743;"Archipelago";"28.52665";"-15.7905";"27.6374";"-13.4199";"29.4159"
+"Tyrrhenian Sea";"http://marineregions.org/mrgid/3386";"Tyrrhenian Sea";3386;"IHO Sea Area";"40.11983476086";"12.14189540681";"37.80146145778";"16.22312212029";"44.10945737326"
+"Gulf of Gabès";"http://marineregions.org/mrgid/3879";"Mediterranean Sea - Eastern Basin";3879;"Gulf";"34.065";"10.3688888888889";;;
+"Icelandic Exclusive Economic Zone";"http://marineregions.org/mrgid/5680";"Iceland";5680;"EEZ";"63.811372175228";"-26.673784172248";"59.9634";"-5.557446";"69.58334"
+"Moroccan Exclusive Economic Zone";"http://marineregions.org/mrgid/8367";"Morocco";8367;"EEZ";"32.791389140019";"-9.814976257455";"27.66658";"-2.061294";"35.99626"
+"Mallorca";"http://marineregions.org/mrgid/3439";"Balearic Sea";3439;"Island";"39.6141";"2.91315";"39.265";"3.4809";"39.9632"
+"Balear Islands";"http://marineregions.org/mrgid/3430";"Balearic Sea";3430;"Archipelago";"39.3654";"2.771501";"38.6411";"4.3286";"40.0897"
+"Gulf of Lions";"http://marineregions.org/mrgid/3452";"Mediterranean Sea - Western Basin";3452;"Gulf";"43";"4";;;
+"Corsica";"http://marineregions.org/mrgid/3779";"France";3779;"Region";"42.18";"9.04735";"41.3328";"9.5598";"43.0272"
+"Ligurian Sea";"http://marineregions.org/mrgid/3363";"Ligurian Sea";3363;"IHO Sea Area";"43.7222954377";"8.91394655986";"42.86442416387";"9.85205805284";"44.42720294006"
+"Sicily";"http://marineregions.org/mrgid/3383";"Mediterranean Sea - Eastern Basin";3383;"Island";"37.47515";"14.04235";"36.6479";"15.6599";"38.3024"
+"Slovenian Exclusive Economic Zone";"http://marineregions.org/mrgid/5692";"Slovenia";5692;"EEZ";"45.577127003543";"13.60091664876";"45.4817";"13.74993";"45.64728"
+"Croatian Exclusive Economic Zone";"http://marineregions.org/mrgid/5673";"Adriatic Sea";5673;"EEZ";"43.428468652521";"15.650843649645";"41.62201";"18.55236";"45.59079"
+"Albanian Exclusive Economic Zone";"http://marineregions.org/mrgid/5670";"Albania";5670;"EEZ";"40.870298773061";"19.147094024631";"39.63863";"20.01003";"41.86124"
+"Algarve";"http://marineregions.org/mrgid/5587";"Portugal";5587;"Coast";"37.2457";"-8.19755";"36.9613";"-7.3987";"37.5301"
+"Alicante";"http://marineregions.org/mrgid/15051";"Philippines";15051;"Town";"10.89704";"123.0185";"10.89";"123.015";"10.9"
+"Catalan Sea";"http://marineregions.org/mrgid/3332";"Catalan Sea";3332;"Sea";"41";"2";;;
+"Sardinia";"http://marineregions.org/mrgid/3330";"Mediterranean Sea - Western Basin";3330;"Island";"40.06185";"8.9812";"38.8651";"9.8288";"41.2586"
+"Strait of Sicilia";"http://marineregions.org/mrgid/3382";"Ionian Sea";3382;"Strait";"37";"12.1";;;
+"Northern Tyrrhenian Sea";"http://marineregions.org/mrgid/14916";"Tyrrhenian Sea";14916;"General Sea Area";"41.4456";"11.2289";;;
+"Central Tyrrheniann Sea";"http://marineregions.org/mrgid/15100";"Tyrrhenian Sea";15100;"General Sea Area";"40.35";"11.7";;;
+"Central Adriatic Sea";"http://marineregions.org/mrgid/14920";"Adriatic Sea";14920;"General Sea Area";"43.2258";"14.9155";;;
+"South East Adriatic Sea";"http://marineregions.org/mrgid/15293";"Adriatic Sea";15293;"General Sea Area";"40.9";"18.6";;;
+"North West Ionian Sea";"http://marineregions.org/mrgid/15232";"Ionian Sea";15232;"General Sea Area";"40.9";"10.3";;;
+"Gulf of Evvoia";"http://marineregions.org/mrgid/17529";"Aegean Sea";17529;"Gulf";"38.66667";"23.25";;;
+"Kullaberg";"http://marineregions.org/mrgid/21436";;21436;"Hill(s)";"56.3";"12.5";;;
+"FAO fishing area 27";"http://marineregions.org/mrgid/8753";;8753;"FAO Major Marine Fishing Areas";"68.718";"2.83652";;;
+"FAO fishing area 37";"http://marineregions.org/mrgid/8754";;8754;"FAO Major Marine Fishing Areas";"38.1352";"19.7167";;;
+"Nieuwpoort";"http://marineregions.org/mrgid/90";"Belgium";90;"Town";"51.12418";"2.764438";"51.08672";"2.824909";"51.16163"
+"Knokke";"http://marineregions.org/mrgid/14628";"Belgium";14628;"Town";"51.351";"3.2836";;;
+"Strait of Gibraltar";"http://marineregions.org/mrgid/3346";"Strait of Gibraltar";3346;"IHO Sea Area";"35.97981274369";"-5.68521917467";"35.77597653839";"-5.2787053648";"36.18694186248"
+"Sierra Leone";"http://marineregions.org/mrgid/2191";"Sierra Leone";2191;"Nation";"8.460554";"-11.77996";"6.923609";"-10.26431";"9.9975"
+"Sao Tome and Principe Exclusive Economic Zone";"http://marineregions.org/mrgid/8397";"Sao Tome and Principe";8397;"EEZ";"0.778681308203";"6.354816159125";"-1.484445";"8.550138";"2.71048"
+"North West Mediterranean";"http://marineregions.org/mrgid/14828";"Mediterranean Sea - Western Basin";14828;"General Sea Area";"41";"4";;;
+"Nordhinter";"http://marineregions.org/mrgid/2433";"Belgium";2433;"Sandbank";"51.57175";"2.527115";"51.44745";"2.614939";"51.69606"
+"Thorntonbank";"http://marineregions.org/mrgid/2438";"Belgium";2438;"Shoal";"51.566667";"3";"51.48207";"3.04139";"51.59016"
+"Thorntonbank";"http://marineregions.org/mrgid/2438";"North Sea";2438;"Shoal";"51.566667";"3";"51.48207";"3.04139";"51.59016"
+"Wandelaar";"http://marineregions.org/mrgid/4701";"North Sea";4701;"Sandbank";"51.3830555555556";"3.03972222222222";;;
+"Wandelaar";"http://marineregions.org/mrgid/4701";"Belgium";4701;"Sandbank";"51.3830555555556";"3.03972222222222";;;
+"Kentish Knock";"http://marineregions.org/mrgid/17661";"North Sea";17661;"Shoal";"51.65";"1.61667";;;
+"Madeiran Exclusive Economic Zone";"http://marineregions.org/mrgid/8363";"North Atlantic Ocean";8363;"EEZ";"33.151347771078";"-16.810729982917";"29.23988";"-12.57899";"36.51065"
+"Sandettie Bank";"http://marineregions.org/mrgid/14700";"North Sea";14700;"Sandbank";"51.229";"1.95";;;
+"Westhinder";"http://marineregions.org/mrgid/2434";"North Sea";2434;"Sandbank";"51.46524";"2.501443";"51.35737";"2.596023";"51.5731"
+"Westhinder";"http://marineregions.org/mrgid/2434";"Belgium";2434;"Sandbank";"51.46524";"2.501443";"51.35737";"2.596023";"51.5731"
+"South Coast of Africa";"http://marineregions.org/mrgid/14318";"South Africa";14318;"Coast";;;;;
+"North Africa";"http://marineregions.org/mrgid/14319";;14319;"General Region";"25";"13";;;
+"Spanish Exclusive Economic Zone [Atlantic part]";"http://marineregions.org/mrgid/8765";"North Atlantic Ocean";8765;"Marine Region";"43.61398";"-9.09955";;;
+"Spanish Exclusive Economic Zone [Mediterranean part]";"http://marineregions.org/mrgid/8766";"Mediterranean Sea - Western Basin";8766;"Marine Region";"39.21557";"2.00968";;;
+"Faeroes";"http://marineregions.org/mrgid/3297";;3297;"Dependent State";"61.88045";"-7.00065";"61.3526";"-6.2621";"62.4083"
+"Hinder Banks";"http://marineregions.org/mrgid/2419";"Belgium";2419;"Sandbank System";"51.5383333333333";"2.58444444444444";;;
+"Hinder Banks";"http://marineregions.org/mrgid/2419";"North Sea";2419;"Sandbank System";"51.5383333333333";"2.58444444444444";;;
+"Iceland Sea";"http://marineregions.org/mrgid/2352";"Iceland Sea";2352;"Sea";;;;;
+"West Coast of South Africa";"http://marineregions.org/mrgid/14308";"South Africa";14308;"Coast";"-31.96";"18.32";;;
+"Hout Bay";"http://marineregions.org/mrgid/15155";;15155;"Bay";"-34.07";"18.37";"-34.08";"18.34";"-34.04"
+"Mauritania";"http://marineregions.org/mrgid/2236";"Mauritania";2236;"Nation";"21.00805";"-10.94083";"14.72564";"-4.806109";"27.29045"
+"West Atlantic";"http://marineregions.org/mrgid/14291";;14291;"General Sea Area";"7.7";"-45.2";;;
+"East Pacific";"http://marineregions.org/mrgid/14288";;14288;"General Sea Area";"0";"-135";;;
+"Zeeschelde";"http://marineregions.org/mrgid/2546";"North Sea";2546;"Estuary";"51.19";"4.075";"51.01";"4.41";"51.37"
+"United States Exclusive Economic Zone";"http://marineregions.org/mrgid/8456";"United States";8456;"EEZ";"34.762936378439";"-95.822899026014";"23.8175";"-65.69972";"49.08721"
+"Canadian part of the North Pacific Ocean";"http://marineregions.org/mrgid/25585";"North Pacific Ocean";25585;"Marine Region";"50.54063";"-132.181795";"46.529723";"-124.717582";"54.490929"
+"Burma";"http://marineregions.org/mrgid/2219";"Myanmar";2219;"Nation";"19.19305";"96.68721";"9.839582";"101.1694";"28.54653"
+"Pakistan";"http://marineregions.org/mrgid/2250";"Pakistan";2250;"Nation";"30.37442";"69.34512";"23.68805";"77.82393";"37.06079"
+"South Atlantic";"http://marineregions.org/mrgid/1914";"South Atlantic Ocean";1914;"IHO Sea Area";"-33.73239551445";"-18.80876715914";"-60";"20.00904913827";"0.07510554798"
+"Fundy Bay";"http://marineregions.org/mrgid/4289";"Bay of Fundy";4289;"IHO Sea Area";"44.97985204212";"-65.8060155567";"44.08801043556";"-63.30470895745";"46.20259165768"
+"United States part of the The Coastal Waters of Southeast Alaska and British Columbia";"http://marineregions.org/mrgid/25506";"The Coastal Waters of Southeast Alaska and British Columbia";25506;"Marine Region";"48.245651";"-122.983187";"47.064155";"-122.2911";"49.087209"
+"Cap Gris Nez";"http://marineregions.org/mrgid/5663";"English Channel";5663;"Cape";"50.8666666667";"1.58333333333";;;
+"Cap Gris Nez";"http://marineregions.org/mrgid/5663";"North Sea";5663;"Cape";"50.8666666667";"1.58333333333";;;
+"Libyan Exclusive Economic Zone";"http://marineregions.org/mrgid/8372";"Libya";8372;"EEZ";"33.094323979551";"18.481757268306";"30.26388";"26.20721";"35.22519"
+"Mauritanian Exclusive Economic Zone";"http://marineregions.org/mrgid/8369";"Mauritania";8369;"EEZ";"18.068408426037";"-17.836857723043";"-23.80139";"67.04092";"-8.436945"
+"North Coast of France";"http://marineregions.org/mrgid/14304";"France";14304;"Coast";"50.88917";"1.58203";;;
+"Pacific Coast of the United States";"http://marineregions.org/mrgid/20822";;20822;"Coast";"47.7541";"-126.91406";"7.5";"-77.9";"71.3"
+"Netherlands";"http://marineregions.org/mrgid/15";"Netherlands";15;"Nation";"52.15615";"5.29295";"50.7516";"7.2272";"53.5607"
+"Caspian Sea";"http://marineregions.org/mrgid/4282";;4282;"Lake";"41.84763";"50.3568";"36.57999";"54.03388";"47.11527"
+"Finnish part of the Baltic Sea";"http://marineregions.org/mrgid/25672";"Baltic Sea";25672;"Marine Region";"59.460499";"21.272557";"58.844547";"23.160938";"59.8068"
+"Polish part of the Baltic Sea";"http://marineregions.org/mrgid/25674";"Baltic Sea";25674;"Marine Region";"54.931612";"17.179673";"53.910554";"19.627254";"55.92155"
+"Tunisia";"http://marineregions.org/mrgid/2214";"Tunisia";2214;"Nation";"33.7874";"9.536942";"30.23439";"11.58166";"37.34041"
+"Azov sea";"http://marineregions.org/mrgid/3320";"Sea of Azov";3320;"IHO Sea Area";"46.1630494553";"36.75425188453";"45.10090956338";"40.42968749968";"47.37639510645"
+"Lithuanian part of the Baltic Sea";"http://marineregions.org/mrgid/25677";"Baltic Sea";25677;"Marine Region";"55.727254";"20.426868";"55.248982";"21.289027";"56.077309"
+"Ukraine";"http://marineregions.org/mrgid/2196";"Ukraine";2196;"Nation";"48.3837";"31.17855";"44.3877";"40.2197";"52.3797"
+"Portuguese part of the North Atlantic Ocean";"http://marineregions.org/mrgid/25368";"North Atlantic Ocean";25368;"Marine Region";"38.307458";"-10.931478";"34.91667";"-7.357537";"41.952491"
+"Kazakhstan";"http://marineregions.org/mrgid/2119";"Kazakhstan";2119;"Nation";"48.01853";"66.92368";"40.59444";"87.34821";"55.44263"
+"Aral Sea";"http://marineregions.org/mrgid/4281";;4281;"Lake";"45.13194";"60.07541";"43.39055";"61.97249";"46.87332"
+"United Kingdom part of the Bristol Channel";"http://marineregions.org/mrgid/25213";"Bristol Channel";25213;"Marine Region";"51.392437";"-4.02319";"50.989436";"-2.38";"51.775127"
+"Danish part of the Kattegat";"http://marineregions.org/mrgid/25224";"Kattegat";25224;"Marine Region";"54.884622";"9.558016";"54.823672";"9.642839";"54.927773"
+"Italian part of the Adriatic Sea";"http://marineregions.org/mrgid/25615";"Adriatic Sea";25615;"Marine Region";"42.618793";"15.424105";"39.775237";"18.986795";"45.783327"
+"South Scandinavia";"http://marineregions.org/mrgid/15296";;15296;"General Region";"54.95";"9.22";;;
+"Sahara Coast";"http://marineregions.org/mrgid/21342";;21342;"Coast";;;;;
+"South East Atlantic";"http://marineregions.org/mrgid/14853";"South Atlantic Ocean";14853;"General Sea Area";"-44";"5";;;
+"Faial Island";"http://marineregions.org/mrgid/2458";"North Atlantic Ocean";2458;"Island";"38.5796";"-28.71595";"38.5146";"-28.5982";"38.6446"
+"Congo";"http://marineregions.org/mrgid/8633";"Republic of the Congo";8633;"Nation";"-0.6519455";"14.89214";"-5.015";"18.64361";"3.711109"
+"Madeira";"http://marineregions.org/mrgid/4956";"North Atlantic Ocean";4956;"Island";"32.7464";"-16.9686";"32.6274";"-16.6752";"32.8654"
+"Canary Islands";"http://marineregions.org/mrgid/3743";"North Atlantic Ocean";3743;"Archipelago";"28.52665";"-15.7905";"27.6374";"-13.4199";"29.4159"
+"Cape Verde";"http://marineregions.org/mrgid/2168";"Cape Verde";2168;"Nation";"16.00174";"-24.01333";"14.81111";"-22.66611";"17.19236"
+"Levantine Basin";"http://marineregions.org/mrgid/3388";"Mediterranean Sea - Eastern Basin";3388;"Basin";"33";"29";;;
+"Netherlands Antilles";"http://marineregions.org/mrgid/2258";"Netherlands";2258;"Dependent State";"12.20222";"-68.67827";"12.02055";"-68.19292";"12.38389"
+"East Ireland";"http://marineregions.org/mrgid/17649";"Ireland";17649;"General Region";"52.76";"-6.5";;;
+"South England";"http://marineregions.org/mrgid/17524";"United Kingdom";17524;"General Region";"51.5";"-1.58";;;
+"South West England";"http://marineregions.org/mrgid/7132";"United Kingdom";7132;"General Region";"50.95055";"-3.96885";"49.7874";"-1.4868";"52.1137"
+"West England";"http://marineregions.org/mrgid/17526";"United Kingdom";17526;"General Region";"52.335";"-2.483";;;
+"East England";"http://marineregions.org/mrgid/17523";"United Kingdom";17523;"General Region";"52.12";"0.39551";;;
+"Manche";"http://marineregions.org/mrgid/2389";"English Channel";2389;"IHO Sea Area";"49.8612179473";"-2.06339505792";"48.50002086187";"1.93090510399";"51.16600370667"
+"Galicia";"http://marineregions.org/mrgid/3769";"Spain";3769;"Autonomous Region";"42.80065";"-8.0173";"41.809";"-6.7329";"43.7923"
+"Moroccan Atlantic";"http://marineregions.org/mrgid/9243";"North Atlantic Ocean";9243;"General Sea Area";"32.56";"-9.3";;;
+"Rio de Oro
+Riou";"http://marineregions.org/mrgid/15262";"Bay of Biscay";15262;"River";"43.18";"-6.87";;;
+"Rio de Oro
+Riou";"http://marineregions.org/mrgid/15262";"Spain";15262;"River";"43.18";"-6.87";;;
+"Guinea";"http://marineregions.org/mrgid/2122";"Guinea";2122;"Nation";"9.935713";"-11.3671";"7.193927";"-7.653373";"12.6775"
+"Guinean Islands";"http://marineregions.org/mrgid/9216";"North Atlantic Ocean";9216;"Archipelago";"11.3003";"-16.0493";"10.8";"-16.64";"11.9"
+"Sweden";"http://marineregions.org/mrgid/2180";"Sweden";2180;"Nation";"62.198";"17.5624";"55.3367";"24.1665";"69.0593"
+"Yugoslavia (ex)";"http://marineregions.org/mrgid/2262";;2262;"Former Nation";"44.820556";"20.462222";;;
+"Algerian Exclusive Economic Zone";"http://marineregions.org/mrgid/8378";"Algeria";8378;"EEZ";"37.1949834712";"3.453967029643";"35.07194";"8.633162";"38.79722"
+"Egyptian Exclusive Economic Zone";"http://marineregions.org/mrgid/8490";"Egypt";8490;"EEZ";"32.422548";"29.68456";"23.0467";"37.23296";"33.81134"
+"Western Channel";"http://marineregions.org/mrgid/17527";"English Channel";17527;"General Sea Area";"50.5274";"-0.85693";;;
+"West Scotland";"http://marineregions.org/mrgid/17983";"United Kingdom";17983;"General Region";"56.33";"-5.45";;;
+"Holland";"http://marineregions.org/mrgid/1370";"United Kingdom";1370;"Ward";"51.5018";"-0.2057035";"51.49598";"-0.194385";"51.50763"
+"Angola";"http://marineregions.org/mrgid/2150";"Angola";2150;"Nation";"-11.20269";"17.90784";"-18.01639";"24.08445";"-4.388991"
+"Nieuwpoortbank";"http://marineregions.org/mrgid/3092";"North Sea";3092;"Sandbank";"51.19905";"2.679512";"51.17628";"2.745775";"51.22182"
+"Nieuwpoortbank";"http://marineregions.org/mrgid/3092";"Belgium";3092;"Sandbank";"51.19905";"2.679512";"51.17628";"2.745775";"51.22182"
+"Oost Dyck";"http://marineregions.org/mrgid/2431";"Belgium";2431;"Sandbank";"51.29695";"2.470705";"51.23489";"2.531493";"51.359"
+"Jersey";"http://marineregions.org/mrgid/2465";"United Kingdom";2465;"Island";"49.21315";"-2.13875";"49.1649";"-2.0198";"49.2614"
+"Geersdijk";"http://marineregions.org/mrgid/14904";"Netherlands";14904;"Village";"51.56583";"3.77083";"51.56";"3.76";"51.57"
+"Morocco";"http://marineregions.org/mrgid/2221";"Morocco";2221;"Nation";"31.7917";"-7.093387";"27.66424";"-1.011809";"35.91916"
+"Indian Exclusive Economic Zone";"http://marineregions.org/mrgid/8480";"India";8480;"EEZ";"16.293368130974";"84.102718975153";"4.783999";"89.94903";"23.84416"
+"South Norway";"http://marineregions.org/mrgid/14312";"Norway";14312;"General Region";;;;;
+"Morbihan Bay";"http://marineregions.org/mrgid/9033";"Indian Ocean";9033;"Bay";"-49.3833";"70.0666";;;
+"Libya";"http://marineregions.org/mrgid/2194";"Libya";2194;"Nation";"26.3351";"17.23153";"19.49906";"25.15166";"33.17113"
+"Haifa";"http://marineregions.org/mrgid/3866";"Mediterranean Sea - Eastern Basin";3866;"Bay";"32.86";"35";"32.81671";"35.09068";"32.92686"
+"Bay of Brest";"http://marineregions.org/mrgid/5208";"Celtic Sea";5208;"Bay";"48.3197222222222";"4.4425";"48.41666667";"-4.56666667";"48.26666667"
+"Taranto Gulf";"http://marineregions.org/mrgid/3567";"Ionian Sea";3567;"Gulf";"39.89";"17.2305555555556";"39.38";"16";"40.72"
+"Ymuiden Harbour";"http://marineregions.org/mrgid/17632";"Netherlands";17632;"Harbour";"52.46667";"4.55";;;
+"Rotterdam";"http://marineregions.org/mrgid/17835";"Netherlands";17835;"Commune";"51.9225";"4.47917";;;
+"Bergse Diepsluis";"http://marineregions.org/mrgid/17397";"North Sea";17397;"Diving spot";"51.720001220703";"4.9299998283386";;;
+"Breskens";"http://marineregions.org/mrgid/18610";"Netherlands";18610;"Inhabited Place";"51.3833";"3.55";;;
+"Calais";"http://marineregions.org/mrgid/188";"France";188;"Canton";"50.95428";"1.868625";"50.9219";"1.93174";"50.98666"
+"South West Africa";"http://marineregions.org/mrgid/15292";;15292;"General Region";"-14.64";"15.85";;;
+"Tunisian Exclusive Economic Zone";"http://marineregions.org/mrgid/8366";"Tunisia";8366;"EEZ";"36.033460015639";"10.996227572252";"33.17113";"13.66127";"38.40166"
+"Western Saharan Exclusive Economic Zone";"http://marineregions.org/mrgid/8368";"North Atlantic Ocean";8368;"EEZ";"23.128631463399";"-17.761447087873";"18.98564";"-13.17496";"27.66695"
+"Gambia";"http://marineregions.org/mrgid/2113";"Gambia";2113;"Nation";"13.44318";"-15.31014";"13.05997";"-13.79861";"13.82639"
+"Senegalese Exclusive Economic Zone";"http://marineregions.org/mrgid/8371";"Senegal";8371;"EEZ";"13.692422521688";"-18.517463079872";"10.6443";"-15.39181";"16.06667"
+"Ivory Coast";"http://marineregions.org/mrgid/2161";"Ivory Coast";2161;"Nation";"7.539987";"-5.547082";"4.344718";"-2.487782";"10.73526"
+"Guinea Bissau Exclusive Economic Zone";"http://marineregions.org/mrgid/8471";"Guinea-Bissau";8471;"EEZ";"10.579434705989";"-17.567007217554";"8.645978";"-14.92412";"12.33569"
+"Liberian Exclusive Economic Zone";"http://marineregions.org/mrgid/8391";"Liberia";8391;"EEZ";"3.845012770702";"-10.230111033118";"1.020951";"-7.533102";"6.92709"
+"Ghana";"http://marineregions.org/mrgid/2100";"Ghana";2100;"Nation";"7.941386";"-1.023055";"4.727082";"1.202782";"11.15569"
+"Togo";"http://marineregions.org/mrgid/8632";"Togo";8632;"Nation";"8.619541";"0.824018";"6.100545";"1.7978";"11.13854"
+"Nigeria";"http://marineregions.org/mrgid/2253";"Nigeria";2253;"Nation";"9.082172";"8.671078";"4.272845";"14.64966";"13.8915"
+"Cameroonian Exclusive Economic Zone";"http://marineregions.org/mrgid/8475";"Cameroon";8475;"EEZ";"3.467659020867";"9.309554137624";"2.341577";"9.965137";"4.8113"
+"Gabon";"http://marineregions.org/mrgid/2104";"Gabon";2104;"Nation";"-0.803691";"11.61021";"-3.925282";"14.51958";"2.3179"
+"Angolan Exclusive Economic Zone";"http://marineregions.org/mrgid/8478";"Angola";8478;"EEZ";"-11.62651727411";"11.038387301301";"-17.25484";"13.85361";"-5.033045"
+"Namibia";"http://marineregions.org/mrgid/2218";"Namibia";2218;"Nation";"-22.95802";"18.49041";"-28.96187";"25.26443";"-16.95417"
+"Bergen";"http://marineregions.org/mrgid/18644";"Norway";18644;"City";"60.3833";"5.3333";;;
+"East Tropical Atlantic";"http://marineregions.org/mrgid/9238";;9238;"General Sea Area";"0";"-6";"-23.4378";"14";"23.4378"
+"Duinbergen";"http://marineregions.org/mrgid/17498";"Belgium";17498;"Village";"51.35";"3.26667";"51.34";"3.25";"51.35"
+"Gulf of Finland";"http://marineregions.org/mrgid/2407";"Gulf of Finland";2407;"IHO Sea Area";"60.53734872859";"29.61939076744";"59.21459424453";"37.46891355552";"62.91577494176"
+"Persian Gulf";"http://marineregions.org/mrgid/4266";"Persian Gulf";4266;"IHO Sea Area";"26.80330729914";"52.04671763255";"23.95901381933";"57.3399815557";"31.18585503098"
+"Öresund";"http://marineregions.org/mrgid/3296";"Kattegat";3296;"Sound";"55.7736111111111";"12.7272222222222";;;
+"Western Sahara";"http://marineregions.org/mrgid/8617";"Morocco";8617;"Occupied Territory";"24.21553";"-12.88396";"20.7641";"-8.666391";"27.66696"
+"Faroe Islands";"http://marineregions.org/mrgid/2467";"North Atlantic Ocean";2467;"Archipelago";"61.88045";"-7.00065";"61.3526";"-6.2621";"62.4083"
+"Gibraltar";"http://marineregions.org/mrgid/3344";;3344;"Dependent State";"36.13235";"-5.35225";"36.1081";"-5.3383";"36.1566"
+"Catalunya";"http://marineregions.org/mrgid/3413";"Spain";3413;"Autonomous Region";"41.69215";"1.74625";"40.5227";"3.3321";"42.8616"
+"Marthas Vineyard";"http://marineregions.org/mrgid/9028";"North Atlantic Ocean";9028;"Island";"41.41678";"-70.61614";;;
+"Davis Strait";"http://marineregions.org/mrgid/4250";"Davis Strait";4250;"IHO Sea Area";"64.71774818317";"-58.17611330843";"59.89154183839";"-44.46176493201";"70.07213914361"
+"FAO fishing area 21";"http://marineregions.org/mrgid/8748";;8748;"FAO Major Marine Fishing Areas";"54.9529";"-62.1384";;;
+"Irminger Sea";"http://marineregions.org/mrgid/2355";"Irminger Sea";2355;"Sea";"61";"-36";;;
+"Kara Sea";"http://marineregions.org/mrgid/4246";"Kara Sea";4246;"IHO Sea Area";"75.4298831796";"77.39237760245";"64.43234801325";"107.60644340504";"81.26815920825"
+"Murmansk Coast";"http://marineregions.org/mrgid/17751";;17751;"Coast";"68.66667";"37.5";;;
+"Greece";"http://marineregions.org/mrgid/2099";"Greece";2099;"Nation";"38.2753";"24.492";"34.8008";"29.6094";"41.7498"
+"South West Scotland";"http://marineregions.org/mrgid/17982";"United Kingdom";17982;"General Region";"55.15";"-4.35";;;
+"Sandown Bay";"http://marineregions.org/mrgid/15269";"South Africa";15269;"Bay";"-34.35";"19.05";"-34.43";"18.99";"-34.332"
+"South African Exclusive Economic Zone";"http://marineregions.org/mrgid/8396";"South Africa";8396;"EEZ";"-35.765307";"24.933931";"-38.16004";"36.53297";"-26.84715"
+"Faeroe Exclusive Economic Zone";"http://marineregions.org/mrgid/8435";;8435;"EEZ";"62.611758347109";"-7.015026971303";"59.94083";"-0.4867275";"65.69408"
+"Alexandria";"http://marineregions.org/mrgid/14855";"Egypt";14855;"Town";"31.1636";"29.954";;;
+"Oostende Bank";"http://marineregions.org/mrgid/2429";"Belgium";2429;"Sandbank";"51.29785";"2.788396";"51.25624";"2.862934";"51.33946"
+"West Coast of France";"http://marineregions.org/mrgid/14305";"France";14305;"Coast";"48";"-4.5";;;
+"Saint-Vaast-la-Hougue";"http://marineregions.org/mrgid/20478";;20478;"Commune";"49.6";"-1.26667";;;
+"Bay of Naples";"http://marineregions.org/mrgid/3558";"Tyrrhenian Sea";3558;"Gulf";"40.7";"14.25";"40.62";"14.16";"40.83"
+"South Devon";"http://marineregions.org/mrgid/14656";"United Kingdom";14656;"General Region";"50.5245";"-3.5272";;;
+"Sleat Sound";"http://marineregions.org/mrgid/9077";"Inner Seas off the West Coast of Scotland";9077;"Sound";"57.0959";"-5.7942";;;
+"Firth of Forth";"http://marineregions.org/mrgid/3257";"North Sea";3257;"Firth";"56.095";"-2.93222222222222";"55.85346838";"-2.554731466";"56.27500155"
+"Moray Firth";"http://marineregions.org/mrgid/3342";"North Sea";3342;"Firth";"58";"-3";"57.42467086";"-3.277641367";"57.97303985"
+"Cape Midia";"http://marineregions.org/mrgid/15481";"Romania";15481;"Cape";"44.35";"28.6833333";;;
+"Romania";"http://marineregions.org/mrgid/5689";"Black Sea";5689;"EEZ";"44.260069313499";"30.048618469745";"43.44695";"31.34528";"45.21436"
+"Russia";"http://marineregions.org/mrgid/2240";;2240;"Nation";"61.5231";"44.178301";"41.186001";"68.716103";"81.860199"
+"Kristianiafjord";"http://marineregions.org/mrgid/3379";"Skagerrak";3379;"Fjord";"59.66666667";"10.61666667";;;
+"Atlantic Coast of Canada";"http://marineregions.org/mrgid/14910";"Canada";14910;"Coast";"52";"-56";;;
+"Trondheim";"http://marineregions.org/mrgid/17901";"Norway";17901;"Inhabited Place";"63.41667";"10.41667";;;
+"Boreal Arctic";"http://marineregions.org/mrgid/17404";"Arctic Ocean";17404;"General Sea Area";"75";"1";;;
+"North East America";"http://marineregions.org/mrgid/17511";;17511;"General Region";"50";"-70";;;
+"Durham Coast";"http://marineregions.org/mrgid/8957";"United Kingdom";8957;"Coast";"54.8";"-1.25";;;
+"Pacific Coast of Canada";"http://marineregions.org/mrgid/17961";"Canada";17961;"Coast";"52";"-128";;;
+"Kongsfjord";"http://marineregions.org/mrgid/5339";"Barentsz Sea";5339;"Fjord";"78.91666667";"11.93333333";;;
+"Oslofjord";"http://marineregions.org/mrgid/3379";"Skagerrak";3379;"Fjord";"59.66666667";"10.61666667";;;
+"Cape Hatteras";"http://marineregions.org/mrgid/8930";"United States";8930;"Cape";"35.2333333333333";"-75.5333333333333";;;
+"North Carolina";"http://marineregions.org/mrgid/8929";"United States";8929;"State";"35.24469";"-79.8861";"33.87999";"-75.44749";"36.60938"
+"Plymouth Sound";"http://marineregions.org/mrgid/3235";"English Channel";3235;"Sound";"50.33333333";"-4.16666667";;;
+"Bering Sea";"http://marineregions.org/mrgid/4310";"Bering Sea";4310;"IHO Sea Area";"54.393203";"-172.369927";"51.3507886089";"161.823778153";"66.56286"
+"South Greenland";"http://marineregions.org/mrgid/17997";;17997;"General Region";"63.23";"-46";;;
+"Annam";"http://marineregions.org/mrgid/8887";"Vietnam";8887;"General Region";"17";"107";;;
+"North West Pacific";"http://marineregions.org/mrgid/17975";"North Pacific Ocean";17975;"General Region";"47.51";"155";;;
+"Drobak Strait";"http://marineregions.org/mrgid/8954";"Skagerrak";8954;"Strait";;;;;
+"Lofoten Islands";"http://marineregions.org/mrgid/14285";"Norwegian Sea";14285;"Archipelago";"68.4711";"13.8636";"67.22";"16.8";"69.75"
+"Okhotsk Sea";"http://marineregions.org/mrgid/4309";"Sea of Okhotsk";4309;"IHO Sea Area";"53.2338589852";"148.92540464929";"43.21659433816";"167.16820895628";"62.9154825209"
+"Kullaberg Naturreservat";"http://marineregions.org/mrgid/9010";"Sweden";9010;"Marine Park";"56.31";"12.41";;;
+"Kamchatka";"http://marineregions.org/mrgid/9000";;9000;"Territory";"56";"159";;;
+"Flemish Banks";"http://marineregions.org/mrgid/2421";"Belgium";2421;"Sandbank System";"51.2877777777778";"2.64111111111111";;;
+"Flemish Banks";"http://marineregions.org/mrgid/2421";"North Sea";2421;"Sandbank System";"51.2877777777778";"2.64111111111111";;;
+"Dutch Coast";"http://marineregions.org/mrgid/22135";"Netherlands";22135;"Coast";"51.547376";"3.45374";"51.330158";"7.210279";"53.554437"
+"Halve Maan";"http://marineregions.org/mrgid/14329";"Belgium";14329;"Dike";"51.24";"2.93";;;
+"Holy Island";"http://marineregions.org/mrgid/5405";"Irish Sea and St. George's Channel";5405;"Island";"53.2866";"-4.6244";"53.2407";"-4.5541";"53.3325"
+"Digby";"http://marineregions.org/mrgid/21376";"Canada";21376;"Inhabited Place";"44.620795";"-65.758442";;;
+"Ria de Aveiro";"http://marineregions.org/mrgid/5617";"North Atlantic Ocean";5617;"Estuary";"40.63333333";"-8.75";;;
+"UK";"http://marineregions.org/mrgid/2208";"United Kingdom";2208;"Nation";"55.0205";"-3.44485";"49.1649";"1.7629";"60.8761"
+"The Wolves";"http://marineregions.org/mrgid/21427";"Canada";21427;"Archipelago";"44.958818";"-66.721137";"44.91";"-66.65";"45.02"
+"Chamcook";"http://marineregions.org/mrgid/21372";"Canada";21372;"Inhabited Place";"45.126439";"-67.071749";;;
+"Domburg";"http://marineregions.org/mrgid/227";"Netherlands";227;"Town";"51.5633333";"3.49583333";"51.56";"3.48";"51.57"
+"Den Helder";"http://marineregions.org/mrgid/14642";"Netherlands";14642;"Commune";"52.9619";"4.7676";;;
+"Ijmuiden";"http://marineregions.org/mrgid/14716";"Netherlands";14716;"Town";"52.4597";"4.6254";;;
+"Wissant";"http://marineregions.org/mrgid/1212";"France";1212;"Commune";"50.88759";"1.674815";"50.85963";"1.71511";"50.91555"
+"Lepreau";"http://marineregions.org/mrgid/21390";"Canada";21390;"Stream";"45.170326";"-66.46749";;;
+"Zandvoort";"http://marineregions.org/mrgid/20861";"Netherlands";20861;"Commune";"52.3725";"4.52917";;;
+"South America";"http://marineregions.org/mrgid/1925";;1925;"Continent";"-21.65598";"-63.22841";"-55.90223";"-34.79292";"12.59027"
+"Villefranche-Sur-Mer";"http://marineregions.org/mrgid/17913";"France";17913;"Commune";"43.7";"7.31667";;;
+"Nice";"http://marineregions.org/mrgid/14282";"France";14282;"Town";"43.7";"7.28333333333333";;;
+"Dennis";"http://marineregions.org/mrgid/17486";"United States";17486;"Town";"41.73539";"-70.19391";;;
+"New Brunswick (Canada)";"http://marineregions.org/mrgid/18791";"Canada";18791;"Province (administrative)";"46.5";"-66";"44.562245";"-63.762491";"48.072682"
+"Lambert's Bay";"http://marineregions.org/mrgid/9018";"South Africa";9018;"Town";"-32.1";"18.3166";;;
+"Port Phillip Bay";"http://marineregions.org/mrgid/14934";;14934;"Bay";"-38.15";"144.866667";"-38.6";"144.11";"-37.57"
+"Puerto Rican part of the Caribbean Sea";"http://marineregions.org/mrgid/25286";"Caribbean Sea";25286;"Marine Region";"16.877383";"-66.43622";"14.928363";"-63.888889";"18.877293"
+"Veneto";"http://marineregions.org/mrgid/3522";"Italy";3522;"Region";"45.7362";"11.86465";"44.7932";"13.1";"46.6792"
+"Guernsey";"http://marineregions.org/mrgid/2466";"United Kingdom";2466;"Island";"49.46695";"-2.59115";"49.4226";"-2.5031";"49.5113"
+"Helgoland";"http://marineregions.org/mrgid/3429";"Germany";3429;"Island";"54.1812";"7.896451";"54.1723";"7.9234";"54.1901"
+"Verrebroekdok";"http://marineregions.org/mrgid/8868";"Belgium";8868;"Dock";"51.26891";"4.214839";"51.25972";"4.224528";"51.2781"
+"Galgenweel";"http://marineregions.org/mrgid/9114";;9114;"Lake";"51.2127";"4.375";"51.21";"4.36";"51.22"
+"Arctic";"http://marineregions.org/mrgid/21721";;21721;"Realm";"71.9424";"-14.3234";;;
+"Greenland Sea";"http://marineregions.org/mrgid/2356";"Greenland Sea";2356;"IHO Sea Area";"74.2502716466";"-8.303164223";"65.00696182253";"17.48220300686";"82.78065447116"
+"Denmark Strait";"http://marineregions.org/mrgid/2377";"North Atlantic Ocean";2377;"Strait";"67.2591666666667";"26.0822222222222";;;
+"Jorgen Bronlund Fjord";"http://marineregions.org/mrgid/17654";;17654;"Fjord";"82.18333";"-30.75";;;
+"Porcupine Bank";"http://marineregions.org/mrgid/2382";"Ireland";2382;"Bank";"53.333333";"-13.666667";;;
+"North Norway";"http://marineregions.org/mrgid/17973";"Norway";17973;"General Region";"69.13";"18.37";;;
+"Temperate Northern Atlantic";"http://marineregions.org/mrgid/21717";;21717;"Realm";"45.8324";"-9.11916";;;
+"South East Coast of England";"http://marineregions.org/mrgid/17525";"United Kingdom";17525;"Coast";"51.14";"1.32";;;
+"North West Europe";"http://marineregions.org/mrgid/9252";;9252;"General Region";"61.8";"7.5";;;
+"Sivibilagbara";"http://marineregions.org/mrgid/26977";"Nigeria";26977;"Swamp";"4.6074";"7.2607";;;
+"Ukrainian part of the Black Sea";"http://marineregions.org/mrgid/25205";"Black Sea";25205;"Marine Region";"44.684015";"33.032639";"43.188055";"36.693884";"47.252354"
+"Exmouth";"http://marineregions.org/mrgid/17522";"United Kingdom";17522;"Town";"50.61723";"-3.40233";;;
+"Tarbert";"http://marineregions.org/mrgid/17883";"Inner Seas off the West Coast of Scotland";17883;"Inhabited Place";"57.9";"-6.8";;;
+"Dublin";"http://marineregions.org/mrgid/17496";"Ireland";17496;"City";"53.33306";"-6.24889";;;
+"South Ireland";"http://marineregions.org/mrgid/17651";"Ireland";17651;"General Region";"52.10651";"-9.14063";;;
+"Ballynakilla harbour";"http://marineregions.org/mrgid/17385";"Ireland";17385;"Harbour";"51.64556";"-9.85833";;;
+"Messina";"http://marineregions.org/mrgid/17730";"Mediterranean Sea - Eastern Basin";17730;"Commune";"38.19327";"15.54969";;;
+"Naples";"http://marineregions.org/mrgid/20311";"Italy";20311;"City";"40.8";"14.25";;;
+"Monaco";"http://marineregions.org/mrgid/2222";"Monaco";2222;"Nation";"43.7379";"7.4259";"43.7256";"7.4393";"43.7502"
+"Eastern Central Atlantic";"http://marineregions.org/mrgid/18023";;18023;"General Sea Area";"10.15";"-21";;;
+"West Central Atlantic";"http://marineregions.org/mrgid/18024";;18024;"General Sea Area";"10.15";"-59";"-23.439";"-18.8";"23.439"
+"Whitby";"http://marineregions.org/mrgid/17928";"United Kingdom";17928;"Inhabited Place";"54.48667";"-0.63056";;;
+"Northumberland Coast";"http://marineregions.org/mrgid/5400";"United Kingdom";5400;"Coast";"55.55";"-1.55";;;
+"Durham";"http://marineregions.org/mrgid/4397";"United Kingdom";4397;"County";"54.68525";"-1.798";"54.4507";"-1.2398";"54.9198"
+"Thames Estuary";"http://marineregions.org/mrgid/3241";"North Sea";3241;"Estuary";"51.5586111111111";"1.00861111111111";"51.26686291";"1.42928606";"51.5731545"
+"Starcross";"http://marineregions.org/mrgid/17867";"United Kingdom";17867;"Inhabited Place";"50.61667";"-3.45";;;
+"Start bay";"http://marineregions.org/mrgid/17868";"United Kingdom";17868;"Bay";"50.25";"-3.6";"50.22";"-3.57";"50.32"
+"Colwyn Bay";"http://marineregions.org/mrgid/17463";"United Kingdom";17463;"Town";"53.3";"-3.75";"53.29";"-3.76";"53.32"
+"Port Erin";"http://marineregions.org/mrgid/17801";"Irish Sea and St. George's Channel";17801;"Harbour";"54.1";"-4.78333";;;
+"Peel";"http://marineregions.org/mrgid/17785";"Irish Sea and St. George's Channel";17785;"Town";"54.22209";"-4.69099";"54.21";"-4.7";"54.23"
+"Aberdeen";"http://marineregions.org/mrgid/4502";"United Kingdom";4502;"Unitary Authority";"57.1586";"-2.20595";"57.0787";"-2.0484";"57.2385"
+"Banff";"http://marineregions.org/mrgid/17387";"North Sea";17387;"Bay";"57.66667";"-2.51667";"57.66";"-2.53";"57.68"
+"Clare Island";"http://marineregions.org/mrgid/5315";"North Atlantic Ocean";5315;"Island";"53.80945";"-9.9967";"53.7897";"-9.9432";"53.8292"
+"Galway Bay";"http://marineregions.org/mrgid/5574";"North Atlantic Ocean";5574;"Bay";"53.18";"-9.43";;;
+"Blacksod Bay";"http://marineregions.org/mrgid/7996";"North Atlantic Ocean";7996;"Bay";"54.0631";"-10.0378";"54";"-9.92";"54.22"
+"French Exclusive Economic Zone";"http://marineregions.org/mrgid/5677";"France";5677;"EEZ";"45.958523973682";"-1.731034726156";"41.15083";"10.37586";"51.55777"
+"Goletta";"http://marineregions.org/mrgid/17598";"Tunisia";17598;"Town";"36.81806";"10.305";;;
+"Banyuls";"http://marineregions.org/mrgid/19821";"France";19821;"Inhabited Place";"42.48375";"3.12897";;;
+"Roundstone";"http://marineregions.org/mrgid/7993";"Ireland";7993;"Town";"53.4";"-9.91666666666667";;;
+"East Scotland";"http://marineregions.org/mrgid/17979";"United Kingdom";17979;"General Region";"57.36";"-2.35";;;
+"Millport";"http://marineregions.org/mrgid/17736";"United Kingdom";17736;"Town";"55.75";"-4.95";;;
+"Heligoland Bay";"http://marineregions.org/mrgid/17618";"North Sea";17618;"Bay";"54.16667";"8.06667";"53.59";"7.62";"54.39"
+"Seine, mouth";"http://marineregions.org/mrgid/17853";"France";17853;"Estuary";"49.43";"0.16";;;
+"Casablanca";"http://marineregions.org/mrgid/17436";"Morocco";17436;"City";"33.59";"-7.61";;;
+"Sierra Leone River";"http://marineregions.org/mrgid/15280";;15280;"Stream";"8.5";"-13.25";;;
+"Granton";"http://marineregions.org/mrgid/14914";"United Kingdom";14914;"Town";"55.9667";"-3.2167";;;
+"Syracuse";"http://marineregions.org/mrgid/17876";"Mediterranean Sea - Eastern Basin";17876;"Inhabited Place";"37.08515";"15.273";;;
+"La Spezia";"http://marineregions.org/mrgid/17686";"Italy";17686;"City";"44.11054";"9.84339";;;
+"Sebastopol";"http://marineregions.org/mrgid/14964";;14964;"City";"44.6";"33.53333";;;
+"Odessa";"http://marineregions.org/mrgid/15020";"Ukraine";15020;"City";"46.46667";"30.73333";;;
+"Finnish Exclusive Economic Zone";"http://marineregions.org/mrgid/5676";"Baltic Sea";5676;"EEZ";"61.64449937321";"20.388360328522";"58.8445";"27.80783";"65.8961"
+"Port Said";"http://marineregions.org/mrgid/14743";"Egypt";14743;"Town";"31.2667";"32.3";;;
+"Malacca Strait";"http://marineregions.org/mrgid/4275";"Malacca Strait";4275;"IHO Sea Area";"4.99047865179";"99.19387592833";"0.85731550907";"103.51065042784";"8.45399510899"
+"Tunis";"http://marineregions.org/mrgid/21595";"Tunisia";21595;"City";"36.80278";"10.17972";;;
+"Venice";"http://marineregions.org/mrgid/14681";"Italy";14681;"City";"45.4345";"12.3384";;;
+"IJsselmeer";"http://marineregions.org/mrgid/17633";"Netherlands";17633;"Lake";"52.81667";"5.25";"52.2729";"6.0234";"53.2302"
+"Carantec";"http://marineregions.org/mrgid/17434";"France";17434;"Town";"48.66667";"-3.91667";"48.66";"-3.93";"48.68"
+"Penzé estuary";"http://marineregions.org/mrgid/17786";"France";17786;"Estuary";"48.616664886475";"-3.9500000476837";;;
+"Gulf of Salerno";"http://marineregions.org/mrgid/3560";"Tyrrhenian Sea";3560;"Gulf";"40.5577777777778";"14.7786111111111";"40.25";"14.3";"40.6"
+"Trieste";"http://marineregions.org/mrgid/17900";"Italy";17900;"City";"45.64861";"13.78";;;
+"Cavallino";"http://marineregions.org/mrgid/17438";"Italy";17438;"Town";"40.31253";"18.20042";"40.3";"18.19";"40.32"
+"Istria";"http://marineregions.org/mrgid/17643";"Romania";17643;"Town";"44.56667";"28.71667";;;
+"Dalmatia";"http://marineregions.org/mrgid/3635";"Croatia";3635;"General Region";"43.16667";"16.5";;;
+"Corfu";"http://marineregions.org/mrgid/3649";"Ionian Sea";3649;"Island";"39.5915";"19.876";"39.3608";"20.1225";"39.8222"
+"Lesbos";"http://marineregions.org/mrgid/3685";"Aegean Sea";3685;"Island";"39.1756";"26.22405";"38.9622";"26.6162";"39.389"
+"Kólpos Kassándras";"http://marineregions.org/mrgid/17674";"Greece";17674;"Gulf";"40.1";"23.5";;;
+"Havran";"http://marineregions.org/mrgid/17616";"Turkey";17616;"Town";"39.55833";"27.09833";;;
+"Costinesti";"http://marineregions.org/mrgid/17473";"Romania";17473;"Town";"43.95";"28.63333";;;
+"Karasu";"http://marineregions.org/mrgid/15387";"Turkey";15387;"City";"41.07028";"30.78361";;;
+"Port-de-Bouc";"http://marineregions.org/mrgid/17807";"France";17807;"Commune";"43.40657";"4.9809";;;
+"Marseille";"http://marineregions.org/mrgid/15201";"France";15201;"City";"43.3";"5.4";;;
+"Nile delta";"http://marineregions.org/mrgid/3867";"Egypt";3867;"Delta";"30.9577777777778";"31.0222222222222";"29.99";"29.57";"31.65"
+"Menton";"http://marineregions.org/mrgid/17728";"France";17728;"Commune";"43.78333";"7.5";;;
+"Izmir";"http://marineregions.org/mrgid/17644";"Turkey";17644;"Town";"38.40722";"27.15028";;;
+"North East Africa";"http://marineregions.org/mrgid/19675";;19675;"General Region";"7.36247";"49.05469";;;
+"West Indian Ocean";"http://marineregions.org/mrgid/7126";"Indian Ocean";7126;"General Sea Area";"-28";"55";;;
+"East Indian Ocean";"http://marineregions.org/mrgid/17508";"Indian Ocean";17508;"General Sea Area";"1.3700000047684";"90.290000915527";;;
+"Whitesands Bay";"http://marineregions.org/mrgid/17929";"English Channel";17929;"Bay";"50.33333";"-4.28333";"50.3";"-4.47";"50.38"
+"Tyne estuary";"http://marineregions.org/mrgid/3243";;3243;"Estuary";"56.0094444444444";"-2.59527777777778";;;
+"Pembrokeshire";"http://marineregions.org/mrgid/4495";"United Kingdom";4495;"Unitary Authority";"51.857651";"-4.9483";"51.596901";"-4.4851";"52.118401"
+"Faroe-Shetland Channel";"http://marineregions.org/mrgid/2390";"North Atlantic Ocean";2390;"Seachannel";"62";"-3";;;
+"Fair Island";"http://marineregions.org/mrgid/17530";"United Kingdom";17530;"Island";"59.53333";"-1.65";"59.49";"-1.69";"59.58"
+"Firth of Clyde";"http://marineregions.org/mrgid/3273";"Inner Seas off the West Coast of Scotland";3273;"Firth";"55.7986111111111";"-5.27472222222222";"54.88507842";"-4.331274972";"56.47112246"
+"West Ireland";"http://marineregions.org/mrgid/17652";"Ireland";17652;"General Region";"53.23892";"-8.59131";;;
+"Oslofjorde";"http://marineregions.org/mrgid/3379";"Skagerrak";3379;"Fjord";"59.66666667";"10.61666667";;;
+"Lofoten";"http://marineregions.org/mrgid/14285";"Norwegian Sea";14285;"Archipelago";"68.4711";"13.8636";"67.22";"16.8";"69.75"
+"Skagerrak strait";"http://marineregions.org/mrgid/2379";"Skagerrak";2379;"IHO Sea Area";"58.1397547443";"9.64191545629";"57.09880185142";"11.91655933884";"59.91914391516"
+"Loch Fyne";"http://marineregions.org/mrgid/17706";"United Kingdom";17706;"Inlet";"55.93333";"-5.4";;;
+"Oslo";"http://marineregions.org/mrgid/14742";"Norway";14742;"County";"59.9333";"10.75";;;
+"Cleggan Bay";"http://marineregions.org/mrgid/17445";"Ireland";17445;"Bay";"53.56583";"-10.12694";"53.55";"-10.16";"53.58"
+"English Coast";"http://marineregions.org/mrgid/5487";"United Kingdom";5487;"Coast";"50.7";"-1.3";;;
+"North Europe";"http://marineregions.org/mrgid/9246";;9246;"General Region";"63.8";"24.5";;;
+"Finnmark";"http://marineregions.org/mrgid/8962";"Norway";8962;"County";"69.86945";"26.16435";"68.5552";"31.1564";"71.1837"
+"Circumpolar";"http://marineregions.org/mrgid/5395";"Southern Ocean";5395;"Current";;;;;
+"Eastern Central Pacific";"http://marineregions.org/mrgid/18061";;18061;"General Sea Area";"1e-08";"-100";;;
+"South Indian Ocean";"http://marineregions.org/mrgid/17998";"Indian Ocean";17998;"General Sea Area";"-44";"74";;;
+"East Looe Estuary";"http://marineregions.org/mrgid/17510";"United Kingdom";17510;"Estuary";"50.349998474121";"-4.4333333969116";;;
+"Kiel Bay";"http://marineregions.org/mrgid/3400";"Baelt Sea";3400;"Bight";"54.583333";"10.666667";;;
+"Mariager fjord";"http://marineregions.org/mrgid/3503";"Kattegat";3503;"Fjord";"56.6880555555556";"10.0777777777778";;;
+"Boulonnais";"http://marineregions.org/mrgid/17408";"North Sea";17408;"General Region";"50.7";"1.66667";;;
+"Concarneau";"http://marineregions.org/mrgid/5212";"Bay of Biscay";5212;"Bay";"47.8636111111111";"-3.94416666666667";"47.84";"-4.01";"47.91"
+"Cork";"http://marineregions.org/mrgid/7962";"Ireland";7962;"Town";"51.9";"-8.46666666666667";;;
+"Belfast Lough";"http://marineregions.org/mrgid/7931";"Inner Seas off the West Coast of Scotland";7931;"Inlet";"54.6787";"-5.8178";"54.6071738";"-5.604049285";"54.78264475"
+"Bouches-du-Rhone";"http://marineregions.org/mrgid/17407";"France";17407;"Department";"43.5";"5";;;
+"Tjärnö";"http://marineregions.org/mrgid/17891";"Sweden";17891;"Inhabited Place";"58.86667";"11.15";;;
+"Aran Islands (Ireland)";"http://marineregions.org/mrgid/8303";"North Atlantic Ocean";8303;"Archipelago";"53.1037";"-9.68125";"53.0456";"-9.5014";"53.1618"
+"Bab-El-Mandab";"http://marineregions.org/mrgid/9080";"Red Sea";9080;"Strait";"12.58333";"43.41667";;;
+"Bantry Bay";"http://marineregions.org/mrgid/5569";"North Atlantic Ocean";5569;"Bay";"51.6502";"-9.6632";;;
+"Dunbeacon";"http://marineregions.org/mrgid/17499";"Ireland";17499;"Tower";"51.58333";"-9.56667";;;
+"Merrion";"http://marineregions.org/mrgid/17729";"Ireland";17729;"Beach";"53.31694";"-6.19444";;;
+"Cullercoats";"http://marineregions.org/mrgid/14751";"United Kingdom";14751;"Town";"55.0333";"-1.4167";;;
+"Oban";"http://marineregions.org/mrgid/5486";"United Kingdom";5486;"Town";"56.41195";"-5.4718";"56.3984";"-5.4521";"56.4255"
+"Boknafjorden";"http://marineregions.org/mrgid/3378";"North Sea";3378;"Fjord";"59.16667";"5.58333";;;
+"Leirvik";"http://marineregions.org/mrgid/17701";"Norway";17701;"Town";"59.78";"5.49944";;;
+"Florö";"http://marineregions.org/mrgid/14726";"Norway";14726;"Town";"61.6";"5.0667";;;
+"Vadso";"http://marineregions.org/mrgid/17907";"Norway";17907;"Inhabited Place";"70.07306";"29.76972";;;
+"Salcombe";"http://marineregions.org/mrgid/17843";"United Kingdom";17843;"Inhabited Place";"50.23333";"-3.76667";;;
+"Langesund";"http://marineregions.org/mrgid/17697";"Norway";17697;"Bay";"59";"9.75";"58.97";"9.61";"59.12"
+"Gotland";"http://marineregions.org/mrgid/3624";"Baltic Sea";3624;"Island";"57.41725";"18.5941";"56.9052";"19.0977";"57.9293"
+"Stranden";"http://marineregions.org/mrgid/17871";"Norway";17871;"Inhabited Place";"58.88333";"5.78333";;;
+"Seaham Harbour";"http://marineregions.org/mrgid/14753";"United Kingdom";14753;"Harbour";"54.8373";"-1.324";;;
+"Liverpool Bay";"http://marineregions.org/mrgid/3246";"Irish Sea and St. George's Channel";3246;"Bay";"53.4566666666667";"-3.12222222222222";"52.78350362";"-2.671846326";"53.96993022"
+"Drøbak";"http://marineregions.org/mrgid/17495";"Norway";17495;"City";"59.66333";"10.63111";;;
+"Devon";"http://marineregions.org/mrgid/3168";"United Kingdom";3168;"County";"50.7245";"-3.7827";"50.2013";"-2.8844";"51.2477"
+"Cornwall";"http://marineregions.org/mrgid/3147";"United Kingdom";3147;"County";"50.44565";"-4.95665";"49.9594";"-4.1664";"50.9319"
+"Dingle bay";"http://marineregions.org/mrgid/5571";"North Atlantic Ocean";5571;"Bay";"52.05";"-10.26";;;
+"Kenmare river estuary";"http://marineregions.org/mrgid/5317";"North Atlantic Ocean";5317;"Estuary";"51.75";"-10";;;
+"Ballycotton";"http://marineregions.org/mrgid/7973";"Ireland";7973;"Town";"51.8246";"-8.0103";;;
+"Sneem";"http://marineregions.org/mrgid/17860";"Ireland";17860;"Inhabited Place";"51.83333";"-9.9";;;
+"North France";"http://marineregions.org/mrgid/17541";"France";17541;"General Region";"50.083332061768";"0.83333331346512";;;
+"Peterhead";"http://marineregions.org/mrgid/17789";"United Kingdom";17789;"Town";"57.5";"-1.78333";;;
+"St. Andrews Bay";"http://marineregions.org/mrgid/18019";"Gulf of Mexico";18019;"Bay";"30.24159";"-87.95805";"30.23";"-87.965";"30.25"
+"Blackpool";"http://marineregions.org/mrgid/4385";"United Kingdom";4385;"Unitary Authority";"53.8246";"-3.02195";"53.7725";"-2.9856";"53.8767"
+"Hartlepool Bay";"http://marineregions.org/mrgid/17614";"North Sea";17614;"Bay";"54.68333";"-1.18333";"54.67";"-1.17";"54.7"
+"North Wales";"http://marineregions.org/mrgid/17956";"United Kingdom";17956;"General Region";"53.1";"-3.64";;;
+"Troon";"http://marineregions.org/mrgid/17902";"United Kingdom";17902;"Inhabited Place";"55.53333";"-4.66667";;;
+"Ayr";"http://marineregions.org/mrgid/17375";"United Kingdom";17375;"Town";"55.45";"-4.61667";;;
+"Donegal";"http://marineregions.org/mrgid/5566";"Ireland";5566;"County";"54.94545";"-7.8766";"54.4591";"-6.9219";"55.4318"
+"Cape Howe";"http://marineregions.org/mrgid/21940";;21940;"Marine Ecoregion of the World (MEOW)";"-37.3151";"149.714";;;
+"Central North Sea";"http://marineregions.org/mrgid/17441";"North Sea";17441;"General Sea Area";"53.12";"2.81";;;
+"Antarctic Peninsula";"http://marineregions.org/mrgid/9978";;9978;"Peninsula";"-69.5";"-65";;;
+"Scotia Sea";"http://marineregions.org/mrgid/21742";;21742;"Marine Province";"-61.6082";"-50.4294";;;
+"South Argentina";"http://marineregions.org/mrgid/22131";"Argentina";22131;"General Region";"-49.75";"-69.8";;;
+"South Chile";"http://marineregions.org/mrgid/17987";"Chile";17987;"General Region";"-53.54";"-72.25";;;
+"Bouvet Island part of the South Atlantic Ocean";"http://marineregions.org/mrgid/25519";"South Atlantic Ocean";25519;"Marine Region";"-54.467213";"3.407378";"-57.79867";"9.202148";"-51.068029"
+"Crozet Islands part of the Indian Ocean";"http://marineregions.org/mrgid/25547";"Indian Ocean";25547;"Marine Region";"-46.322719";"51.211901";"-49.819224";"57.15744";"-43.616908"
+"Marion-Prince Edward Is.";"http://marineregions.org/mrgid/48293";;48293;"TDWG - level 4";"-46.8594113459216";"37.7603979817018";"-46.9697265625";"37.9816665649415";"-46.5963897705078"
+"Kerguelen Islands part of the Indian Ocean";"http://marineregions.org/mrgid/25549";"Indian Ocean";25549;"Marine Region";"-48.95636";"68.826722";"-53.235256";"75.653695";"-45.118528"
+"Heard Island";"http://marineregions.org/mrgid/17300";;17300;"Island";"-53.1";"73.5333055556";;;
+"South Pacific Abyssal Province";"http://marineregions.org/mrgid/33672";;33672;"Abyssal Provinces";"-32.464097601374";"-157.61953419359";;;
+"Campbell Plateau";"http://marineregions.org/mrgid/5997";"South Pacific Ocean";5997;"Plateau";"-50.666667";"171";;;
+"Uruguay";"http://marineregions.org/mrgid/2216";"Uruguay";2216;"Nation";"-32.52024";"-55.76846";"-34.94382";"-53.0983";"-30.09667"
+"Tierra del Fuego";"http://marineregions.org/mrgid/17890";"Chile";17890;"Island";"-54";"-69";"-55.2666";"-70.65308";"-52.3756"
+"North American Basin";"http://marineregions.org/mrgid/5165";"North Atlantic Ocean";5165;"Basin";"30";"-60";;;
+"Newfoundland Basin";"http://marineregions.org/mrgid/4559";"North Atlantic Ocean";4559;"Basin";"42.5";"-43";;;
+"South Angola";"http://marineregions.org/mrgid/17427";"Angola";17427;"General Region";"-16";"12";;;
+"Cape Basin";"http://marineregions.org/mrgid/6848";"South Atlantic Ocean";6848;"Basin";"-35.75";"6.75";;;
+"False Bay (South Africa)";"http://marineregions.org/mrgid/32950";"South Africa";32950;"Bay";"-34.17286";"18.66443";;;
+"Aleutian Islands";"http://marineregions.org/mrgid/17360";;17360;"Archipelago";"52";"-173";"46.26";"-160.24";"57.61"
+"Alaska";"http://marineregions.org/mrgid/8684";;8684;"State";"64.2634";"-152.56";"51.590982";"-178.227818";"71.390482"
+"Bohuslän";"http://marineregions.org/mrgid/14721";"Sweden";14721;"County";"58.2144";"11.7371";;;
+"Cape Bojador";"http://marineregions.org/mrgid/15089";"Morocco";15089;"Cape";"26.1333";"-14.5";;;
+"French Exclusive Economic Zone [Mediterranean part]";"http://marineregions.org/mrgid/8761";"Mediterranean Sea - Western Basin";8761;"Marine Region";"42.521491";"6.784678";"41.150833";"10.375857";"43.78458"
+"Western Mediterranean";"http://marineregions.org/mrgid/21896";;21896;"Marine Ecoregion of the World (MEOW)";"39.3942";"6.41129";;;
+"Central Mediterranean";"http://marineregions.org/mrgid/23489";"Central Mediterranean";23489;"Sea";;;;;
+"Rockall Bank";"http://marineregions.org/mrgid/4207";"North Atlantic Ocean";4207;"Bank";"56.590125256819";"-14.821847098392";"55.5";"-13.5";"58.166672"
+"Chuki Sea";"http://marineregions.org/mrgid/21280";"Chuki Sea";21280;"Sea";;;;;
+"East Britain";"http://marineregions.org/mrgid/17505";"United Kingdom";17505;"General Region";"52";"1e-05";;;
+"Eastern North America";"http://marineregions.org/mrgid/18106";;18106;"General Region";"55";"-66";"25";"-50";"78"
+"Agulhas Bank";"http://marineregions.org/mrgid/21806";;21806;"Marine Ecoregion of the World (MEOW)";"-34.7092";"22.4701";;;
+"North Cape (Norway)";"http://marineregions.org/mrgid/21333";"Norway";21333;"Cape";"71.17089";"25.7844";;;
+"Central New Zealand";"http://marineregions.org/mrgid/21948";;21948;"Marine Ecoregion of the World (MEOW)";"-41.3777";"168.517";;;
+"South New Zealand";"http://marineregions.org/mrgid/21945";;21945;"Marine Ecoregion of the World (MEOW)";"-46.118";"168.085";;;
+"Chatham Island";"http://marineregions.org/mrgid/21947";;21947;"Marine Ecoregion of the World (MEOW)";"-43.9962";"-174.468";;;
+"Bassian";"http://marineregions.org/mrgid/21938";;21938;"Marine Ecoregion of the World (MEOW)";"-42.0026";"146.485";;;
+"Northeastern New Zealand";"http://marineregions.org/mrgid/21915";;21915;"Marine Ecoregion of the World (MEOW)";"-36.3573";"100.073";;;
+"Philippines Exclusive Economic Zone";"http://marineregions.org/mrgid/8322";"Philippines";8322;"EEZ";"18.343234732883";"124.096988628109";"3.000332";"129.9439";"22.17896"
+"Dinard";"http://marineregions.org/mrgid/15113";"France";15113;"Town";"48.6333";"-2.05";"48.62";"-2.08";"48.64"
+"North Scotland";"http://marineregions.org/mrgid/17980";"United Kingdom";17980;"General Region";"58.1";"-4.5";;;
+"North West Scotland";"http://marineregions.org/mrgid/15234";"United Kingdom";15234;"General Region";"57.7";"-5.7";;;
+"South Coast of Ireland";"http://marineregions.org/mrgid/8662";"Celtic Sea";8662;"General Sea Area";"51.63";"-7.68";;;
+"Lossini";"http://marineregions.org/mrgid/17709";"Croatia";17709;"Island";"44.58611";"14.39694";"44.48";"14.3";"44.72"
+"Boulogne-sur-Mer";"http://marineregions.org/mrgid/983";"France";983;"City";"50.73067";"1.606355";"50.70975";"1.63399";"50.75158"
+"North West Territories";"http://marineregions.org/mrgid/18847";"Canada";18847;"Territory";"69.500306";"-121.502223";"59.999818";"-102.000009";"78.761345"
+"Ungava Bay";"http://marineregions.org/mrgid/23497";"Canada";23497;"Bay";"59.5";"-67.5";"58.33";"-69.72";"61.07"
+"British Columbia";"http://marineregions.org/mrgid/8909";"Canada";8909;"Province (administrative)";"54";"-125";"48.3011";"-114.0347";"60.00386"
+"Italian Exclusive Economic Zone";"http://marineregions.org/mrgid/5682";"Mediterranean Sea";5682;"EEZ";"39.627068587973";"12.957215869633";"34.7668";"18.9868";"45.78333"
+"Hawaiian Exclusive Economic Zone";"http://marineregions.org/mrgid/8453";"North Pacific Ocean";8453;"EEZ";"23.944978";"-165.638399";"15.56312";"-151.25";"31.79787"
+"Kenya";"http://marineregions.org/mrgid/2118";"Kenya";2118;"Nation";"-0.02355909";"37.90619";"-4.669618";"41.90516";"4.6225"
+"Tanzania";"http://marineregions.org/mrgid/2205";"Tanzania";2205;"Nation";"-6.368818";"34.88882";"-11.74042";"40.43681";"-0.997218"
+"Southern Ocean";"http://marineregions.org/mrgid/1907";;1907;"IHO Sea Area";"-68.03981889232";"-26.63285800737";"-85.56249999978";"180";"-60"
+"Banyuls-sur-Mer";"http://marineregions.org/mrgid/14686";;14686;"Town";"42.482";"3.1274";;;
+"Réunion Exclusive Economic Zone";"http://marineregions.org/mrgid/8338";"Indian Ocean";8338;"EEZ";"-21.742090919734";"54.702254565932";"-24.71047";"58.23972";"-18.28639"
+"Baltic Sea";"http://marineregions.org/mrgid/21907";;21907;"Marine Ecoregion of the World (MEOW)";"59.7624";"21.9208";;;
+"Bonne Bay";"http://marineregions.org/mrgid/18799";"Canada";18799;"Bay";"49.5533333";"-57.9313889";"49.47";"-58.05";"49.68"
+"Mediterranean Sea";"http://marineregions.org/mrgid/21752";;21752;"Marine Province";"36.4669";"16.5281";;;
+"Greenlandic part of the Arctic Ocean";"http://marineregions.org/mrgid/25261";;25261;"Marine Region";"84.682006";"-24.197381";"81.170259";"8.115824";"87.023944"
+"Trinidad and Tobago";"http://marineregions.org/mrgid/8420";"Trinidad and Tobago";8420;"EEZ";"10.930527293666";"-59.918387720645";"9.831944";"-57.28691";"12.33143"
+"Belte";"http://marineregions.org/mrgid/3294";"Baelt Sea";3294;"Sea";"55.825";"10.8889";;;
+"Gulf of Naples";"http://marineregions.org/mrgid/3558";"Tyrrhenian Sea";3558;"Gulf";"40.7";"14.25";"40.62";"14.16";"40.83"
+"Isola di Favignana";"http://marineregions.org/mrgid/29298";;29298;"Natura 2000 Site of Community Importance (SCI, EU Habitats Directive)";"37.92823";"12.31836";;;
+"New England (USA)";"http://marineregions.org/mrgid/18970";;18970;"General Region";"44.205556";"-70.306425";;;
+"Belize";"http://marineregions.org/mrgid/8681";"Belize";8681;"Nation";"17.18988";"-88.498";"15.88986";"-87.77959";"18.4899"
+"Casco Bay";"http://marineregions.org/mrgid/8941";;8941;"Bay";"43.675";"-69.974";;;
+"West Europe";"http://marineregions.org/mrgid/17588";;17588;"General Region";"48.35";"0.7";;;
+"Hébrides";"http://marineregions.org/mrgid/14834";;14834;"Archipelago";"56.9934";"-6.9415";"55.62";"-8.75";"58.96"
+"Black Sea";"http://marineregions.org/mrgid/21750";;21750;"Marine Province";"43.9482";"35.1801";;;
+"Cacuaco";"http://marineregions.org/mrgid/9144";;9144;"Town";"-8.7666";"13.4";;;
+"Curaçao";"http://marineregions.org/mrgid/19143";"Caribbean Sea";19143;"Island";"12.1667";"-68.65";"11.9332";"-69.25919";"12.45937"
+"Aruba";"http://marineregions.org/mrgid/8652";"Caribbean Sea";8652;"Dependent State";"12.51944";"-69.96726";"12.41111";"-69.87486";"12.62777"
+"Bonaire";"http://marineregions.org/mrgid/15074";"Caribbean Sea";15074;"Municipality";"12.2";"-68.25";;;
+"Vanikoro";"http://marineregions.org/mrgid/32828";;32828;"Island";"-11.65935";"166.89418";;;
+"Philippines";"http://marineregions.org/mrgid/2245";"Philippines";2245;"Nation";"12.22014";"121.774";"5.049164";"126.598";"19.39111"
+"Alaskan part of the Gulf of Alaska";"http://marineregions.org/mrgid/25503";"Gulf of Alaska";25503;"Marine Region";"57.941832";"-148.987845";"54.312822";"-136.658909";"61.508327"
+"Port-Vendres";"http://marineregions.org/mrgid/14277";"France";14277;"Town";"42.51792";"3.10553";;;
+"Belgium";"http://marineregions.org/mrgid/14";"Belgium";14;"Nation";"50.5007495880127";"4.47704994678497";"49.4972991943359";"6.40749979019165";"51.5041999816895"
+"New Jersey";"http://marineregions.org/mrgid/9038";;9038;"State";"40.14052";"-74.73042";"38.92298";"-73.90361";"41.35806"
+"Dublin Bay";"http://marineregions.org/mrgid/5316";"Irish Sea and St. George's Channel";5316;"Bay";"53.33333333";"-6.15";"53.28";"-6.05";"53.38"
+"Isefjord";"http://marineregions.org/mrgid/3473";;3473;"Fjord";"55.8611111111111";"11.7922222222222";;;
+"Sint-Idesbald";"http://marineregions.org/mrgid/14284";"Belgium";14284;"Village";"51.116666666";"2.61146";"51.1";"2.6";"51.12"
+"Comores and Mayotte";"http://marineregions.org/mrgid/25119";;25119;"Archipelago";;;"-11.31";"45.35";"-13.05"
+"Magellan Strait";"http://marineregions.org/mrgid/9024";;9024;"Strait";"-53.34";"-70.67";;;
+"Sri Lankan Exclusive Economic Zone";"http://marineregions.org/mrgid/8346";;8346;"EEZ";"7.898739523156";"83.371630617556";"2.581849";"85.23746";"11.44333"
+"Malay Archipelago";"http://marineregions.org/mrgid/15198";;15198;"Archipelago";"1e-04";"120";"-10.49";"92.53";"9.62"
+"Japanese Exclusive Economic Zone";"http://marineregions.org/mrgid/8487";;8487;"EEZ";"29.507561004087";"138.476665819406";"17.09134";"147.8597";"46.04872"
+"Maldives Exclusive Economic Zone";"http://marineregions.org/mrgid/8345";;8345;"EEZ";"2.4824127701065";"73.083369509483";"-4.038888";"77.095";"8.093889"
+"Algiers";"http://marineregions.org/mrgid/25965";;25965;"Province (administrative)";"36.698";"3.218";;;
+"Jameos del Agua Cave";"http://marineregions.org/mrgid/5583";"North Atlantic Ocean";5583;"Cave";"29.156944";"-13.431944";;;
+"South Georgian part of the Southern Ocean";"http://marineregions.org/mrgid/25667";;25667;"Marine Region";"-61.172569";"-27.162566";"-62.783296";"-20.297091";"-60"
+"Jamaican Exclusive Economic Zone";"http://marineregions.org/mrgid/8459";;8459;"EEZ";"16.704987320037";"-77.28930404383";"14.08333";"-74.51389";"19.35654"
+"Alexandria Harbour";"http://marineregions.org/mrgid/16478";"Egypt";16478;"Harbour";"31.2";"29.9";;;
+"Norwegian part of the Skagerrak";"http://marineregions.org/mrgid/25229";"Skagerrak";25229;"Marine Region";"58.376213";"9.224067";"57.485517";"11.432773";"59.903045"
+"Brehat";"http://marineregions.org/mrgid/22305";;22305;"Island";"48.85";"-3";"48.83";"-2.97";"48.87"
+"Ponta de Sagres";"http://marineregions.org/mrgid/33054";;33054;"Point";"36.99648";"-8.9484";;;
+"Greenlandic part of the North Atlantic Ocean";"http://marineregions.org/mrgid/25358";;25358;"Marine Region";"62.444391";"-37.13609";"56.383177";"-25.9917";"68.6236"
+"Nicobar Islands";"http://marineregions.org/mrgid/17558";;17558;"Archipelago";"8";"93.5";"6.54456";"92.29065";"9.56825"
+"St. Helena Exclusive Economic Zone";"http://marineregions.org/mrgid/8380";;8380;"EEZ";"-15.915";"-5.719";"-19.36198";"-2.166781";"-12.57131"
+"Maine";"http://marineregions.org/mrgid/8939";"United States";8939;"State";"45.27296";"-69.02798";"43.07803";"-66.97083";"47.46789"
+"Egyptian part of the Mediterranean Sea - Eastern Basin";"http://marineregions.org/mrgid/25198";"Mediterranean Sea - Eastern Basin";25198;"Marine Region";"32.262151";"29.619951";"30.821391";"34.217425";"33.811342"
+"Bommenede";"http://marineregions.org/mrgid/17402";"Netherlands";17402;"Island";"51.7333";"3.9333";"51.7325";"3.90633";"51.74239"
+"Zwarte Polder";"http://marineregions.org/mrgid/17943";"Netherlands";17943;"Polder";"51.38333";"3.45";;;
+"Massachusetts";"http://marineregions.org/mrgid/8927";"United States";8927;"State";"42.06805";"-71.71917";"41.24694";"-69.92722";"42.88916"
+"Straits of Drobak";"http://marineregions.org/mrgid/8954";;8954;"Strait";;;;;
+"Normandy";"http://marineregions.org/mrgid/17460";;17460;"Former administrative division";"49";"1e-08";;;
+"Puerto Rico";"http://marineregions.org/mrgid/8641";;8641;"Dependent State";"18.22083";"-66.28376";"17.92222";"-65.30112";"18.51945"
+"Santa Catarina";"http://marineregions.org/mrgid/19055";;19055;"State";"-27";"-50";;;
+"Arabian Sea";"http://marineregions.org/mrgid/4268";;4268;"IHO Sea Area";"13.33512865951";"63.99431793475";"-0.70336914037";"74.335017443";"25.5973770618"
+"Turkey";"http://marineregions.org/mrgid/2213";"Turkey";2213;"Nation";"38.95615";"35.2414";"35.8075";"44.8176";"42.1048"
+"Greenlandic part of Baffin Bay";"http://marineregions.org/mrgid/25267";;25267;"Marine Region";"74.695146";"-63.558417";"69.403214";"-50.191664";"82.438124"
+"Yorkshire";"http://marineregions.org/mrgid/4451";;4451;"General Region";"54";"-1.5";;;
+"Galapagos Exclusive Economic Zone";"http://marineregions.org/mrgid/8403";;8403;"EEZ";"-0.039808507782";"-90.830866143852";"-4.738297";"-85.9068";"4.99785"
+"West Indies";"http://marineregions.org/mrgid/14309";;14309;"Archipelago";"20";"-70";"9.53";"-88.46";"29.6"
+"La Rochelle";"http://marineregions.org/mrgid/21668";;21668;"Inhabited Place";"46.16667";"-1.15";;;
+"Brazilian Exclusive Economic Zone";"http://marineregions.org/mrgid/8464";"Brazil";8464;"EEZ";"-32.988421";"-39.691991";"-35.70856";"-29.02593";"7.035323"
+"Crimea";"http://marineregions.org/mrgid/3738";;3738;"Disputed Territory";"45";"34";;;
+"Sicily";"http://marineregions.org/mrgid/3516";;3516;"Region";"37.1544";"13.7924";"35.4913";"15.6599";"38.8175"
+"Farallon Islands";"http://marineregions.org/mrgid/19147";;19147;"Archipelago";"37.7333";"-123.0333";;;
+"Central Atlantic Ocean";"http://marineregions.org/mrgid/17440";;17440;"General Sea Area";"10.15";"-34.1";"-40";"5";"40"
+"North Adriatic";"http://marineregions.org/mrgid/7127";"Adriatic Sea";7127;"General Sea Area";"45.0629";"12.9377";;;
+"Washington (State)";"http://marineregions.org/mrgid/9070";"United States";9070;"State";"47.28461";"-120.8";"45.5661";"-116.8858";"49.00313"
+"Port Jackson";"http://marineregions.org/mrgid/22225";"Australia";22225;"Harbour";"-33.858333";"151.233333";;;
+"Icelandic part of the North Atlantic Ocean";"http://marineregions.org/mrgid/25359";;25359;"Marine Region";"63.033149";"-21.901662";"59.963399";"-10.111118";"67.25201"
+"Vineyard Sound";"http://marineregions.org/mrgid/19475";;19475;"Inlet";"41.442";"-70.774";;;
+"Aby, Lagune";"http://marineregions.org/mrgid/19013";"Ivory Coast";19013;"Lagoon";"5.25";"-3.1667";"5.08";"-3.34";"5.45"
+"Brest";"http://marineregions.org/mrgid/18562";;18562;"Inhabited Place";"48.4";"-4.48";;;
+"Long Island Sound (bay)";"http://marineregions.org/mrgid/19496";;19496;"Bay";"40.992";"-72.833";"40.98";"-73.9";"41.27"
+"Northampton";"http://marineregions.org/mrgid/18960";;18960;"County";"37.35";"-75.9333";;;
+"Bering Strait";"http://marineregions.org/mrgid/4317";;4317;"Strait";"65.0911111111111";"-169.828333333333";;;
+"Granville";"http://marineregions.org/mrgid/19784";;19784;"Inhabited Place";"48.83792";"-1.59714";;;
+"East Greenland";"http://marineregions.org/mrgid/17506";;17506;"General Region";"75";"-30";;;
+"Charleston";"http://marineregions.org/mrgid/14633";;14633;"Town";"32.7923";"-79.9491";;;
+"Rhode Island";"http://marineregions.org/mrgid/19474";"United States";19474;"State";"41.7505";"-71.4999";;;
+"Falmouth Bay";"http://marineregions.org/mrgid/17531";;17531;"Bay";"50.12583";"-5.03833";;;
+"Saint-Malo";"http://marineregions.org/mrgid/18565";;18565;"Inhabited Place";"48.65";"2.0167";;;
+"Connecticut";"http://marineregions.org/mrgid/18860";"United States";18860;"State";"41.8333";"-72.8333";;;
+"Fiume";"http://marineregions.org/mrgid/33043";;33043;"City";"45.34306";"14.40917";;;
+"Irish part of the Inner Seas off the West Coast of Scotland";"http://marineregions.org/mrgid/25177";"Inner Seas off the West Coast of Scotland";25177;"Marine Region";"55.501062";"-7.200139";"54.9509";"-6.720058";"55.886941"
+"Bulgarian part of the Black Sea";"http://marineregions.org/mrgid/25202";"Black Sea";25202;"Marine Region";"42.942543";"29.216374";"41.981333";"31.345221";"43.747766"
+"Kiel Canal";"http://marineregions.org/mrgid/22309";;22309;"Canal";"53.88333";"9.13333";;;
+"Woods Hole";"http://marineregions.org/mrgid/9097";"United States";9097;"Town";"41.53";"-70.67";;;
+"Berwick Bay";"http://marineregions.org/mrgid/32366";;32366;"Bay";"55.73333";"-1.88333";;;
+"Firth of Tay";"http://marineregions.org/mrgid/5507";"North Sea";5507;"Firth";"56.43333";"-3";"56.32643816";"-2.747818338";"56.51741116"
+"Franz Jozef Land";"http://marineregions.org/mrgid/5640";;5640;"Archipelago";"80.81105";"51.06425";"79.7619";"65.4145";"81.8602"
+"Gulf of Aden";"http://marineregions.org/mrgid/4265";"Gulf of Aden";4265;"IHO Sea Area";"12.5205639199";"47.6527871243";"10.37809920322";"51.28665992889";"15.21967667014"
+"East China Sea";"http://marineregions.org/mrgid/4302";"Eastern China Sea";4302;"IHO Sea Area";"29.13089135213";"125.21708986497";"24.05760752069";"131.1322036827";"33.37195920955"
+"Greek part of the Aegean Sea";"http://marineregions.org/mrgid/25625";"Aegean Sea";25625;"Marine Region";"37.797326";"25.039299";"35.111518";"28.237771";"41.010336"
+"Marmara Sea";"http://marineregions.org/mrgid/25201";"Sea of Marmara";25201;"Marine Region";"40.67022";"28.145884";"39.9911";"29.9375";"41.246245"
+"South Carolina";"http://marineregions.org/mrgid/14632";;14632;"State";"33.621428";"-80.961124";"32.027855";"-78.57222";"35.215"
+"Greenlandic part of the Davis Strait";"http://marineregions.org/mrgid/25271";;25271;"Marine Region";"64.440408";"-54.027587";"59.747471";"-43.914376";"70"
+"East Coast of Spain";"http://marineregions.org/mrgid/18017";"Spain";18017;"Coast";"39.28";"-0.39";;;
+"North West Italy";"http://marineregions.org/mrgid/17769";"Italy";17769;"General Region";"45.17";"8.34";;;
+"Turkish Aegean Sea";"http://marineregions.org/mrgid/17957";"Aegean Sea";17957;"General Region";"38.8";"26.54";;;
+"Cyprus";"http://marineregions.org/mrgid/3862";"Cyprus";3862;"Island";"35.1382";"33.43885";"34.5652";"34.6087";"35.7112"
+"Cyprus";"http://marineregions.org/mrgid/3862";"Mediterranean Sea - Eastern Basin";3862;"Island";"35.1382";"33.43885";"34.5652";"34.6087";"35.7112"
+"Greek Aegean";"http://marineregions.org/mrgid/17604";"Aegean Sea";17604;"General Sea Area";"38.5";"24.9";;;
+"Virginian";"http://marineregions.org/mrgid/21853";;21853;"Marine Ecoregion of the World (MEOW)";"39.34";"-74.876";;;
+"East Sicily";"http://marineregions.org/mrgid/17516";"Mediterranean Sea - Eastern Basin";17516;"General Region";"37.4487";"14.90845";;;
+"South Italy";"http://marineregions.org/mrgid/18000";"Italy";18000;"General Region";"40.5";"16.2";;;
+"South Florida";"http://marineregions.org/mrgid/22638";;22638;"General Region";"25.5127";"-80.69458";;;
+"Cape of Good Hope";"http://marineregions.org/mrgid/14799";;14799;"Cape";"-34.3342";"18.4512";;;
+"Red Sea";"http://marineregions.org/mrgid/8562";;8562;"Large Marine Ecosystem";"20.56524";"38.57739";"12.46861";"43.48471";"30.00527"
+"Alaskan part of the North Pacific Ocean";"http://marineregions.org/mrgid/25580";;25580;"Marine Region";"52.996487";"-158.534422";"47.881342";"-133.319221";"58.216518"
+"South Georgian part of the South Atlantic Ocean";"http://marineregions.org/mrgid/25512";"South Atlantic Ocean";25512;"Marine Region";"-55.291346";"-33.957653";"-60";"-19.847135";"-50.156852"
+"Hispaniola";"http://marineregions.org/mrgid/17623";;17623;"Island";"19";"-71";"17.13";"-74.66";"20.58"
+"Mauritius";"http://marineregions.org/mrgid/8614";"Republic of Mauritius";8614;"Nation";"-20.09695";"60.40103";"-20.52056";"63.49575";"-19.67334"
+"Honduras";"http://marineregions.org/mrgid/8427";"Honduras";8427;"EEZ";"16.997553889785";"-83.80201591436";"12.9866";"-79.76935";"19.58182"
+"Colombia Basin";"http://marineregions.org/mrgid/4594";"Caribbean Sea";4594;"Basin";"14";"-76";;;
+"Gulf of Marseille";"http://marineregions.org/mrgid/3483";;3483;"Gulf";"43.25";"5.25";"43.28445";"5.21988";"43.3479"
+"Grand Manan Channel";"http://marineregions.org/mrgid/21380";"Canada";21380;"Channel";"44.75";"-66.866667";;;
+"Sevastopol Bay";"http://marineregions.org/mrgid/3828";;3828;"Bay";"44.6166667";"33.55";;;
+"North Sea";"http://marineregions.org/mrgid/21912";;21912;"Marine Ecoregion of the World (MEOW)";"55.5428";"4.59313";;;
+"Namib";"http://marineregions.org/mrgid/21833";;21833;"Marine Ecoregion of the World (MEOW)";"-20.3622";"13.1012";;;
+"Aegean Sea";"http://marineregions.org/mrgid/21900";;21900;"Marine Ecoregion of the World (MEOW)";"38.198";"26.2676";;;
+"Sahelian Upwelling";"http://marineregions.org/mrgid/22015";;22015;"Marine Ecoregion of the World (MEOW)";"16.4594";"-16.2768";;;
+"Namaqua";"http://marineregions.org/mrgid/21832";;21832;"Marine Ecoregion of the World (MEOW)";"-29.7236";"16.357";;;
+"South European Atlantic Shelf";"http://marineregions.org/mrgid/21886";;21886;"Marine Ecoregion of the World (MEOW)";"42.527";"-6.44758";;;
+"Celtic Seas";"http://marineregions.org/mrgid/21908";;21908;"Marine Ecoregion of the World (MEOW)";"53.7967";"-8.30748";;;
+"Azores Canaries Madeira";"http://marineregions.org/mrgid/21885";;21885;"Marine Ecoregion of the World (MEOW)";"34.7797";"-22.8065";;;
+"Adriatic Sea";"http://marineregions.org/mrgid/21899";;21899;"Marine Ecoregion of the World (MEOW)";"43.5465";"15.9423";;;
+"Tropical Atlantic";"http://marineregions.org/mrgid/14292";;14292;"General Sea Area";"0";"-25";;;
+"Netherlands";"http://marineregions.org/mrgid/48354";;48354;"TDWG - level 4";"52.2478074858869";"5.58963217099272";"50.7538833618164";"7.21166610717779";"53.5113830566406"
+"Poland";"http://marineregions.org/mrgid/47785";;47785;"TDWG - level 3";"52.1093609700359";"19.4306854583689";"49.0019378665394";"24.1447181705072";"54.8369369508796"
+"Southern Norway";"http://marineregions.org/mrgid/21911";;21911;"Marine Ecoregion of the World (MEOW)";"63.5329";"8.29842";;;
+"Belgium";"http://marineregions.org/mrgid/47978";;47978;"TDWG - level 4";"50.6422475356466";"4.67155719756909";"49.5041656494141";"6.39820384979251";"51.5036087036133"
+"Germany";"http://marineregions.org/mrgid/48115";;48115;"TDWG - level 4";"51.0536079527504";"10.3722429238216";"47.2747192382813";"15.0388870239258";"55.0566635131836"
+"East Greenland Shelf";"http://marineregions.org/mrgid/21825";;21825;"Marine Ecoregion of the World (MEOW)";"68.9915";"-30.4085";;;
+"Portuguese Atlantic Coast";"http://marineregions.org/mrgid/17812";"Portugal";17812;"Coast";"38.851758";"-8.989499";"36.961013";"-7.40028";"42.05467"
+"North Coast of Spain";"http://marineregions.org/mrgid/14307";"Spain";14307;"Coast";;;;;
+"Galicia";"http://marineregions.org/mrgid/36276";"Spain";36276;"Coast";;;;;
+"Spanish coast of Alboran Sea";"http://marineregions.org/mrgid/36287";"Spain";36287;"Coast";;;;;
+"Coast of Catalane";"http://marineregions.org/mrgid/14816";"Spain";14816;"Coast";"41.3666666666667";"2.13333333333333";;;
+"Baleares coast";"http://marineregions.org/mrgid/48784";"Spain";48784;"Coast";;;;;
+"Zandvoorde";"http://marineregions.org/mrgid/2529";"Belgium";2529;"Deelgemeente";"51.2";"2.966666";;;
+"Lorneville Harbour";"http://marineregions.org/mrgid/21396";"Canada";21396;"Harbour";"45.202947";"-66.148735";;;
+"L'Etang";"http://marineregions.org/mrgid/21391";"Canada";21391;"Lake";"49.075";"-70.766667";"49.06";"-70.78";"49.07"
+"Owen Basin";"http://marineregions.org/mrgid/21409";"Canada";21409;"Basin";"44.883333";"-66.866667";;;
+"Goote Bank";"http://marineregions.org/mrgid/2439";"North Sea";2439;"Sandbank";"51.44844";"2.821148";"51.4014";"2.965188";"51.49548"
+"Goote Bank";"http://marineregions.org/mrgid/2439";"Belgium";2439;"Sandbank";"51.44844";"2.821148";"51.4014";"2.965188";"51.49548"
+"Deadmans Harbour";"http://marineregions.org/mrgid/21374";"Canada";21374;"Harbour";"45.052853";"-66.767631";;;
+"Hardwood Island";"http://marineregions.org/mrgid/21383";"Canada";21383;"Island";"45.604621";"-67.550098";"45.59";"-67.56";"45.62"
+"Clam Cove";"http://marineregions.org/mrgid/21373";"Canada";21373;"Cove";"44.963987";"-67.011633";;;
+"OSPAR Region I (Arctic)";"http://marineregions.org/mrgid/33321";"North Atlantic Ocean";33321;"OSPAR Region";"73.398625";"-1.414993";;;
+"OSPAR Region II (Greater North Sea)";"http://marineregions.org/mrgid/33322";"North Atlantic Ocean";33322;"OSPAR Region";"54.45827";"2.207731";;;
+"OSPAR Region III (Celtic Seas)";"http://marineregions.org/mrgid/33323";"North Atlantic Ocean";33323;"OSPAR Region";"52.747136";"-7.508971";;;
+"OSPAR Region IV (Bay of Biscay/Golfe de Gascogne & Iberian coasts)";"http://marineregions.org/mrgid/33324";"North Atlantic Ocean";33324;"OSPAR Region";"43.541181";"-7.429506";;;
+"Saint Croix";"http://marineregions.org/mrgid/21421";"Canada";21421;"Stream";"45.00469";"-64.134156";;;
+"Indian Island";"http://marineregions.org/mrgid/21384";"Canada";21384;"Island";"44.92982";"-66.969435";"44.92";"-66.96";"44.95"
+"Brier Island";"http://marineregions.org/mrgid/21369";"Canada";21369;"Island";"44.259135";"-66.362226";"44.23313";"-66.3424";"44.28912"
+"Bar Road";"http://marineregions.org/mrgid/21362";"Canada";21362;"Region";"45.097542";"-67.055755";;;
+"Minister's Island";"http://marineregions.org/mrgid/21399";"Canada";21399;"Island";"45.105";"-67.046944";"45.09";"-67.03";"45.12"
+"Dorset";"http://marineregions.org/mrgid/3175";"United Kingdom";3175;"County";"50.79695";"-2.32075";"50.5131";"-1.6819";"51.0808"
+"Gulf of St-Malo";"http://marineregions.org/mrgid/14625";"English Channel";14625;"Bay";"48.9";"-2.1";"48.49";"-1.53";"49.54"
+"Sam Orr Pond";"http://marineregions.org/mrgid/21416";"Canada";21416;"Reservoir";"45.162848";"-67.043533";;;
+"East Coast of United States of America";"http://marineregions.org/mrgid/14911";"United States";14911;"Coast";"36";"-76";;;
+"Maltese part of the Mediterranean Sea - Eastern Basin";"http://marineregions.org/mrgid/25190";"Mediterranean Sea - Eastern Basin";25190;"Marine Region";"35.295564";"15.294187";"34.498055";"18.057795";"36.551343"
+"Italian part of the Ionian Sea";"http://marineregions.org/mrgid/25623";"Ionian Sea";25623;"Marine Region";"38.200462";"17.228776";"36.534757";"18.926667";"40.520482"
+"Izmir Bay";"http://marineregions.org/mrgid/3853";"Aegean Sea";3853;"Bay";"38.5094444444444";"26.7488888888889";"38.49";"26.72";"38.515"
+"Westkust";"http://marineregions.org/mrgid/2554";"Belgium";2554;"Coast";"51.15";"2.7";;;
+"North Coast of Tunisia";"http://marineregions.org/mrgid/26734";"Tunisia";26734;"Coast";"37.18";"9.91";;;
+"Boughrara Lagoon";"http://marineregions.org/mrgid/26707";"Tunisia";26707;"Lagoon";"33.59128";"10.81145";"33.46";"10.63";"33.75"
+"Gulf of Goletta";"http://marineregions.org/mrgid/17608";"Mediterranean Sea - Western Basin";17608;"Gulf";"36.81464";"10.3129";;;
+"Menzel Jemil";"http://marineregions.org/mrgid/26728";"Tunisia";26728;"Inhabited Place";"37.23";"9.91";;;
+"North Portugal";"http://marineregions.org/mrgid/15225";"Portugal";15225;"General Region";"41.82";"-8.65";;;
+"Cabo Verde";"http://marineregions.org/mrgid/21175";;21175;"Archipelago";"16";"-24";"14.24309";"-26.45508";"18.07276"
+"Senegal";"http://marineregions.org/mrgid/2225";"Senegal";2225;"Nation";"14.49618";"-14.45135";"12.30175";"-11.36993";"16.69062"
+"Tunis Lagoon";"http://marineregions.org/mrgid/26746";"Tunisia";26746;"Lagoon";"36.81944";"10.24694";"36.78";"10.18";"36.86"
+"South West Coast of Apulia";"http://marineregions.org/mrgid/3504";"Italy";3504;"Region";"40.96395";"16.72705";"39.7884";"18.52";"42.1395"
+"Zembra";"http://marineregions.org/mrgid/26744";"Tunisia";26744;"Island";"37.136111";"10.808889";"37.1";"10.78";"37.16"
+"Saint John Harbour";"http://marineregions.org/mrgid/21415";"Canada";21415;"Harbour";"45.2539";"-66.032045";;;
+"Western Passage";"http://marineregions.org/mrgid/21425";"Canada";21425;"Passage";"47.5741667";"-59.0138889";;;
+"Brandy Cove";"http://marineregions.org/mrgid/18790";"Canada";18790;"Cove";"44.967616";"-66.701983";;;
+"Dakar";"http://marineregions.org/mrgid/8950";"Senegal";8950;"Inhabited Place";"14.7166666666667";"-17.4666";;;
+"Bizerte Lagoon";"http://marineregions.org/mrgid/26705";"Tunisia";26705;"Lagoon";"37.189";"9.8545";"37.12";"9.78";"37.25"
+"Ghar El Melh lagoon";"http://marineregions.org/mrgid/26716";"Tunisia";26716;"Lagoon";"37.133333";"10.19167";"37.1";"10.25";"37.166667"
+"Gulf of Guinea Central";"http://marineregions.org/mrgid/21878";;21878;"Marine Ecoregion of the World (MEOW)";"4.82863";"6.64721";;;
+"Gulf of Guinea";"http://marineregions.org/mrgid/21767";;21767;"Marine Province";"1.22974";"2.3414";;;
+"Santa Helena";"http://marineregions.org/mrgid/8619";"South Atlantic Ocean";8619;"Dependent State";"-15.96285";"-5.719032";"-16.02195";"-5.645282";"-15.90376"
+"Ascensión";"http://marineregions.org/mrgid/8620";;8620;"Dependency";"-7.95";"-14.3666666666667";;;
+"Tropical American Coast";"http://marineregions.org/mrgid/9267";;9267;"Coast";"3.3";"-51";;;
+"Tristan Da Cunha Exclusive Economic Zone";"http://marineregions.org/mrgid/8382";"South Atlantic Ocean";8382;"EEZ";"-38.770437387158";"-11.207561787587";"-43.70333";"-5.505775";"-33.74305"
+"East Coast of South Africa";"http://marineregions.org/mrgid/9235";"South Africa";9235;"Coast";"-30.7";"30.52";;;
+"South Coast of South Africa";"http://marineregions.org/mrgid/9253";"South Africa";9253;"Coast";"-34";"22.2";;;
+"Spanish part of the Strait of Gibraltar";"http://marineregions.org/mrgid/25600";"Strait of Gibraltar";25600;"Marine Region";"36.032426";"-5.706728";"35.885791";"-5.307646";"36.184436"
+"Cape Verde";"http://marineregions.org/mrgid/22204";"North Atlantic Ocean";22204;"Archipelago";"15.9167";"-24.0833";"14.36";"-26.4";"17.78"
+"West Morocco";"http://marineregions.org/mrgid/9260";"Morocco";9260;"General Region";"30";"-9.5";;;
+"Mispec";"http://marineregions.org/mrgid/21400";"Canada";21400;"Stream";"45.21519";"-65.944097";;;
+"Saint Martins";"http://marineregions.org/mrgid/21423";"Canada";21423;"Inhabited Place";"45.433333";"-65.416667";;;
+"Greens Point";"http://marineregions.org/mrgid/21381";"Canada";21381;"Point";"45.038347";"-66.891947";;;
+"Indian Point";"http://marineregions.org/mrgid/21385";"Canada";21385;"Island";"45.66616";"-68.86643";"45.66527";"-68.86844";"45.66808"
+"Bocabec Cove";"http://marineregions.org/mrgid/21368";"Canada";21368;"Cove";"45.16237";"-67.027262";;;
+"Navy Island";"http://marineregions.org/mrgid/21403";"Canada";21403;"Island";"44.698486";"-63.619426";;;
+"East Hinder";"http://marineregions.org/mrgid/2432";"North Sea";2432;"Shoal";"51.583333";"2.666667";"51.38524";"2.702481";"51.66504"
+"East Hinder";"http://marineregions.org/mrgid/2432";"Belgium";2432;"Shoal";"51.583333";"2.666667";"51.38524";"2.702481";"51.66504"
+"Ruytingen Pas";"http://marineregions.org/mrgid/4680";"North Sea";4680;"Swale";"51.1922222222222";"2.19";;;
+"Shipwash";"http://marineregions.org/mrgid/17857";"English Channel";17857;"Shoal";"51.95";"1.61667";;;
+"Namibian part of the South Atlantic Ocean";"http://marineregions.org/mrgid/25515";"South Atlantic Ocean";25515;"Marine Region";"-23.645621";"12.288475";"-30.635803";"16.489591";"-17.249776"
+"New River Beach";"http://marineregions.org/mrgid/21404";"Canada";21404;"Beach";"45.135831";"-66.532405";;;
+"Saint Andrews";"http://marineregions.org/mrgid/18794";"Canada";18794;"Inhabited Place";"45.079907";"-67.058373";;;
+"Algiers Bay";"http://marineregions.org/mrgid/3885";"Mediterranean Sea - Western Basin";3885;"Bay";"36.7736111111111";"3.14027777777778";"36.72";"3.04";"36.83"
+"Jijel";"http://marineregions.org/mrgid/25967";"Algeria";25967;"Province (administrative)";"36.719";"5.986";;;
+"New River";"http://marineregions.org/mrgid/21405";"Canada";21405;"Stream";"45.133333";"-66.55";;;
+"OSPAR Region V (Wider Atlantic)";"http://marineregions.org/mrgid/33325";"North Atlantic Ocean";33325;"OSPAR Region";"47.906168";"-25.898625";;;
+"Anse de Belliveau";"http://marineregions.org/mrgid/21363";;21363;"Cove";"47.03833";"-56.25389";;;
+"Mistake Cove";"http://marineregions.org/mrgid/21401";"Canada";21401;"Cove";"45.544056";"-66.046739";;;
+"Browns Flat";"http://marineregions.org/mrgid/21370";"Canada";21370;"Commune";"45.472126";"-66.134645";;;
+"Oak Point";"http://marineregions.org/mrgid/21407";"Canada";21407;"Point";;;;;
+"Estonia";"http://marineregions.org/mrgid/2110";"Estonia";2110;"Nation";"58.5975";"24.98635";"57.51";"28.2101";"59.685"
+"German part of the Baltic Sea";"http://marineregions.org/mrgid/25679";"Baltic Sea";25679;"Marine Region";"54.461594";"12.762579";"53.697355";"14.75";"55.021361"
+"San Francisco Bay";"http://marineregions.org/mrgid/14900";"North Pacific Ocean";14900;"Bay";"37.6511";"-122.9284";"37.53";"-123.01";"38.04"
+"North Coast of Scotland";"http://marineregions.org/mrgid/17981";"United Kingdom";17981;"Coast";"58.55";"-4.2";;;
+"Digdeguash Estuary";"http://marineregions.org/mrgid/21377";"Canada";21377;"Estuary";"45.1501";"-66.9656";;;
+"Tongue Shoal";"http://marineregions.org/mrgid/21424";"Canada";21424;"Shoal";"45.063791";"-67.016266";;;
+"Baie de Quiberon";"http://marineregions.org/mrgid/14283";"Bay of Biscay";14283;"Bay";"47.52";"-3.07";"47.45";"-3.16";"47.59"
+"Monastir Bay";"http://marineregions.org/mrgid/26730";"Mediterranean Sea - Eastern Basin";26730;"Bay";"35.71651";"10.87804";;;
+"Tenerife";"http://marineregions.org/mrgid/3756";"North Atlantic Ocean";3756;"Island";"28.29335";"-16.5221";"27.9985";"-16.1193";"28.5882"
+"Sakhalin";"http://marineregions.org/mrgid/8907";;8907;"Island";"51";"143";;;
+"Island of Banié";"http://marineregions.org/mrgid/9215";"Gabon";9215;"Island";"0.4975";"9.32027777777778";;;
+"Komo estuary";"http://marineregions.org/mrgid/9217";"Gulf of Guinea";9217;"Estuary";"0.233333";"9.482222";;;
+"Spanish part of Gulf of Cadiz";"http://marineregions.org/mrgid/48987";"North Atlantic Ocean";48987;"Gulf";;;;;
+"Spanish part of the Mediterranean Sea - Western Basin";"http://marineregions.org/mrgid/25186";"Mediterranean Sea - Western Basin";25186;"Marine Region";"39.292708";"3.047244";"36.174195";"6.3";"42.759722"
+"Italian part of the Mediterranean Sea - Western Basin";"http://marineregions.org/mrgid/25181";"Mediterranean Sea - Western Basin";25181;"Marine Region";"43.386313";"8.007987";"43.045024";"8.586437";"43.782045"
+"Italian part of the Tyrrhenian Sea";"http://marineregions.org/mrgid/25611";"Tyrrhenian Sea";25611;"Marine Region";"40.05807";"12.23263";"37.803254";"16.221109";"44.085236"
+"Seeleys Cove";"http://marineregions.org/mrgid/21418";"Canada";21418;"Cove";"45.083333";"-66.65";;;
+"Murman Coast";"http://marineregions.org/mrgid/17751";;17751;"Coast";"68.66667";"37.5";;;
+"Mussulo";"http://marineregions.org/mrgid/9126";"Angola";9126;"Town";"-8.8905";"13.1313";;;
+"Lago Sebkha (Mauritania)";"http://marineregions.org/mrgid/9218";"North Atlantic Ocean";9218;"Lagoon";"18.3772";"-16.0167";;;
+"Monastir";"http://marineregions.org/mrgid/26040";"Tunisia";26040;"Governorate";"35.652";"10.753";;;
+"Het Zwin";"http://marineregions.org/mrgid/14286";"Netherlands";14286;"Estuary";"51.368719";"3.368281";;;
+"D. João de Castro Bank";"http://marineregions.org/mrgid/5005";"North Atlantic Ocean";5005;"Bank";"38.216667";"-26.6";;;
+"Spanish part of the Alboran Sea";"http://marineregions.org/mrgid/25604";"Alboran Sea";25604;"Marine Region";"36.24102";"-3.467248";"35.662752";"-1.727225";"36.840545"
+"Heist";"http://marineregions.org/mrgid/18537";"Belgium";18537;"Inhabited Place";"51.35";"3.25";;;
+"Gullivers Head";"http://marineregions.org/mrgid/21382";"Canada";21382;"Headland";"44.615272";"-65.930759";;;
+"Hammamet Gulf";"http://marineregions.org/mrgid/3882";"Mediterranean Sea - Eastern Basin";3882;"Gulf";"36.1325";"10.6766666666667";"35.76";"10.93";"36.5"
+"Zarzis";"http://marineregions.org/mrgid/26743";"Tunisia";26743;"Inhabited Place";"33.5";"11.116667";;;
+"Ghannouch";"http://marineregions.org/mrgid/26715";"Tunisia";26715;"Inhabited Place";"33.93";"10.07";;;
+"Cape Verdean Exclusive Economic Zone";"http://marineregions.org/mrgid/8362";"Cape Verde";8362;"EEZ";"16.092064489434";"-24.170044058079";"11.47505";"-19.535";"20.53724"
+"Valparaiso (city)";"http://marineregions.org/mrgid/22184";;22184;"City";"-33.05";"-71.616667";;;
+"Tristan da Cunha";"http://marineregions.org/mrgid/8621";"South Atlantic Ocean";8621;"Dependency";"-37.116667";"-12.283333";;;
+"Campbell Island";"http://marineregions.org/mrgid/14798";"South Pacific Ocean";14798;"Possession";"-52.5535";"169.1484";;;
+"Gough Island";"http://marineregions.org/mrgid/17602";"South Atlantic Ocean";17602;"Island";"-40.33333";"-10";"-40.38";"-10.05";"-40.25"
+"Snares Islands";"http://marineregions.org/mrgid/31190";"New Zealand";31190;"Island";"-48.037655";"166.551859";;;
+"Belarus";"http://marineregions.org/mrgid/2141";"Belarus";2141;"Nation";"53.71765";"27.97935";"51.263";"32.7787";"56.1723"
+"Moroccan part of the Strait of Gibraltar";"http://marineregions.org/mrgid/25599";"Strait of Gibraltar";25599;"Marine Region";"35.888534";"-5.704212";"35.790645";"-5.375068";"35.996262"
+"Neotropical";"http://marineregions.org/mrgid/48566";;48566;"FADA Faunistic Regions";"-9.049797";"-64.427121";"-59.995147";"-34.555074";"36.751344"
+"Palaearctic";"http://marineregions.org/mrgid/48568";;48568;"FADA Faunistic Regions";"57.013529";"66.615412";"20.738594";"179.953994";"89.990288"
+"Afrotropical";"http://marineregions.org/mrgid/48562";;48562;"FADA Faunistic Regions";"-5.015198";"14.682102";"-41.637433";"74.632861";"28.148911"
+"Nearctic";"http://marineregions.org/mrgid/48565";;48565;"FADA Faunistic Regions";"61.100745";"-102.748162";"22.145572";"6.328128";"89.991353"
+"Zandkreeksluis";"http://marineregions.org/mrgid/17938";;17938;"Sluice";"51.549999237061";"3.9000000953674";;;
+"Nieuwe Waterweg";"http://marineregions.org/mrgid/17765";"Netherlands";17765;"Channel";"51.98333";"4.2";;;
+"Maasvlakte";"http://marineregions.org/mrgid/17713";"Netherlands";17713;"Harbour";"51.95";"4.05";;;
+"Oosterland";"http://marineregions.org/mrgid/14649";"Netherlands";14649;"Town";"52.93";"5.02";;;
+"Verdronken land van Saeftinghe";"http://marineregions.org/mrgid/4803";"North Sea";4803;"Salt Marsh";"51.3566";"4.1569";;;
+"Loring Cove";"http://marineregions.org/mrgid/21395";"United States";21395;"Cove";"45.01647";"-67.07581";;;
+"German part of the North Sea";"http://marineregions.org/mrgid/22762";"North Sea";22762;"Marine Region";"54.59282";"6.78346";;;
+"Dover Strait";"http://marineregions.org/mrgid/2375";;2375;"Strait";"51.0366666666667";"1.54861111111111";"49.71788333";"2.744909289";"51.78156033"
+"Green Island";"http://marineregions.org/mrgid/20617";;20617;"Island";"58.52694";"-152.66472";"58.52";"-152.67";"58.53"
+"Eastport";"http://marineregions.org/mrgid/24617";;24617;"Inhabited Place";"44.913611";"-67.003889";;;
+"Pointe Noire (Congo)";"http://marineregions.org/mrgid/9205";"Republic of the Congo";9205;"Department";"-4.7333";"11.8833333333333";;;
+"Greek part of the Mediterranean Sea - Eastern Basin";"http://marineregions.org/mrgid/25195";"Mediterranean Sea - Eastern Basin";25195;"Marine Region";"34.931725";"24.654038";"33.262084";"30.224295";"36.805827"
+"Virginia";"http://marineregions.org/mrgid/18956";;18956;"State";"37";"-80";;;
+"Cocos Islands";"http://marineregions.org/mrgid/21970";;21970;"Marine Ecoregion of the World (MEOW)";"5.2233";"-87.3684";;;
+"Gulf of Maine/Bay of Fundy";"http://marineregions.org/mrgid/21849";;21849;"Marine Ecoregion of the World (MEOW)";"43.3988";"-68.2239";;;
+"Gulf of St. Lawrence - Eastern Scotian Shelf";"http://marineregions.org/mrgid/21848";;21848;"Marine Ecoregion of the World (MEOW)";"48.5439";"-64.5317";;;
+"Southern Grand Banks - South Newfoundland";"http://marineregions.org/mrgid/21856";;21856;"Marine Ecoregion of the World (MEOW)";"46.3333";"-50.723";;;
+"West Greenland Shelf";"http://marineregions.org/mrgid/21816";;21816;"Marine Ecoregion of the World (MEOW)";"68.7442";"-53.7997";;;
+"Northern Norway and Finnmark";"http://marineregions.org/mrgid/21906";;21906;"Marine Ecoregion of the World (MEOW)";"69.611";"22.893";;;
+"White Sea";"http://marineregions.org/mrgid/21813";;21813;"Marine Ecoregion of the World (MEOW)";"65.6201";"37.0204";;;
+"Kara Sea";"http://marineregions.org/mrgid/21828";;21828;"Marine Ecoregion of the World (MEOW)";"74.5393";"81.424";;;
+"Northern Labrador";"http://marineregions.org/mrgid/21817";;21817;"Marine Ecoregion of the World (MEOW)";"61.6443";"-63.296";;;
+"Laptev Sea";"http://marineregions.org/mrgid/21819";;21819;"Marine Ecoregion of the World (MEOW)";"73.4045";"122.959";;;
+"Eastern Bering Sea";"http://marineregions.org/mrgid/21826";;21826;"Marine Ecoregion of the World (MEOW)";"61.3257";"-130.528";;;
+"Channels and Fjords of Southern Chile";"http://marineregions.org/mrgid/21888";;21888;"Marine Ecoregion of the World (MEOW)";"-53.3933";"-71.5449";;;
+"Ionian Sea";"http://marineregions.org/mrgid/21901";;21901;"Marine Ecoregion of the World (MEOW)";"37.3073";"18.2869";;;
+"Gulf of Guinea West";"http://marineregions.org/mrgid/21873";;21873;"Marine Ecoregion of the World (MEOW)";"7.81853";"-12.7763";;;
+"Seychelles";"http://marineregions.org/mrgid/22028";;22028;"Marine Ecoregion of the World (MEOW)";"-6.94664";"52.2534";;;
+"South and West Iceland";"http://marineregions.org/mrgid/21910";;21910;"Marine Ecoregion of the World (MEOW)";"63.4719";"-19.8494";;;
+"Russian Exclusive economic Zone [Pacific part]";"http://marineregions.org/mrgid/8764";"North Pacific Ocean";8764;"Marine Region";"53.40875";"155.10526";;;
+"Congolese Exclusive Economic Zone";"http://marineregions.org/mrgid/8394";"Republic of the Congo";8394;"EEZ";"-5.438574929519";"10.49841339844";"-6.909543";"12.02613";"-3.925282"
+"Angolan";"http://marineregions.org/mrgid/21876";;21876;"Marine Ecoregion of the World (MEOW)";"-11.0841";"13.1444";;;
+"Indonesian Exclusive Economic Zone";"http://marineregions.org/mrgid/8492";"Indonesia";8492;"EEZ";"-3.179036966149";"117.849290139632";"-13.24861";"141.4577";"7.783333"
+"Sea of Okhotsk";"http://marineregions.org/mrgid/21845";;21845;"Marine Ecoregion of the World (MEOW)";"58.2658";"147.838";;;
+"Kerguelen Islands";"http://marineregions.org/mrgid/21956";;21956;"Marine Ecoregion of the World (MEOW)";"-49.0599";"69.3209";;;
+"Panama Bight";"http://marineregions.org/mrgid/21972";;21972;"Marine Ecoregion of the World (MEOW)";"3.44715";"-78.9136";;;
+"Northern Gulf of Mexico";"http://marineregions.org/mrgid/22002";;22002;"Marine Ecoregion of the World (MEOW)";"29.092";"-92.1994";;;
+"Eastern Brazil";"http://marineregions.org/mrgid/21990";;21990;"Marine Ecoregion of the World (MEOW)";"-18.3726";"-38.928";;;
+"North and East Barents Sea";"http://marineregions.org/mrgid/21814";;21814;"Marine Ecoregion of the World (MEOW)";"76.6865";"40.4061";;;
+"East China Sea";"http://marineregions.org/mrgid/22004";;22004;"Marine Ecoregion of the World (MEOW)";"29.4675";"122.308";;;
+"South India and Sri Lanka";"http://marineregions.org/mrgid/22016";;22016;"Marine Ecoregion of the World (MEOW)";"7.02735";"80.4129";;;
+"Eastern India";"http://marineregions.org/mrgid/21831";;21831;"Marine Ecoregion of the World (MEOW)";"16.4391";"81.7629";;;
+"Black Sea";"http://marineregions.org/mrgid/21834";;21834;"Marine Ecoregion of the World (MEOW)";"43.9482";"35.1801";;;
+"Tromsoy";"http://marineregions.org/mrgid/5641";;5641;"Island";"69.6703";"18.9569";"69.6269";"19.0222";"69.7137"
+"Baia do Mussulo";"http://marineregions.org/mrgid/9125";"South Atlantic Ocean";9125;"Bay";"-8.98166666666667";"13.0686111111111";"-9.1";"13.22";"-8.82"
+"Estonian Exclusive Economic Zone";"http://marineregions.org/mrgid/5675";"Baltic Sea";5675;"EEZ";"58.771243044986";"23.013329866327";"57.58638";"28.06958";"59.99463"
+"São Tomé";"http://marineregions.org/mrgid/9135";"Gulf of Guinea";9135;"Island";"0.21354";"6.61569";"0.018336";"6.766245";"0.408745"
+"Principe Archipelagos";"http://marineregions.org/mrgid/9145";"Sao Tome and Principe";9145;"Island";"1.62";"7.39";"1.52";"7.29";"1.75"
+"Bourrasque (shipwreck)";"http://marineregions.org/mrgid/17409";"Belgium";17409;"Wreck";"51.149";"2.33";;;
+"Yellow Sea";"http://marineregions.org/mrgid/4303";"Yellow Sea";4303;"IHO Sea Area";"36.69709685735";"122.70217134725";"33.27603387876";"127.45887172195";"41.15916395195"
+"Zumaya";"http://marineregions.org/mrgid/17942";"Spain";17942;"Inhabited Place";"43.29469";"-2.25341";;;
+"Uruguayan Exclusive Economic Zone";"http://marineregions.org/mrgid/8467";;8467;"EEZ";"-35.697547891362";"-53.216622313843";"-37.76511";"-50.01483";"-32.45031"
+"Coast of Normandy";"http://marineregions.org/mrgid/17459";;17459;"Coast";"49.366664886475";"-0.64999997615814";;;
+"Algoa Bay";"http://marineregions.org/mrgid/15050";;15050;"Bay";"-33.83";"25.83";"-34.11";"25.55";"-33.62"
+"Cuxhaven";"http://marineregions.org/mrgid/23601";;23601;"Inhabited Place";"53.87176";"8.69087";;;
+"New York";"http://marineregions.org/mrgid/9076";;9076;"State";"42.76506";"-75.81514";"40.51167";"-71.8668";"45.01846"
+"North West Africa";"http://marineregions.org/mrgid/9251";;9251;"General Region";"23.7";"-3.8";;;
+"Dievegatkreek";"http://marineregions.org/mrgid/14294";"Netherlands";14294;"River";"51.0333333333333";"3.375";;;
+"Mellah lagoon";"http://marineregions.org/mrgid/26726";"Algeria";26726;"Lagoon";"36.75694";"8.422222";;;
+"Menai Strait and Conwy Bay";"http://marineregions.org/mrgid/29098";;29098;"Natura 2000 Site of Community Importance (SCI, EU Habitats Directive)";"53.310083";"-4.020731";;;
+"Galloper";"http://marineregions.org/mrgid/17591";"North Sea";17591;"Shoal";"51.76667";"1.95";;;
+"Chausey Isles";"http://marineregions.org/mrgid/15102";;15102;"Archipelago";"48.8";"-1.8";"48.83";"-1.93";"48.94"
+"French part of the North Atlantic Ocean";"http://marineregions.org/mrgid/25360";"North Atlantic Ocean";25360;"Marine Region";"46.59652";"-7.78194";"45.429383";"-5.514417";"47.88402"
+"French part of the North Sea";"http://marineregions.org/mrgid/25234";"North Sea";25234;"Marine Region";"51.18799";"2.104363";"50.937058";"2.543611";"51.557769"
+"Gulf of California";"http://marineregions.org/mrgid/4314";"Gulf of California";4314;"IHO Sea Area";"26.88455782617";"-110.9747075795";"22.87876534474";"-106.7850719686";"31.94955372772"
+"Gulf of Bothnia";"http://marineregions.org/mrgid/2402";"Gulf of Bothnia";2402;"IHO Sea Area";"62.63224634388";"20.77188093442";"59.72087454752";"25.48657846422";"67.08058834048"
+"Mediterranean Sea - Eastern Basin";"http://marineregions.org/mrgid/4280";"Mediterranean Sea - Eastern Basin";4280;"IHO Sea Area";"34.07506909285";"23.16774074437";"30.06808678052";"36.21572947504";"37.80146145778"
+"Ecuador";"http://marineregions.org/mrgid/2166";"Ecuador";2166;"Nation";"-1.781263";"-83.44037";"-5.000309";"-75.21684";"1.437782"
+"Russian part of the Japan Sea";"http://marineregions.org/mrgid/25495";"Japan Sea/East Sea";25495;"Marine Region";"44.837081";"137.366453";"39.878542";"142.267763";"52.313464"
+"Achill Head";"http://marineregions.org/mrgid/17357";"Ireland";17357;"Headland";"53.97278";"-10.25722";;;
+"Doel";"http://marineregions.org/mrgid/9108";"Belgium";9108;"Village";"51.3099";"4.2637";"51.31";"4.26";"51.315"
+"Ría de Ribadeo";"http://marineregions.org/mrgid/17828";"Spain";17828;"Estuary";"43.55";"-7.03333";;;
+"Kola Fiord";"http://marineregions.org/mrgid/14795";;14795;"Fjord";"69.1036";"33.4277";;;
+"Nova Zembla";"http://marineregions.org/mrgid/9040";"Kara Sea";9040;"Island";"73.77185";"60.07555";"70.5431";"68.7161";"77.0006"
+"Cape Cod";"http://marineregions.org/mrgid/8928";"United States";8928;"Peninsula";"41.81";"-69.95";;;
+"Inishmore";"http://marineregions.org/mrgid/17638";"North Atlantic Ocean";17638;"Town";"54.26667";"-7.58333";;;
+"Slyne head";"http://marineregions.org/mrgid/7992";"North Atlantic Ocean";7992;"Island";"53.39995";"-10.2087";"53.3957";"-10.2014";"53.4042"
+"Baffin Bay";"http://marineregions.org/mrgid/4253";;4253;"IHO Sea Area";"74.506107604";"-67.12170640601";"69.61698794384";"-50.52326631539";"82.44975286583"
+"Bay of the Somme";"http://marineregions.org/mrgid/14748";"English Channel";14748;"Bay";"50.2489";"1.544";"50.18";"1.48";"50.26"
+"World Oceans";"http://marineregions.org/mrgid/1901";;1901;"World";"0";"0";"-85";"179.9999999999";"85"
+"Port Elizaberth (Harbour)";"http://marineregions.org/mrgid/48918";"South Africa";48918;"Harbour";"-33.958056";"25.6";;;
+"Mossel bay";"http://marineregions.org/mrgid/14273";"Indian Ocean";14273;"Bay";"-34.1833333333333";"22.1333333333333";"-34.19";"22.16";"-34.09"
+"Port Alfred";"http://marineregions.org/mrgid/9180";"South Africa";9180;"Town";"-33.6";"26.9";;;
+"East London";"http://marineregions.org/mrgid/48926";"South Africa";48926;"Harbour";;;;;
+"Marstrand";"http://marineregions.org/mrgid/21437";;21437;"Inhabited Place";"57.88699";"11.58218";;;
+"Archipelago Sea";"http://marineregions.org/mrgid/2403";"Archipelago Sea";2403;"Sea";"60.21";"21.17";;;
+"Iberian Peninsula";"http://marineregions.org/mrgid/7124";;7124;"Peninsula";"40";"-5";;;
+"Baai van Heist";"http://marineregions.org/mrgid/19674";"Belgium";19674;"Natural Reserve";"51.36";"3.23";;;
+"Ter Heijde";"http://marineregions.org/mrgid/20853";"Netherlands";20853;"Village";"52.03";"4.16806";"52.0272";"4.17133";"52.0328"
+"Terschelling";"http://marineregions.org/mrgid/3696";"Netherlands";3696;"Island";"53.39895";"5.35095";"53.3441";"5.5483";"53.4538"
+"Terschelling";"http://marineregions.org/mrgid/3696";"Wadden Sea";3696;"Island";"53.39895";"5.35095";"53.3441";"5.5483";"53.4538"
+"Kaloot";"http://marineregions.org/mrgid/4778";"North Sea";4778;"Mud Flat";"51.43166";"3.700727";"51.41422";"3.726614";"51.44909"
+"Castricum";"http://marineregions.org/mrgid/20876";"Netherlands";20876;"Commune";"52.54833";"4.66944";;;
+"Egmond aan Zee";"http://marineregions.org/mrgid/20852";"Netherlands";20852;"Inhabited Place";"52.61833";"4.62361";;;
+"Vlieland";"http://marineregions.org/mrgid/3692";"Netherlands";3692;"Island";"53.26345";"4.9855";"53.2185";"5.1013";"53.3084"
+"Klaverbank";"http://marineregions.org/mrgid/20873";"Netherlands";20873;"Bank";"53";"4";;;
+"Voormalige Zuiderzee";"http://marineregions.org/mrgid/20849";"Netherlands";20849;"General Region";"52.833333";"5.333333";;;
+"Northern New Zealand";"http://marineregions.org/mrgid/21786";;21786;"Marine Province";"-33.0546";"29.1807";;;
+"Westende";"http://marineregions.org/mrgid/14275";"Belgium";14275;"Village";"51.15";"2.76666666666667";"51.15146";"2.76006";"51.16158"
+"Georges Bank";"http://marineregions.org/mrgid/4562";"North Atlantic Ocean";4562;"Bank";"41.5";"-67";;;
+"Beaufort";"http://marineregions.org/mrgid/18925";"United States";18925;"Inhabited Place";"34.7167";"-76.65";;;
+"Ryders Cove";"http://marineregions.org/mrgid/17837";"United States";17837;"Bay";"41.71039";"-69.9689";"41.70208";"-69.98411";"41.71297"
+"Dunedin";"http://marineregions.org/mrgid/17500";"New Zealand";17500;"Town";"-45.86667";"170.5";;;
+"Sandgerdi";"http://marineregions.org/mrgid/17845";"Iceland";17845;"Commune";"64.05";"-22.7";;;
+"Texel";"http://marineregions.org/mrgid/3691";"Netherlands";3691;"Island";"53.0847";"4.80775";"52.9854";"4.9087";"53.184"
+"Texel";"http://marineregions.org/mrgid/3691";"Wadden Sea";3691;"Island";"53.0847";"4.80775";"52.9854";"4.9087";"53.184"
+"Subarctic Intermediate Water";"http://marineregions.org/mrgid/5303";;5303;"Water mass";;;;;
+"Lough Neagh";"http://marineregions.org/mrgid/5523";"Ireland";5523;"Lake";"54.61885";"-6.41665";"54.4855";"-6.225";"54.7522"
+"Lake Vättern";"http://marineregions.org/mrgid/17695";"Sweden";17695;"Lake";"58.4";"14.6";;;
+"Lake Vänern";"http://marineregions.org/mrgid/17694";"Sweden";17694;"Lake";"58.91667";"13.5";"58.26";"14.36";"59.49"
+"Lake Mjösa";"http://marineregions.org/mrgid/17690";"Norway";17690;"Lake";"60.66667";"11";"60.37";"10.29";"61.16"
+"Lake Mälaren";"http://marineregions.org/mrgid/17689";"Sweden";17689;"Lake";"59.5";"17.2";;;
+"Lake Onega";"http://marineregions.org/mrgid/14685";;14685;"Lake";"61.69059";"35.65562";"60.56";"36.5";"63.14"
+"Lake Ladoga";"http://marineregions.org/mrgid/14912";;14912;"Lake";"60.8499";"31.4523";"60.02";"29.47";"61.73"
+"Michigan (Lake)";"http://marineregions.org/mrgid/4295";;4295;"Lake";"43.86457";"-86.4003";"41.62054";"-84.75533";"46.1086"
+"North America";"http://marineregions.org/mrgid/1924";;1924;"Continent";"45.41485";"-105.11719";"7.206109";"179.7759";"83.6236"
+"Anadyrskiy Gulf";"http://marineregions.org/mrgid/4311";"North Pacific Ocean";4311;"Gulf";"64";"-178";;;
+"Sargasso Sea";"http://marineregions.org/mrgid/15273";"Sargasso Sea";15273;"Sea";"30";"-60";;;
+"West European Basin";"http://marineregions.org/mrgid/4969";"North Atlantic Ocean";4969;"Basin";"52.75";"-28";;;
+"Circumboreal";"http://marineregions.org/mrgid/21358";;21358;"Floristic Region";;;;;
+"Brittany";"http://marineregions.org/mrgid/3774";"France";3774;"Region";"48.08935";"-3.099";"47.2776";"-1.0161";"48.9011"
+"Kola Bay";"http://marineregions.org/mrgid/21324";"Barentsz Sea";21324;"Fjord";"69.097769";"33.39667";;;
+"Rockall Trough";"http://marineregions.org/mrgid/4205";"North Atlantic Ocean";4205;"Trough";"54.57268423";"-13.07053433";"53.5";"-12";"56.3333"
+"Nova Scotia";"http://marineregions.org/mrgid/8924";"Canada";8924;"Province (administrative)";"45.000075";"-62.999327";"43.46444";"-59.80916";"47.03014"
+"Orkney";"http://marineregions.org/mrgid/4520";"United Kingdom";4520;"Unitary Authority";"59.0344";"-3.39915";"58.677";"-2.3735";"59.3918"
+"China";"http://marineregions.org/mrgid/47489";;47489;"TDWG - level 2";"36.7022985593163";"103.394831281958";"18.1688842770878";"134.773590087513";"53.5544357298251"
+"Croatian part of the Adriatic Sea";"http://marineregions.org/mrgid/25617";"Adriatic Sea";25617;"Marine Region";"43.436215";"15.645858";"41.62201";"18.552247";"45.590794"
+"Raversijde";"http://marineregions.org/mrgid/2540";"Belgium";2540;"Deelgemeente";"51.2";"2.85";;;
+"Wenduine Bank";"http://marineregions.org/mrgid/4699";"Belgium";4699;"Sandbank";"51.31856";"3.036459";"51.28519";"3.176662";"51.35192"
+"Wenduine Bank";"http://marineregions.org/mrgid/4699";"North Sea";4699;"Sandbank";"51.31856";"3.036459";"51.28519";"3.176662";"51.35192"
+"Northern and Central Red Sea";"http://marineregions.org/mrgid/21919";;21919;"Marine Ecoregion of the World (MEOW)";"25.1762";"35.7195";;;
+"Spain - SW coast";"http://marineregions.org/mrgid/36286";"Spain";36286;"Coast";;;;;
+"Mediterranean Sea Area";"http://marineregions.org/mrgid/4278";;4278;"General Sea Area";"38.7722091674805";"17.8717098236084";"30.2638816833496";"41.7760925292969";"47.2805366516113"
+"Kenyan coast";"http://marineregions.org/mrgid/32003";"Kenya";32003;"Coast";"-1.933594";"40.981069";"-4.7204";"41.566216";"-1.654068"
+"South African Coast";"http://marineregions.org/mrgid/50353";"South Africa";50353;"Coast";"-34.133498900112";"24.43506751568";"-46.9820022586";"38.0034637449";"-26.8620647193"
+"Pointe du Nid de Corbet";"http://marineregions.org/mrgid/20393";"France";20393;"Point";"50.8289";"1.58965";;;
+"Boulogne, Digue du Nord";"http://marineregions.org/mrgid/4561";"France";4561;"Dike";"50.72541";"1.584891";;;
+"Pointe du Riden";"http://marineregions.org/mrgid/20394";"France";20394;"Point";"50.85";"1.567";;;
+"Pointe aux Oies (point)";"http://marineregions.org/mrgid/20382";"France";20382;"Point";"50.785";"1.60297";;;
+"Boulogne, Pointe de la Creche";"http://marineregions.org/mrgid/5665";"France";5665;"Cape";"50.75";"1.6";;;
+"Great Lakes";"http://marineregions.org/mrgid/4293";;4293;"Lake";"45.8382148742676";"-83.9365310668945";"41.3874969482422";"-75.7630615234375";"50.288932800293"
+"Slovenian part of the Adriatic Sea";"http://marineregions.org/mrgid/25619";"Adriatic Sea";25619;"Marine Region";"45.574894";"13.601091";"45.4817";"13.749927";"45.647278"
+"Marsdiep";"http://marineregions.org/mrgid/3714";"Wadden Sea";3714;"Strait";"52.9772222222222";"4.75472222222222";;;
+"Aldabra";"http://marineregions.org/mrgid/9123";"Indian Ocean";9123;"Archipelago";"-9.4";"46.3666666666667";"-10.33113";"45.94208";"-9.08582"
+"Les Ridens";"http://marineregions.org/mrgid/5310";"English Channel";5310;"Sandbank System";"50.9845";"1.7966";;;
+"Djibouti";"http://marineregions.org/mrgid/2131";"Djibouti";2131;"Nation";"11.82527";"42.59013";"10.94222";"43.42041";"12.70833"
+"Réunion";"http://marineregions.org/mrgid/8609";"Indian Ocean";8609;"Dependent State";"-21.11521";"55.5368";"-21.37389";"55.85305";"-20.85653"
+"Bulgaria";"http://marineregions.org/mrgid/2174";"Bulgaria";2174;"Nation";"42.7261";"25.4834";"41.236";"28.6099";"44.2162"
+"Chukchi Sea";"http://marineregions.org/mrgid/4257";"Chukchi Sea";4257;"IHO Sea Area";"69.400538";"-171.5800034";"65.9343791651";"177.478756114";"71.7113098691"
+"Algeria";"http://marineregions.org/mrgid/2152";"Algeria";2152;"Nation";"28.03312";"1.659627";"18.97639";"11.98647";"37.08986"
+"La slack (stream)";"http://marineregions.org/mrgid/20232";"France";20232;"Stream";"50.80547";"1.60233";;;
+"Cap Blanc Nez";"http://marineregions.org/mrgid/5666";"English Channel";5666;"Cape";"50.9333333333";"1.7";;;
+"Cap Blanc Nez";"http://marineregions.org/mrgid/5666";"North Sea";5666;"Cape";"50.9333333333";"1.7";;;
+"Turkish part of the Aegean Sea";"http://marineregions.org/mrgid/25624";"Aegean Sea";25624;"Marine Region";"38.607859";"26.784342";"36.469589";"28.324791";"40.735827"
+"Croatia";"http://marineregions.org/mrgid/2160";"Croatia";2160;"Nation";"44.46795";"16.44865";"42.3937";"19.405";"46.5422"
+"Devonport (New Zealand)";"http://marineregions.org/mrgid/17489";;17489;"Town";"-36.8282";"174.79019";;;
+"Chinese part of the Eastern China Sea";"http://marineregions.org/mrgid/25461";"Eastern China Sea";25461;"Marine Region";"29.691873";"122.877199";"25.348426";"126.245707";"33.329509"
+"Lebanese Exclusive Economic Zone";"http://marineregions.org/mrgid/8374";"Lebanon";8374;"EEZ";"33.946944853669";"34.934570312644";"33.09351";"35.99159";"34.83282"
+"Czech Republic";"http://marineregions.org/mrgid/2158";"Czech Republic";2158;"Nation";"49.80345";"15.47465";"48.5518";"18.859";"51.0551"
+"Poland";"http://marineregions.org/mrgid/2244";"Poland";2244;"Nation";"51.9187";"19.13585";"49.0029";"24.1487";"54.8345"
+"Australian part of the Indian Ocean";"http://marineregions.org/mrgid/25530";"Indian Ocean";25530;"Marine Region";"-24.578138";"116.215569";"-38.529457";"126.955836";"-11.515269"
+"Waddeneilanden";"http://marineregions.org/mrgid/3667";"Netherlands";3667;"Archipelago";"53.25935";"5.6229";"52.958";"6.615701";"53.5607"
+"Waddeneilanden";"http://marineregions.org/mrgid/3667";"Wadden Sea";3667;"Archipelago";"53.25935";"5.6229";"52.958";"6.615701";"53.5607"
+"South Wales";"http://marineregions.org/mrgid/14314";"United Kingdom";14314;"General Region";;;;;
+"Strangford Lough";"http://marineregions.org/mrgid/7932";"Irish Sea and St. George's Channel";7932;"Inlet";"54.4571";"-5.5872";"54.27987547";"-5.495269574";"54.60859781"
+"Atlantic Coast of Spain";"http://marineregions.org/mrgid/14306";"Spain";14306;"Coast";"43.23";"-9.2";;;
+"Sudan";"http://marineregions.org/mrgid/2183";"Sudan";2183;"Nation";"12.8628";"30.2183";"3.493391";"38.6075";"22.23222"
+"South West Britain";"http://marineregions.org/mrgid/18007";"United Kingdom";18007;"General Region";"51";"-3.6";;;
+"Cyprus";"http://marineregions.org/mrgid/2159";"Cyprus";2159;"Nation";"35.1382";"33.43885";"34.5652";"34.6087";"35.7112"
+"Tunisian part of the Mediterranean Sea - Eastern Basin";"http://marineregions.org/mrgid/25188";"Mediterranean Sea - Eastern Basin";25188;"Marine Region";"35.189209";"11.64149";"33.171136";"13.66127";"37.413932"
+"Danish part of the North Sea";"http://marineregions.org/mrgid/25231";"North Sea";25231;"Marine Region";"55.467586";"6.65237";"53.242809";"9.829063";"57.485517"
+"Saudi Arabia";"http://marineregions.org/mrgid/8356";"Saudi Arabia";8356;"EEZ";"21.591124135908";"38.606965748289";"16.29";"51.61239";"29.37553"
+"Kenyan Exclusive Economic Zone";"http://marineregions.org/mrgid/8349";"Kenya";8349;"EEZ";"-3.542932519902";"41.759790419307";"-4.892";"44.27802";"-1.672984"
+"McDougall Sound";"http://marineregions.org/mrgid/23608";"North West Passage";23608;"Sound";"75.166667";"-97";;;
+"Glesnaes";"http://marineregions.org/mrgid/20839";;20839;"Inhabited Place";;;;;
+"St. Helena Bay";"http://marineregions.org/mrgid/48930";"South Africa";48930;"Bay";"-32.758333";"18.027778";;;
+"Tamar estuary";"http://marineregions.org/mrgid/3239";;3239;"Estuary";"50.4347";"-4.198";;;
+"Gulf of Thailand";"http://marineregions.org/mrgid/4334";"Gulf of Thailand";4334;"IHO Sea Area";"9.71989293434";"101.84485132065";"5.39053523541";"105.36231124397";"13.72708570914"
+"Ramisi";"http://marineregions.org/mrgid/26749";"Kenya";26749;"Inhabited Place";"-4.52941";"39.39529";;;
+"Vanga";"http://marineregions.org/mrgid/26750";"Kenya";26750;"Inhabited Place";"-4.65948";"39.21847";;;
+"San Diego";"http://marineregions.org/mrgid/9067";;9067;"Town";"32.779444";"-117.146389";;;
+"Sorrento";"http://marineregions.org/mrgid/20834";;20834;"Town";"40.62601";"14.37441";"40.62";"14.36";"40.64"
+"Carrie Bow Cay";"http://marineregions.org/mrgid/20025";;20025;"Island";"16.79";"-88.07";;;
+"Southwest Atlantic";"http://marineregions.org/mrgid/17810";;17810;"General Sea Area";"-45";"-50";;;
+"Coast of Brazil";"http://marineregions.org/mrgid/17462";"Brazil";17462;"Coast";"-21.261753";"-40.960703";"-33.743636";"-28.847222";"4.442234"
+"South Baltic proper";"http://marineregions.org/mrgid/21266";"South Baltic proper";21266;"Sea";;;;;
+"Central Baltic proper";"http://marineregions.org/mrgid/4372";"Baltic Proper";4372;"Sea";;;;;
+"Bothnian Bay";"http://marineregions.org/mrgid/2440";"Gulf of Bothnia";2440;"Bay";"64.765";"23.0044444444444";"63.55";"20.83";"66.33"
+"Signy Island";"http://marineregions.org/mrgid/9865";"Southern Ocean";9865;"Island";"-60.7166667";"-45.6333333";"-60.8";"-44.44";"-60.49"
+"Arkona Basin";"http://marineregions.org/mrgid/2406";"Baltic Sea";2406;"Basin";"54.8";"13.6";;;
+"North Baltic proper";"http://marineregions.org/mrgid/21267";"North Baltic proper";21267;"Sea";;;;;
+"Bothnian Sea";"http://marineregions.org/mrgid/19384";"Bothnian Sea";19384;"Sea";"63";"20";;;
+"Baie des Chaleurs";"http://marineregions.org/mrgid/18844";"Gulf of Saint Lawrence";18844;"Bay";"48";"-65.75";"47.6";"-66.45";"48.31"
+"Scotian Shelf";"http://marineregions.org/mrgid/8548";;8548;"Large Marine Ecosystem";"45.53857";"-61.43403";"42.25872";"-55.46172";"48.90576"
+"Zandvliet";"http://marineregions.org/mrgid/9113";"Belgium";9113;"Town";"51.3633";"4.3095";;;
+"Dover";"http://marineregions.org/mrgid/103";"United Kingdom";103;"District";"51.21478";"1.274505";"51.09718";"1.40624";"51.33237"
+"Tindingen";"http://marineregions.org/mrgid/20837";;20837;"Inhabited Place";"61.5";"-49.11667";;;
+"Wright Island";"http://marineregions.org/mrgid/10067";;10067;"Island";"-74.0333333";"-116.8333333";;;
+"Oregon";"http://marineregions.org/mrgid/9043";"United States";9043;"State";"44.12479";"-120.4896";"41.99944";"-116.4548";"46.25014"
+"Rijeka Bay";"http://marineregions.org/mrgid/17832";"Croatia";17832;"Bay";"45.249052";"14.367485";;;
+"Gokasho Bay";"http://marineregions.org/mrgid/16494";;16494;"Bay";"34.3";"136.6833";"34.28";"136.73";"34.35"
+"Chesapeake Bay";"http://marineregions.org/mrgid/17443";;17443;"Bay";"37.00255";"-76.04736";"36.97";"-76.75";"39.01"
+"Orfordness";"http://marineregions.org/mrgid/14667";"United Kingdom";14667;"Cape";"52.08";"1.58";;;
+"Australasian";"http://marineregions.org/mrgid/48564";;48564;"FADA Faunistic Regions";"-26.353676";"141.308525";"-57.805435";"179.196165";"9.884763"
+"Oriental (Indomalaya)";"http://marineregions.org/mrgid/48567";;48567;"FADA Faunistic Regions";"7.746442";"96.908886";"-19.594777";"136.724142";"32.128416"
+"Antarctic";"http://marineregions.org/mrgid/48563";;48563;"FADA Faunistic Regions";"-64.906444";"12.302557";"-89.990938";"180";"-18.857789"
+"Pacific (Oceania)";"http://marineregions.org/mrgid/48569";;48569;"FADA Faunistic Regions";;;;;
+"Italian part of the Ligurian Sea";"http://marineregions.org/mrgid/25608";"Ligurian Sea";25608;"Marine Region";"43.872544";"8.880189";"43.268323";"9.851333";"44.428054"
+"Cosmopolitan (World Oceans)";"http://marineregions.org/mrgid/1901";;1901;"World";"0";"0";"-85";"179.9999999999";"85"
+"Oostvoornse Meer";"http://marineregions.org/mrgid/20858";"Netherlands";20858;"Lake";"51.93333";"4.06667";"51.92";"4.04";"51.94"
+"Zandvlei Estuary";"http://marineregions.org/mrgid/48931";"South Africa";48931;"Estuary";"-34.0822";"18.4669";;;
+"Kwintebank";"http://marineregions.org/mrgid/2426";"Belgium";2426;"Sandbank";"51.27542";"2.626474";"51.2197";"2.687444";"51.33114"
+"Stroombank";"http://marineregions.org/mrgid/3094";"Belgium";3094;"Sandbank";"51.22006";"2.805583";"51.19762";"2.886454";"51.24249"
+"Middelkerke Bank";"http://marineregions.org/mrgid/2427";"Belgium";2427;"Sandbank";"51.28682";"2.722723";"51.23706";"2.777179";"51.33657"
+"Le Portel";"http://marineregions.org/mrgid/168";"France";168;"Canton";"50.70945";"1.576105";"50.69113";"1.59143";"50.72777"
+"Ems";"http://marineregions.org/mrgid/3224";"Wadden Sea";3224;"Estuary";"53.3336111111111";"7.00388888888889";;;
