@@ -2,8 +2,8 @@
 
 source("worms.R")
 
-#bOverwrite<-TRUE # replace existing results
-bOverwrite<-FALSE # replace existing results
+bOverwrite<-TRUE # replace existing results
+#bOverwrite<-FALSE # replace existing results
 
 rm("dfResults")
 

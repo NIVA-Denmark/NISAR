@@ -1,7 +1,8 @@
 #Use the libraries
+library(stats)
+library(tidyverse)
 library(jsonlite) #https://cran.r-project.org/web/packages/jsonlite/
 library(httr)
-library(tidyverse)
 
 
 GetSpeciesID<-function(searchtext){
