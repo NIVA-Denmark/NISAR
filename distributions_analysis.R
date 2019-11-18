@@ -53,5 +53,5 @@ df <- df %>%
          maxLatitude=sapply(MRGinfo, function(x) unlist(x)["maxLatitude"])
          )
 
-write.table(dfResults,file="output/ODA_Species_Distributions_LatLon.csv",col.names=T,row.names=F,sep=";",na="")
+write.table(df,file="output/ODA_Species_Distributions_LatLon.csv",col.names=T,row.names=F,sep=";",na="")
 
