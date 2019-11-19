@@ -2,7 +2,7 @@
 
 source("worms.R")
 
-df <- read.table("output/ODA_distinct_species.csv",sep=";",header=T,stringsAsFactors=F)
+df <- read.table("output/ODA_distinct_Species.csv",sep=";",header=T,stringsAsFactors=F)
 df_old <- read.table("output/ODA_Species_AphiaID.csv",sep=";",header=T,stringsAsFactors=F)
 
 df$ID<-1:nrow(df)
