@@ -5,6 +5,145 @@ library(jsonlite) #https://cran.r-project.org/web/packages/jsonlite/
 library(httr)
 
 
+BadName<-function(name){
+  ErrorList <- c("Andre grønalger",
+                 "Blomsterplanter, uspec.",
+                 "Blågrøn",
+                 "Blågrønalger og bakterier",
+                 "Brown bush",
+                 "Brown crust",
+                 "Brunskorper",
+                 "Enårige trådformede grøn-",
+                 "brunalger",
+                 "fasthæftede oprette alger",
+                 "Fedtmøg - Pilayella, Ectocarpus",
+                 "Fingrenet grøn busk",
+                 "Green endophyte",
+                 "Green endozoic",
+                 "Grønalger kalkborende",
+                 "Gulgrøn",
+                 "Ingen arter registreret",
+                 "Kiselalger",
+                 "løstliggende alger",
+                 "muslinge ånderør",
+                 "Red bush",
+                 "Red calcified crust",
+                 "Red crust",
+                 "Rødalger på lavt vand",
+                 "Rødkødskorp, tyk",
+                 "Rødkødskorp, tynd",
+                 "Små makrofytter",
+                 "svovlbakterier",
+                 "Terebellidae",
+                 "Trådalger-rø,br,gr - generelt",
+                 "Trådform.enår.rødalg",
+                 "Trådformede enårige brunalger",
+                 "Trådformede enårige grønalger",
+                 "Trådformede enårige rødalger",
+                 "Bakterier",
+                 "Ciliater (fra fytoplanktonundersøgelser)",
+                 "Diverse (fra fytoplanktonundersøgelser)",
+                 "Flagellate",
+                 "Flagellate x",
+                 "Monader",
+                 "Nanoflagellates, unidentified",
+                 "Nanoplankton, unidentified",
+                 "Picoplankton, unidentified",
+                 "Ultrananoplankton, unidentified",
+                 "Unidentified",
+                 "Unidentified flagellates",
+                 "Unidentified flagellates",
+                 "Unidentifred ciliates",
+                 "Unidentifred oligotrich ciliates",
+                 "Unidentifred tintinnids",
+                 "Nauplie",
+                 "Parasitisk copepod",
+                 "Unidentified",
+                 "Unidentifred ciliates")
+
+  if(name %in% ErrorList){
+    return(TRUE)
+  }else{
+    return(FALSE)
+  }
+}
+
+FixNames<-function(name){
+  # fixes to name used before searching in WoRMS
+  name<-gsub("  "," ",name) # replace two spaces with one
+  name<-gsub(" spp\\.","",name)
+  name<-gsub(" sp\\.","",name)
+  name<-gsub(" gr\\.","",name)
+  name<-gsub(" indet\\.","",name)
+  name<-gsub(" indet","",name)
+  name<-gsub(" s\\.l\\.","",name)
+  name<-gsub("Acrchaetium","Acrochaetium",name)
+  name<-gsub(" tetrasporophyte","",name)
+  name<-gsub(" \\(æg\\)","",name)
+  name<-gsub(" \\(egg\\)","",name)
+  name<-gsub(" eggs","",name)
+  name<-gsub(" nauplier","",name)
+  name<-gsub(", cysts","",name)
+  name<-gsub(" cysts","",name)
+  name<-gsub(" cysts","",name)
+  name<-gsub("pungitus","pungitius",name)
+  name<-gsub("spioniidae","spionidae",name)
+  name<-gsub("f. scrubsolei","",name)
+  name<-gsub("f. semispina","",name)
+  name<-gsub("f. truncata","",name)
+  name<-gsub("v. variabile","",name)
+  name<-gsub("-group","",name)
+  name<-gsub(" group","",name)
+  name<-gsub(" <celle>","",name)
+  name<-gsub(", Børsteorme","",name)
+  name<-gsub("HYDRACARINA I, Vandmider","Hydracarina",name)
+  name<-gsub("MYSIDACEA, Mysider, Kårer","Mysidacea",name)
+  name<-gsub("OSTRACODA, Muslingekrebs","Ostracoda",name)
+  name<-gsub("ANTHOZOA, Koraldyr","Anthozoa",name)
+  name<-gsub("ECHINODERMATA II, Ophiuroidea Slangestje","Echinodermata",name)
+  name<-gsub("GASTROPODA, PROSOBRANCHIA, NUDIBRANCHIA","Nudibranchia",name)
+  name<-gsub("HYDROZOA, athecata","Athecata",name)
+  name<-gsub("anguste-tabulatum","angustitabulatum",name)
+  name<-gsub("flos-aquae","flosaquae",name)
+  name<-gsub("BIVALVIA, muslinger","Bivalvia",name)
+  name<-gsub("NEMATODA, Rundorme","Nematoda",name)
+  name<-gsub("POLYCHAETA, Havbørsteorme","Polychaeta",name)
+  name<-gsub("NEMERTINI Slimbændler","Nemertini",name)
+  name<-gsub("HYDROZOA, Polypdyr","Hydrozoa",name)
+  name<-gsub("Chaetoceros, phaeoceros-group","Chaetoceros (Phaeoceros)",name)
+  name<-gsub(", delicatissima"," delicatissima",name)
+  name<-gsub(", seriata"," seriata",name)
+  
+  #name<-gsub("","",name)
+  return(name)
+}
+
+
+GetSpeciesIDFuzzy<-function(searchtext){
+  # ---------- get the AphiaID from the search text using fuzzy match  -----------------------------------------------
+  #Build the URL to get the data from
+  searchtext2 <- gsub(" ","%20",searchtext)
+  url<-sprintf("http://marinespecies.org/rest/AphiaRecordsByMatchNames?scientificnames[]=%s&marine_only=false",searchtext2)
+  x<-http_status(GET(url))
+  ID<-""
+  if(x$reason!="OK"){
+    cat(paste0(searchtext,": ",x$reason,"\n"))
+    return(ID)
+  }
+  AphiaRecord <- fromJSON(url) 
+  if(length(AphiaRecord)>0){
+    AphiaRecord <- as.data.frame(AphiaRecord[[1]])
+    if(nrow(filter(AphiaRecord,status=="Accepted"))>0){
+      AphiaRecord <- AphiaRecord %>% 
+        filter(status=="Accepted")
+    }
+    ID<-AphiaRecord$AphiaID[1]
+    cat(paste0(searchtext,": AphiaID=",ID,"\n"))
+  }
+  return(ID)
+
+}
+
 GetSpeciesID<-function(searchtext){
   # ---------- get the AphiaID from the search text -----------------------------------------------
   #Build the URL to get the data from
@@ -13,6 +152,13 @@ GetSpeciesID<-function(searchtext){
                    AphiaID=NA,
                    ScientificName=NA)
 
+  if(BadName(searchtext)==TRUE){
+    # Species is in a list of names that won't return anything useful
+    # e.g. "Blågrønalger og bakterier","Brown bush",
+    cat(paste0("'",searchtext,"' is on the list of bad names. No search made\n"))
+    return(df)
+  }
+  
   if(grepl("\\/", searchtext)==TRUE){
     # invalid character
     return(df)
@@ -23,13 +169,17 @@ GetSpeciesID<-function(searchtext){
   
   x<-http_status(GET(url))
   if(x$reason!="OK"){
-    cat(paste0(searchtext,": ",x$reason,"\n"))
-    return(df)
+    cat(paste0(searchtext,": ",x$reason," (trying fuzzy search instead)\n"))
+    
+    AphiaID <- GetSpeciesIDFuzzy(searchtext)
+    if(AphiaID==""){
+      return(df)
+    }
+  }else{
+    #Get the AphiaID
+    AphiaID <- fromJSON(url)
+    cat(paste0(searchtext,": AphiaID=",AphiaID))
   }
-  
-  #Get the AphiaID
-  AphiaID <- fromJSON(url)
-  cat(paste0(searchtext,": AphiaID=",AphiaID))
   
   # ---------- get the Aphia record from the AphiaID -----------------------------------------------
   

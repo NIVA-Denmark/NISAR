@@ -80,6 +80,11 @@ dfZooDistinct <- dfZoo %>%
   ungroup() %>%
   mutate(Table="Zooplankton")
 
+# -------------- STOQ -------------- 
+
+"STOQ_Artsfund_fytoplankton.xlsx"
+
+
 # -------------- Summary -------------- 
 
 SplitAlternativeSpecies<-function(df){
