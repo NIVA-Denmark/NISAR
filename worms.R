@@ -4,9 +4,12 @@ library(tidyverse)
 library(jsonlite) #https://cran.r-project.org/web/packages/jsonlite/
 library(httr)
 
+ErrorList <- read.table("badnames.txt",sep=";",header=F,stringsAsFactors=F,encoding="UTF-8")
+ErrorList <- ErrorList[,1]
 
 BadName<-function(name){
-  ErrorList <- c("Andre grønalger",
+
+  ErrorListX <- c("Andre grønalger",
                  "Blomsterplanter, uspec.",
                  "Blågrøn",
                  "Blågrønalger og bakterier",
