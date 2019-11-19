@@ -43,8 +43,8 @@ df <- df %>%
 df <- df %>%
   mutate(minLatitude=ifelse(is.na(minLatitude),latitude-0.01,minLatitude),
          maxLatitude=ifelse(is.na(maxLatitude),latitude+0.01,maxLatitude),
-         minLongitude=ifelse(is.na(minLongitude),latitude-0.01,minLongitude),
-         maxLongitude=ifelse(is.na(maxLongitude),latitude+0.01,maxLongitude)) 
+         minLongitude=ifelse(is.na(minLongitude),longitude-0.01,minLongitude),
+         maxLongitude=ifelse(is.na(maxLongitude),longitude+0.01,maxLongitude)) 
 
 
 df <- df %>% 
@@ -65,15 +65,24 @@ lst <- lapply(1:nrow(df), function(x){
   
 })
 
-sfdf <- st_sf(regions = df[, 'locality'], st_sfc(lst))
+sfdf <- st_sf(MRGID = df[, 'MRGID'],region = df[, 'locality'], st_sfc(lst))
 
 sfdf
-plot(sfdf)
+plot(sfdf[,'region'])
 
 
 # ------------  intersect Polygons from regions with two DK area polygons ------------ 
 
 
+sfdfi <- st_intersection(sfdf,sfdfx)
+plot(sfdfi[, 'region'])
 
+sfdfi1 <- sfdfi %>% 
+  filter(polygons==1)
+plot(sfdfi1[, 'region'])
+
+sfdfi2 <- sfdfi %>% 
+  filter(polygons==2)
+plot(sfdfi2[, 'region'])
 
 

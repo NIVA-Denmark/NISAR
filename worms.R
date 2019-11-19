@@ -19,7 +19,7 @@ GetSpeciesID<-function(searchtext){
   }
   
   searchtext2 <- gsub(" ","%20",searchtext)
-  url<-sprintf("http://marinespecies.org/rest/AphiaIDByName/%s?marine_only=true",searchtext2)
+  url<-sprintf("http://marinespecies.org/rest/AphiaIDByName/%s?marine_only=false",searchtext2)
   
   x<-http_status(GET(url))
   if(x$reason!="OK"){
