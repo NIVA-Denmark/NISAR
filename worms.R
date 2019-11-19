@@ -4,7 +4,7 @@ library(tidyverse)
 library(jsonlite) #https://cran.r-project.org/web/packages/jsonlite/
 library(httr)
 
-ErrorList <- read.table("badnames.txt",sep=";",header=F,stringsAsFactors=F,encoding="UTF-8")
+ErrorList <- read.table("badnames.txt",sep=";",header=F,stringsAsFactors=F)
 ErrorList <- ErrorList[,1]
 
 BadName<-function(name){
