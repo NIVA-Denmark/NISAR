@@ -4,48 +4,49 @@ library(tidyverse)
 library(jsonlite) #https://cran.r-project.org/web/packages/jsonlite/
 library(httr)
 
-ErrorList <- read.table("badnames.txt",sep=";",header=F,stringsAsFactors=F,encoding="Windows-1251")
-ErrorList <- ErrorList[,1]
+#ErrorList <- read.table("badnames.txt",sep=";",header=F,stringsAsFactors=F,encoding="Windows-1251")
+#ErrorList <- ErrorList[,1]
 
 BadName<-function(name){
+  #browser()
 
-  ErrorListX <- c("Andre grÃ¸nalger",
+  ErrorList <- c("Andre grønalger",
                  "Blomsterplanter, uspec.",
-                 "BlÃ¥grÃ¸n",
-                 "BlÃ¥grÃ¸nalger og bakterier",
+                 "Blågrøn",
+                 "Blågrønalger og bakterier",
                  "Brown bush",
                  "Brown crust",
                  "Brunskorper",
-                 "EnÃ¥rige trÃ¥dformede grÃ¸n-",
+                 "Enårige trådformede grøn-",
                  "brunalger",
-                 "fasthÃ¦ftede oprette alger",
-                 "FedtmÃ¸g - Pilayella, Ectocarpus",
-                 "Fingrenet grÃ¸n busk",
+                 "fasthæftede oprette alger",
+                 "Fedtmøg - Pilayella, Ectocarpus",
+                 "Fingrenet grøn busk",
                  "Green endophyte",
                  "Green endozoic",
-                 "GrÃ¸nalger kalkborende",
-                 "GulgrÃ¸n",
+                 "Grønalger kalkborende",
+                 "Gulgrøn",
                  "Ingen arter registreret",
                  "Kiselalger",
-                 "lÃ¸stliggende alger",
-                 "muslinge Ã¥nderÃ¸r",
+                 "løstliggende alger",
+                 "muslinge ånderør",
                  "Red bush",
                  "Red calcified crust",
                  "Red crust",
-                 "RÃ¸dalger pÃ¥ lavt vand",
-                 "RÃ¸dkÃ¸dskorp, tyk",
-                 "RÃ¸dkÃ¸dskorp, tynd",
-                 "SmÃ¥ makrofytter",
+                 "Rødalger på lavt vand",
+                 "Rødkødskorp, tyk",
+                 "Rødkødskorp, tynd",
+                 "Små makrofytter",
                  "svovlbakterier",
                  "Terebellidae",
-                 "TrÃ¥dalger-rÃ¸,br,gr - generelt",
-                 "TrÃ¥dform.enÃ¥r.rÃ¸dalg",
-                 "TrÃ¥dformede enÃ¥rige brunalger",
-                 "TrÃ¥dformede enÃ¥rige grÃ¸nalger",
-                 "TrÃ¥dformede enÃ¥rige rÃ¸dalger",
+                 "Trådalger-rø,br,gr - generelt",
+                 "Trådform.enår.rødalg",
+                 "Trådformede enårige brunalger",
+                 "Trådformede enårige grønalger",
+                 "Trådformede enårige rødalger",
                  "Bakterier",
-                 "Ciliater (fra fytoplanktonundersÃ¸gelser)",
-                 "Diverse (fra fytoplanktonundersÃ¸gelser)",
+                 "Ciliater (fra fytoplanktonundersøgelser)",
+                 "Diverse (fra fytoplanktonundersøgelser)",
                  "Flagellate",
                  "Flagellate x",
                  "Monader",
@@ -63,7 +64,9 @@ BadName<-function(name){
                  "Parasitisk copepod",
                  "Unidentified",
                  "Unidentifred ciliates")
-
+  
+  #ErrorList <- iconv(ErrorList, from="Windows-1252", to="UTF-8")
+  
   if(name %in% ErrorList){
     return(TRUE)
   }else{
@@ -82,7 +85,7 @@ FixNames<-function(name){
   name<-gsub(" s\\.l\\.","",name)
   name<-gsub("Acrchaetium","Acrochaetium",name)
   name<-gsub(" tetrasporophyte","",name)
-  name<-gsub(" \\(Ã¦g\\)","",name)
+  name<-gsub(" \\(æg\\)","",name)
   name<-gsub(" \\(egg\\)","",name)
   name<-gsub(" eggs","",name)
   name<-gsub(" nauplier","",name)
@@ -98,9 +101,9 @@ FixNames<-function(name){
   name<-gsub("-group","",name)
   name<-gsub(" group","",name)
   name<-gsub(" <celle>","",name)
-  name<-gsub(", BÃ¸rsteorme","",name)
+  name<-gsub(", Børsteorme","",name)
   name<-gsub("HYDRACARINA I, Vandmider","Hydracarina",name)
-  name<-gsub("MYSIDACEA, Mysider, KÃ¥rer","Mysidacea",name)
+  name<-gsub("MYSIDACEA, Mysider, Kårer","Mysidacea",name)
   name<-gsub("OSTRACODA, Muslingekrebs","Ostracoda",name)
   name<-gsub("ANTHOZOA, Koraldyr","Anthozoa",name)
   name<-gsub("ECHINODERMATA II, Ophiuroidea Slangestje","Echinodermata",name)
@@ -110,8 +113,8 @@ FixNames<-function(name){
   name<-gsub("flos-aquae","flosaquae",name)
   name<-gsub("BIVALVIA, muslinger","Bivalvia",name)
   name<-gsub("NEMATODA, Rundorme","Nematoda",name)
-  name<-gsub("POLYCHAETA, HavbÃ¸rsteorme","Polychaeta",name)
-  name<-gsub("NEMERTINI SlimbÃ¦ndler","Nemertini",name)
+  name<-gsub("POLYCHAETA, Havbørsteorme","Polychaeta",name)
+  name<-gsub("NEMERTINI Slimbændler","Nemertini",name)
   name<-gsub("HYDROZOA, Polypdyr","Hydrozoa",name)
   name<-gsub("Chaetoceros, phaeoceros-group","Chaetoceros (Phaeoceros)",name)
   name<-gsub(", delicatissima"," delicatissima",name)
@@ -157,7 +160,7 @@ GetSpeciesID<-function(searchtext){
 
   if(BadName(searchtext)==TRUE){
     # Species is in a list of names that won't return anything useful
-    # e.g. "BlÃ¥grÃ¸nalger og bakterier","Brown bush",
+    # e.g. "Blågrønalger og bakterier","Brown bush",
     cat(paste0("'",searchtext,"' is on the list of bad names. No search made\n"))
     return(df)
   }
@@ -370,7 +373,7 @@ GetSpeciesInfo<-function(AphiaID){
   
   # http://marinespecies.org/aphia.php?p=manual#topic22
   #
-  # Images, specimens, vernaculars, notes, distributions, taxa, â€¦ carry quality indicator icons.
+  # Images, specimens, vernaculars, notes, distributions, taxa, . carry quality indicator icons.
   # 
   # Checked: verified by a taxonomic editor
   # Trusted: edited by a thematic editor
@@ -579,7 +582,7 @@ GetSpeciesInfoFromName<-function(searchtext){
   
   # http://marinespecies.org/aphia.php?p=manual#topic22
   #
-  # Images, specimens, vernaculars, notes, distributions, taxa, â€¦ carry quality indicator icons.
+  # Images, specimens, vernaculars, notes, distributions, taxa, . carry quality indicator icons.
   # 
   # Checked: verified by a taxonomic editor
   # Trusted: edited by a thematic editor
