@@ -2,13 +2,13 @@
 
 source("worms.R")
 
-df <- read.table("output/ODA_distinct_Species.csv",sep=";",header=T,stringsAsFactors=F)
-df_old <- read.table("output/ODA_Species_AphiaID.csv",sep=";",header=T,stringsAsFactors=F)
+df <- read.table("output/ODA_distinct_Species.csv",sep=";",header=T,stringsAsFactors=F,fileEncoding="UTF-8")
+df_old <- read.table("output/ODA_Species_AphiaID.csv",sep=";",header=T,stringsAsFactors=F,fileEncoding="UTF-8")
 
 df$ID<-1:nrow(df)
 
 df_matched <- df %>%
-  left_join(df_old,by=c("Species","Table","Phylum","Note")) 
+  left_join(df_old,by=c("Species","n","Table","Phylum","Note")) 
 
 df_unmatched <- df_matched %>%
   filter(is.na(AphiaID)) 
@@ -30,5 +30,33 @@ df <- bind_rows(df_matched,df_unmatched) %>%
   arrange(ID) %>%
   select(-ID)
   
-write.table(df,file="output/ODA_Species_AphiaID.csv",col.names=T,row.names=F,sep=";",na="")
+write.table(df,file="output/ODA_Species_AphiaID.csv",col.names=T,row.names=F,sep=";",na="",fileEncoding="UTF-8")
 
+# ----------- see number of entries -----------------------------------
+dfcount <- df %>% 
+  mutate(matched=ifelse(is.na(AphiaID),"unmatched","matched")) %>%
+  group_by(Table,matched) %>%
+  summarise(species=n(),data=sum(n,na.rm=T)) %>%
+  gather(key="count",value="n",c("species","data")) %>%
+  spread(key="matched",value="n") %>%
+  ungroup()
+
+dfcount_total <- dfcount %>%
+  ungroup() %>%
+  mutate(Table="Total") %>%
+  group_by(Table,count) %>%
+  summarise(matched=sum(matched,na.rm=T),
+            unmatched=sum(unmatched,na.rm=T))
+
+dfcount <- dfcount %>%
+  bind_rows(dfcount_total) %>%
+  mutate(pct=round(100*unmatched/(matched+unmatched),1)) 
+  
+# 
+# df_matched %>% filter(ScientificName=="")
+# df_matched %>% filter(is.na(AphiaID))
+# 
+# df_matched <-  df_matched %>% 
+#   mutate(AphiaID=ifelse(ScientificName=="",NA,AphiaID))
+# 
+# 

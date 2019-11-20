@@ -2,7 +2,7 @@
 
 source("worms.R")
 
-df <- read.table("output/ODA_distinct_species.csv",sep=";",header=T,stringsAsFactors=F)
+df <- read.table("output/ODA_distinct_species.csv",sep=";",header=T,stringsAsFactors=F,fileEncoding="UTF-8")
 
 # match all Species names in the list from ODA against WoRMS data and return the AphiaID and correct scientific name
 
@@ -14,4 +14,4 @@ df <- df %>%
   select(-c(searchfor,Aphia)) %>%
   mutate(AphiaID=as.integer(AphiaID),Updated=as.Date(format(Sys.Date(), "%d-%m-%Y"),"%d-%m-%Y"))
          
-write.table(df,file="output/ODA_Species_AphiaID.csv",col.names=T,row.names=F,sep=";",na="")
+write.table(df,file="output/ODA_Species_AphiaID.csv",col.names=T,row.names=F,sep=";",na="",fileEncoding="UTF-8")

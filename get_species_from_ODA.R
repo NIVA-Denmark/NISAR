@@ -31,7 +31,7 @@ dfVeg <- dfVeg %>%
 
 dfVegDistinct <- dfVeg %>%
   group_by(Species) %>%
-  summarise() %>%
+  summarise(n=n()) %>%
   ungroup() %>%
   mutate(Table="Bottom Vegetation")
 
@@ -46,7 +46,7 @@ dfFauna <- dfFauna %>%
 
 dfFaunaDistinct <- dfFauna %>%
   group_by(Phylum,Species) %>%
-  summarise() %>%
+  summarise(n=n()) %>%
   ungroup() %>%
   mutate(Table="Bottom Fauna")
 
@@ -61,7 +61,7 @@ dfPhyto <- dfPhyto %>%
 
 dfPhytoDistinct <- dfPhyto %>%
   group_by(Species) %>%
-  summarise() %>%
+  summarise(n=n()) %>%
   ungroup() %>%
   mutate(Table="Phytoplankton")
 
@@ -76,7 +76,7 @@ dfZoo <- dfZoo %>%
 
 dfZooDistinct <- dfZoo %>%
   group_by(Species) %>%
-  summarise() %>%
+  summarise(n=n()) %>%
   ungroup() %>%
   mutate(Table="Zooplankton")
 
@@ -144,4 +144,4 @@ df <- bind_rows(dfVegDistinct,
 df <- SplitAlternativeSpecies(df)
 
 
-write.table(df,file="output/ODA_distinct_Species.csv",col.names=T,row.names=F,sep=";",na="")
+write.table(df,file="output/ODA_distinct_Species.csv",col.names=T,row.names=F,sep=";",na="",fileEncoding="UTF-8")

@@ -143,8 +143,10 @@ GetSpeciesIDFuzzy<-function(searchtext){
       AphiaRecord <- AphiaRecord %>% 
         filter(status=="Accepted")
     }
-    ID<-AphiaRecord$AphiaID[1]
-    cat(paste0(searchtext,": AphiaID=",ID,"\n"))
+    if(!is.na(AphiaRecord$scientificname[1])){
+      ID<-AphiaRecord$AphiaID[1]
+      cat(paste0(searchtext,": AphiaID=",ID,"\n"))
+    }
   }
   return(ID)
 

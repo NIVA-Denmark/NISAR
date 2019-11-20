@@ -7,7 +7,7 @@ source("worms.R")
 
 rm("dfResults")
 
-df <- read.table("output/ODA_Species_AphiaID.csv",sep=";",header=T,stringsAsFactors=F)
+df <- read.table("output/ODA_Species_AphiaID.csv",sep=";",header=T,stringsAsFactors=F,fileEncoding="UTF-8")
 
 dfPrevious <- read.table("output/ODA_Species_Distributions.csv",sep=";",header=T,stringsAsFactors=F)
 dfDropList <- distinct(dfPrevious,AphiaID)
