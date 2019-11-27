@@ -2,6 +2,7 @@ library(stats)
 library(tidyverse)
 library(jsonlite)
 library(httr)
+#library(rjson)
 
 
 # Function mrginfo(MRGID)
@@ -15,8 +16,25 @@ mrginfo<-function(MRGID){
   if(x$reason!="OK"){
     cat(paste0(MRGID,": ",x$reason,"\n"))
     return(df)
+  }
+
+  attempt=0
+  repeat{
+    attempt=attempt+1
+    df <- try(fromJSON(url),silent=TRUE)
+    
+    if(class(df)=="try-error"){
+      cat(paste0("MRGID=",MRGID,": ",class(df)," (attempt=",attempt,")\n"))
+    }else{
+      #if(attempt>1){
+        cat(paste0("MRGID=",MRGID,": succeeded (attempt=",attempt,")\n"))
+      #}
+      break
     }
-  df <- fromJSON(url)
+  }
+  #class(result)
+  #cat(paste0("  ---\n"))
+  #df <- fromJSON(url)
   return(df)
   }
 
@@ -40,6 +58,7 @@ df <- df %>%
 
 #df <- df[1:9,]
 #df <- df[c(32,462,868,892),]
+df1 <- df
 
 df <- df %>%
   mutate(MRGinfo=lapply(MRGID, function(x) mrginfo(x)))
@@ -58,6 +77,4 @@ df <- df %>%
   select(-MRGinfo)
 
 write.table(df,file="output/ODA_Species_Distributions_LatLon.csv",col.names=T,row.names=F,sep=";",na="")
-
-
 
