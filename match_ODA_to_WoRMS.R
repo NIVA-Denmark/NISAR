@@ -10,7 +10,10 @@ df <- df %>%
   mutate(searchfor=lapply(Species,function(x) FixNames(x))) %>%
   mutate(Aphia=lapply(searchfor,function(x) GetSpeciesID(x)))  %>%
   mutate(AphiaID=sapply(Aphia,function(x) unlist(x)[2]),
-         ScientificName=sapply(Aphia,function(x) unlist(x)[3])) %>%
+         ScientificName=sapply(Aphia,function(x) unlist(x)[3]),
+         Rank=sapply(Aphia,function(x) unlist(x)[4]),
+         ParentID=sapply(Aphia,function(x) unlist(x)[5])
+         ) %>%
   select(-c(searchfor,Aphia)) %>%
   mutate(AphiaID=as.integer(AphiaID),Updated=as.Date(format(Sys.Date(), "%d-%m-%Y"),"%d-%m-%Y"))
          

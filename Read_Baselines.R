@@ -3,8 +3,10 @@ library(readxl)
 
 rm(list=ls())
 
-folder <- "../7-Data - 190183 NISAR/nst/"
+source("input_tidying_functions.R")
+source("worms.R")
 
+folder <- "../7-Data - 190183 NISAR/nst/"
 
 # split species name from author names, depending on postions of spaces and brackets
 # some special cases - we caqnt distinguish between a third species name component and the author:
@@ -17,52 +19,8 @@ Species<- c("Amphistegina cf. papillosa",
             "Chondrus giganteus f. flabellatus",
             "Chaetoceros cf. lorenzianus",
             "Diopatra hupferiana hupferiana",
-            "Diopatra hupferiana monroi")
-
-SplitSpeciesName<-function(df,Species=NULL){
-  
-  # Species list - Species names which don't fit the other rules
-  if(!is.null(Species)){
-    dfSpecies<-data.frame(Species,stringsAsFactors=F)
-    dfSpecies <- dfSpecies %>%
-      mutate(n=nchar(Species))
-  }else{
-    dfSpecies<-data.frame()
-  }
-  
-  df<-df %>%
-    mutate(ns=str_locate_all(Species," ")) %>%
-    mutate(nb=str_locate_all(Species,"\\(")) %>%
-    mutate(nvar=str_locate_all(Species,"var\\."),
-           nsub=str_locate_all(Species,"subsp\\.")) %>%
-    mutate(nvar=sapply(nvar,function(x) unlist(x)[1]),
-           nsub=sapply(nsub,function(x) unlist(x)[1])) %>%
-    mutate(ns2=sapply(ns,function(x) unlist(x)[2]),
-           ns3=sapply(ns,function(x) unlist(x)[3]),
-           ns4=sapply(ns,function(x) unlist(x)[4]),
-           nb1=sapply(nb,function(x) unlist(x)[1])) %>%
-    mutate(nsplit=ifelse(is.na(nsub) & is.na(nvar),
-                         ifelse(is.na(nb1),ns2,ifelse(nb1<ns2,ns3,ns2)),
-                         ns4)-1,
-           n=NA)
-  
-  for(i in 1:nrow(dfSpecies)){
-    sx <- dfSpecies[i,"Species"]
-    nx <- dfSpecies[i,"n"]
-    df <- df %>%
-      mutate(n=ifelse(is.na(n),
-                      ifelse(substr(Species,1,nx)==sx,nx,NA),
-                      n))
-  }
-  
-  df <- df %>%
-    mutate(nsplit=ifelse(is.na(n),nsplit,n)) %>%
-    mutate(Species2=substr(Species,1,nsplit)) 
-  
-  df <- df %>%
-    select(-c(n,ns,nb,nvar,nsub,ns2,ns3,ns4,nb1,nsplit))  
-  return(df)
-}
+            "Diopatra hupferiana monroi",
+            "Mesanthura cfr. romulea")
 
 
 # ---------- Read Appendix 1 -----------------
@@ -83,6 +41,18 @@ df1s <- df1
 df1 <- df1  %>%
   ungroup() %>%
   select(SpeciesOriginal=Species,Species=Species2,-n)
+
+# lookup species names in WoRMS database to get correct AphiaID
+df1 <- df1 %>%
+  mutate(searchfor=lapply(Species,function(x) FixNames(x))) %>%
+  mutate(Aphia=lapply(searchfor,function(x) GetSpeciesID(x)))  %>%
+  mutate(AphiaID=sapply(Aphia,function(x) unlist(x)[2]),
+         ScientificName=sapply(Aphia,function(x) unlist(x)[3])) %>%
+  select(-c(searchfor,Aphia)) %>%
+  mutate(AphiaID=as.integer(AphiaID),Updated=as.Date(format(Sys.Date(), "%d-%m-%Y"),"%d-%m-%Y"))
+
+# write results Appendix 1
+write.table(df1,file="output/Appendix1_Species.csv",col.names=T,row.names=F,sep=";",na="",fileEncoding="UTF-8")
 
 # ---------- Read Appendix 2 -----------------
 rm("df2")
@@ -135,14 +105,35 @@ df2 <- df2 %>%
   ungroup()
 
 df2 <- SplitSpeciesName(df2,Species)
-  
+
 df2 <- df2 %>%
   select(SpeciesOriginal=Species,Species=Species2,Status) %>%
   left_join(df2spr,by=c("SpeciesOriginal"="Species"))
 
 
-# ------------------ write results --------------------------------------------------------
-write.table(df1,file="output/Appendix1_Species.csv",col.names=T,row.names=F,sep=";",na="")
-write.table(df2,file="output/Appendix2_Species.csv",col.names=T,row.names=F,sep=";",na="")
-write.table(df2multiple,file="output/Appendix2_multiple_categories.csv",col.names=T,row.names=F,sep=";",na="")
+df2 <- df2 %>% left_join(mutate(df1,DK=TRUE),by=c("SpeciesOriginal","Species"))
+
+df2x <- df2 %>% filter(is.na(AphiaID)) %>%
+  select(-c(AphiaID,ScientificName,Updated))
+
+df2 <- df2 %>% filter(!is.na(AphiaID))
+
+df2x <- df2x %>%
+  mutate(searchfor=lapply(Species,function(x) FixNames(x))) %>%
+  mutate(Aphia=lapply(searchfor,function(x) GetSpeciesID(x)))  %>%
+  mutate(AphiaID=sapply(Aphia,function(x) unlist(x)[2]),
+         ScientificName=sapply(Aphia,function(x) unlist(x)[3])) %>%
+  select(-c(searchfor,Aphia)) %>%
+  mutate(AphiaID=as.integer(AphiaID),Updated=as.Date(format(Sys.Date(), "%d-%m-%Y"),"%d-%m-%Y"))
+
+df2 <- bind_rows(df2,df2x) %>%
+  arrange(SpeciesOriginal)
+
+df2 <- df2 %>%
+  mutate(ParentID=sapply(AphiaID,function(x) GetParentAphiaID(x)))
+
+
+# write results Appendix 2
+write.table(df2,file="output/Appendix2_Species.csv",col.names=T,row.names=F,sep=";",na="",fileEncoding="UTF-8")
+write.table(df2multiple,file="output/Appendix2_multiple_categories.csv",col.names=T,row.names=F,sep=";",na="",fileEncoding="UTF-8")
 

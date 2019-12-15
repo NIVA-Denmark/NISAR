@@ -4,39 +4,7 @@ library(jsonlite)
 library(httr)
 #library(rjson)
 
-
-# Function mrginfo(MRGID)
-# to get lat,lon extent information from marineregions.org 
-
-mrginfo<-function(MRGID){
-  url<-sprintf("http://marineregions.org/rest/getGazetteerRecordByMRGID.json/%d/",MRGID)
-  df <- data.frame()
-  
-  x<-http_status(GET(url))
-  if(x$reason!="OK"){
-    cat(paste0(MRGID,": ",x$reason,"\n"))
-    return(df)
-  }
-
-  attempt=0
-  repeat{
-    attempt=attempt+1
-    df <- try(fromJSON(url),silent=TRUE)
-    
-    if(class(df)=="try-error"){
-      cat(paste0("MRGID=",MRGID,": ",class(df)," (attempt=",attempt,")\n"))
-    }else{
-      #if(attempt>1){
-        cat(paste0("MRGID=",MRGID,": succeeded (attempt=",attempt,")\n"))
-      #}
-      break
-    }
-  }
-  #class(result)
-  #cat(paste0("  ---\n"))
-  #df <- fromJSON(url)
-  return(df)
-  }
+source("MRGinfo.R")
 
 
 df <- read.table("output/ODA_Species_Distributions.csv",sep=";",header=T,stringsAsFactors=F)
@@ -56,9 +24,9 @@ df <- df %>%
 df <- df %>%
   mutate(MRGID=as.numeric(substr(locationID,32,nchar(locationID))))
 
-#df <- df[1:9,]
-#df <- df[c(32,462,868,892),]
 df1 <- df
+#df <- df[1:9,]
+df <- df[c(32,462,868,892),]
 
 df <- df %>%
   mutate(MRGinfo=lapply(MRGID, function(x) mrginfo(x)))

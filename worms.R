@@ -157,8 +157,10 @@ GetSpeciesID<-function(searchtext){
   #Build the URL to get the data from
   
   df <- list(Species=searchtext,
-                   AphiaID=NA,
-                   ScientificName=NA)
+             AphiaID=NA,
+             ScientificName=NA,
+             Rank=NA,
+             ParentID=NA)
 
   if(BadName(searchtext)==TRUE){
     # Species is in a list of names that won't return anything useful
@@ -218,7 +220,8 @@ GetSpeciesID<-function(searchtext){
   
   df$AphiaID<-AphiaID
   df$ScientificName<-AphiaRecord$scientificname
-  
+  df$Rank<-AphiaRecord$rank
+  df$ParentID<-AphiaRecord$parentNameUsageID
   return(df)
 }
 
@@ -383,3 +386,40 @@ GetSpeciesDistributions<-function(AphiaID){
   # 
   
 }
+
+
+
+GetAphiaRecord<-function(AphiaID){
+  url<-sprintf("http://marinespecies.org/rest/AphiaRecordByAphiaID/%d",AphiaID)
+  x<-http_status(GET(url))
+  if(x$reason=="OK"){
+    AphiaRecord <- fromJSON(url)
+    cat(paste0(AphiaRecord$scientificname," [",AphiaID,"]\n"))
+    return(unlist(AphiaRecord))
+  }else{
+    cat(paste0("no records \n"))
+    return(c(rank="",parentNameUsageID=NA))
+  }
+}
+
+# return the parent AphiaID for a given AphiaID
+GetParentAphiaID<-function(AphiaID){
+  record<-GetAphiaRecord(AphiaID)
+  if(is.null(record)){
+    return(NA)
+  }else{
+    return(record$parentNameUsageID)
+  }
+}
+
+# return the parameter from an Aphia record for a given AphiaID
+GetAphiaParameter<-function(AphiaID,parameter){
+  record<-GetAphiaRecord(AphiaID)
+  if(is.null(record)){
+    return(NA)
+  }else{
+    return(record[[parameter]])
+  }
+}
+
+
