@@ -10,15 +10,26 @@ library(httr)
 BadName<-function(name){
   #browser()
 
-  ErrorList <- c("Andre grønalger",
+  ErrorList <- c("",
+                 "Andre grønalger",
                  "Blomsterplanter, uspec.",
                  "Blågrøn",
                  "Blågrønalger og bakterier",
+                 "Blegrxnalge",
+                 "Blegrxnalgelignende",
+                 "Blågrønalge",
                  "Brown bush",
                  "Brown crust",
                  "Brunskorper",
                  "Enårige trådformede grøn-",
                  "brunalger",
+                 "Div. blegrxnalger",
+                 "Div. blågrønalger",
+                 "Div. centriske kiselalger",
+                 "Div. furealger",
+                 "Div. kiselalger",
+                 "Diverse",
+                 "Ebria-lign. flagellat",
                  "fasthæftede oprette alger",
                  "Fedtmøg - Pilayella, Ectocarpus",
                  "Fingrenet grøn busk",
@@ -26,6 +37,20 @@ BadName<-function(name){
                  "Green endozoic",
                  "Grønalger kalkborende",
                  "Gulgrøn",
+                 "Hjuldyr fg",
+                 "Hjuldyr æg",
+                 "Kolonidannende chlorococcale grxnalger",
+                 "Kolonidannende chlorococcale grønalger",
+                 "minibakterier",
+                 "Nxgen furealge",
+                 "Nxgne furealger",
+                 "Nøgen furealge",
+                 "Nøgen furealger",
+                 "Ovale blegrxnalgeceller",
+                 "Ovale blågrønalgeceller",
+                 "Ovale blågrønalgeceller",
+                 "Ovale chlorococcale grxnalger,",
+                 "Ovale chlorococcale grønalger,",
                  "Ingen arter registreret",
                  "Kiselalger",
                  "løstliggende alger",
@@ -63,11 +88,12 @@ BadName<-function(name){
                  "Nauplie",
                  "Parasitisk copepod",
                  "Unidentified",
-                 "Unidentifred ciliates")
+                 "Unidentifred ciliates",
+                 "Virus")
   
   #ErrorList <- iconv(ErrorList, from="Windows-1252", to="UTF-8")
   
-  if(name %in% ErrorList){
+  if(tolower(name) %in% tolower(ErrorList)){
     return(TRUE)
   }else{
     return(FALSE)
@@ -87,6 +113,8 @@ FixNames<-function(name){
   name<-gsub(" tetrasporophyte","",name)
   name<-gsub(" \\(æg\\)","",name)
   name<-gsub(" \\(egg\\)","",name)
+  name<-gsub(" æg","",name)
+  name<-gsub(" egg","",name)
   name<-gsub(" eggs","",name)
   name<-gsub(" nauplier","",name)
   name<-gsub(", cysts","",name)
@@ -101,7 +129,11 @@ FixNames<-function(name){
   name<-gsub("-group","",name)
   name<-gsub(" group","",name)
   name<-gsub(" <celle>","",name)
+  name<-gsub("enkeltceller","",name)
+  name<-gsub("filament","",name)
   name<-gsub(", Børsteorme","",name)
+  name<-gsub("Harmothoë","Harmothoe",name)
+  name<-gsub("Tetraëdron","Tetraedron",name)
   name<-gsub("HYDRACARINA I, Vandmider","Hydracarina",name)
   name<-gsub("MYSIDACEA, Mysider, Kårer","Mysidacea",name)
   name<-gsub("OSTRACODA, Muslingekrebs","Ostracoda",name)
@@ -119,8 +151,20 @@ FixNames<-function(name){
   name<-gsub("Chaetoceros, phaeoceros-group","Chaetoceros (Phaeoceros)",name)
   name<-gsub(", delicatissima"," delicatissima",name)
   name<-gsub(", seriata"," seriata",name)
-  
-  #name<-gsub("","",name)
+  name<-gsub("på veg/sten","",name)
+  name<-gsub("på alger","",name)
+  name<-gsub("gul på sten","",name)
+  name<-gsub("på sten","",name)
+  name<-gsub("på sediment","",name)
+  name<-gsub("på veg","",name)
+  name<-gsub("spp., båndformer","",name)
+  name<-gsub("5-10 µm","",name)
+  name<-gsub("400-500 µm","",name)
+  name<-gsub("0,5-0,75 mm","",name)
+  name<-gsub("Centriske kiselalge.*","",name)
+  name<-gsub("Ovale.*","",name)
+  name<-gsub("Blågrøn.*","",name)
+    #name<-gsub("","",name)
   return(name)
 }
 
